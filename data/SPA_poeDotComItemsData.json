@@ -53,6 +53,14 @@
 				"flags": {
 					"unique": 1
 				},
+				"name": "Angustia de Arn",
+				"text": "Angustia de Arn Cinturón de Tela",
+				"type": "Cinturón de Tela"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
 				"name": "Ascenso de la Carne",
 				"text": "Ascenso de la Carne Cinturón de Malla",
 				"type": "Cinturón de Malla"
@@ -176,6 +184,14 @@
 				"name": "Correa de Bisco",
 				"text": "Correa de Bisco Cinturón Pesado",
 				"type": "Cinturón Pesado"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "Llama negra",
+				"text": "Llama negra Anillo de Amatista",
+				"type": "Anillo de Amatista"
 			},
 			{
 				"flags": {
@@ -517,6 +533,14 @@
 				"flags": {
 					"unique": 1
 				},
+				"name": "Secreto de Graven",
+				"text": "Secreto de Graven Cinturón de Tela",
+				"type": "Cinturón de Tela"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
 				"name": "Una Noche de Terror",
 				"text": "Una Noche de Terror Anillo Inconcluso",
 				"type": "Anillo Inconcluso"
@@ -789,6 +813,14 @@
 				"flags": {
 					"unique": 1
 				},
+				"name": "Deleite de Olesya",
+				"text": "Deleite de Olesya Cinturón de Tela",
+				"type": "Cinturón de Tela"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
 				"name": "Blasón de Perandus",
 				"text": "Blasón de Perandus Cinturón de Tela",
 				"type": "Cinturón de Tela"
@@ -925,8 +957,8 @@
 				"flags": {
 					"unique": 1
 				},
-				"name": "Hebilla Piroeléctrica",
-				"text": "Hebilla Piroeléctrica Cinturón de Cuero",
+				"name": "Hebilla piroeléctrica",
+				"text": "Hebilla piroeléctrica Cinturón de Cuero",
 				"type": "Cinturón de Cuero"
 			},
 			{
@@ -1093,6 +1125,14 @@
 				"flags": {
 					"unique": 1
 				},
+				"name": "Promesa de sangre putrefacta",
+				"text": "Promesa de sangre putrefacta Anillo Inconcluso",
+				"type": "Anillo Inconcluso"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
 				"name": "Espiral de Ryslatha",
 				"text": "Espiral de Ryslatha Cinturón Tachonado",
 				"type": "Cinturón Tachonado"
@@ -1224,6 +1264,14 @@
 				"name": "Explosión Solar",
 				"text": "Explosión Solar Cinturón de Tela",
 				"type": "Cinturón de Tela"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "Síndrome del superviviente",
+				"text": "Síndrome del superviviente Cinturón Pesado",
+				"type": "Cinturón Pesado"
 			},
 			{
 				"flags": {
@@ -2074,6 +2122,14 @@
 				"flags": {
 					"unique": 1
 				},
+				"name": "Calavera ancestral",
+				"text": "Calavera ancestral Casco de Hueso",
+				"type": "Casco de Hueso"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
 				"name": "El Sueño de Apep",
 				"text": "El Sueño de Apep Escudo Espiritual Antiguo",
 				"type": "Escudo Espiritual Antiguo"
@@ -2786,6 +2842,14 @@
 				"flags": {
 					"unique": 1
 				},
+				"name": "Disfraz del doble",
+				"text": "Disfraz del doble Ropas de Sádico",
+				"type": "Ropas de Sádico"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
 				"name": "La Ilusión de Doryani",
 				"text": "La Ilusión de Doryani Botas Furtivas",
 				"type": "Botas Furtivas"
@@ -3250,6 +3314,14 @@
 				"flags": {
 					"unique": 1
 				},
+				"name": "Mano del ferviente",
+				"text": "Mano del ferviente Guantes de Fanático",
+				"type": "Guantes de Fanático"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
 				"name": "Manos del Alto Templario",
 				"text": "Manos del Alto Templario Guantes de Cruzado",
 				"type": "Guantes de Cruzado"
@@ -3299,8 +3371,8 @@
 					"unique": 1
 				},
 				"name": "Resolución de Hrimnor",
-				"text": "Resolución de Hrimnor Casco de Brocado",
-				"type": "Casco de Brocado"
+				"text": "Resolución de Hrimnor Casco Samnita",
+				"type": "Casco Samnita"
 			},
 			{
 				"flags": {
@@ -3493,6 +3565,14 @@
 				"name": "Mirada Lasciva",
 				"text": "Mirada Lasciva Máscara de Festival",
 				"type": "Máscara de Festival"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "Legado de furia",
+				"text": "Legado de furia Botas de Escamas de Wyrm",
+				"type": "Botas de Escamas de Wyrm"
 			},
 			{
 				"flags": {
@@ -3922,6 +4002,14 @@
 				"flags": {
 					"unique": 1
 				},
+				"name": "Regulador de Qotra",
+				"text": "Regulador de Qotra Escudo de Pinchos Soberano",
+				"type": "Escudo de Pinchos Soberano"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
 				"name": "Reina del Bosque",
 				"text": "Reina del Bosque Armadura de Cuero de Destino",
 				"type": "Armadura de Cuero de Destino"
@@ -3989,6 +4077,14 @@
 				"name": "Pisoteadores Cuchilla Roja",
 				"text": "Pisoteadores Cuchilla Roja Grebas Antiguas",
 				"type": "Grebas Antiguas"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "Remanente de Imperios",
+				"text": "Remanente de Imperios Rodela de Cuero de Cabra",
+				"type": "Rodela de Cuero de Cabra"
 			},
 			{
 				"flags": {
@@ -4501,6 +4597,14 @@
 				"name": "Pellizco de Víbora",
 				"text": "Pellizco de Víbora Guanteletes de Escamas de Bronce",
 				"type": "Guanteletes de Escamas de Bronce"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "Astillas de Providencia",
+				"text": "Astillas de Providencia Carcaj de Flecha Serradas",
+				"type": "Carcaj de Flecha Serradas"
 			},
 			{
 				"flags": {
@@ -5149,6 +5253,14 @@
 				"name": "Escamas de la Víbora",
 				"text": "Escamas de la Víbora Armadura Completa de Escamas",
 				"type": "Armadura Completa de Escamas"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "Velo de Viridi",
+				"text": "Velo de Viridi Corona de Pretor",
+				"type": "Corona de Pretor"
 			},
 			{
 				"flags": {
@@ -5871,6 +5983,18 @@
 				"type": "Botas de Asesinato"
 			},
 			{
+				"text": "Botas susurranubes",
+				"type": "Botas susurranubes"
+			},
+			{
+				"text": "Botas cortavientos",
+				"type": "Botas cortavientos"
+			},
+			{
+				"text": "Botas caminatormentas",
+				"type": "Botas caminatormentas"
+			},
+			{
 				"text": "Zapatos de Lana",
 				"type": "Zapatos de Lana"
 			},
@@ -5905,6 +6029,18 @@
 			{
 				"text": "Botas de Hechicero",
 				"type": "Botas de Hechicero"
+			},
+			{
+				"text": "Botines de andar crepuscular",
+				"type": "Botines de andar crepuscular"
+			},
+			{
+				"text": "Botines de viento nocturno",
+				"type": "Botines de viento nocturno"
+			},
+			{
+				"text": "Botines de pasos de ensueño",
+				"type": "Botines de pasos de ensueño"
 			},
 			{
 				"text": "Grebas de Hierro",
@@ -6007,6 +6143,18 @@
 				"type": "Botas de Cruzado"
 			},
 			{
+				"text": "Botas altas de Metal",
+				"type": "Botas altas de Metal"
+			},
+			{
+				"text": "Botas altas de Acero oscuro",
+				"type": "Botas altas de Acero oscuro"
+			},
+			{
+				"text": "Botas altas de Azufre",
+				"type": "Botas altas de Azufre"
+			},
+			{
 				"text": "Guantes Ajustados",
 				"type": "Guantes Ajustados"
 			},
@@ -6091,6 +6239,18 @@
 				"type": "Manoplas de Asesinato"
 			},
 			{
+				"text": "Guantes de zocato",
+				"type": "Guantes de zocato"
+			},
+			{
+				"text": "Guantes de zurdo",
+				"type": "Guantes de zurdo"
+			},
+			{
+				"text": "Guantes de zoco",
+				"type": "Guantes de zoco"
+			},
+			{
 				"text": "Guantes de Lana",
 				"type": "Guantes de Lana"
 			},
@@ -6125,6 +6285,18 @@
 			{
 				"text": "Guantes de Hechicero",
 				"type": "Guantes de Hechicero"
+			},
+			{
+				"text": "Guantes de Línea Ley",
+				"type": "Guantes de Línea Ley"
+			},
+			{
+				"text": "Guantes de viento de éter",
+				"type": "Guantes de viento de éter"
+			},
+			{
+				"text": "Guantes de nexo",
+				"type": "Guantes de nexo"
 			},
 			{
 				"text": "Guanteletes de Hierro",
@@ -6227,6 +6399,18 @@
 				"type": "Guantes de Cruzado"
 			},
 			{
+				"text": "Guanteletes agotadores",
+				"type": "Guanteletes agotadores"
+			},
+			{
+				"text": "Guanteletes extenuantes",
+				"type": "Guanteletes extenuantes"
+			},
+			{
+				"text": "Guanteletes de debilitación",
+				"type": "Guanteletes de debilitación"
+			},
+			{
 				"text": "Casco de Hueso",
 				"type": "Casco de Hueso"
 			},
@@ -6315,6 +6499,18 @@
 				"type": "Máscara de Arlequín"
 			},
 			{
+				"text": "Corona de vendaval",
+				"type": "Corona de vendaval"
+			},
+			{
+				"text": "Corona de invierno",
+				"type": "Corona de invierno"
+			},
+			{
+				"text": "Corona de ventisca",
+				"type": "Corona de ventisca"
+			},
+			{
 				"text": "Diadema de Enredadera",
 				"type": "Diadema de Enredadera"
 			},
@@ -6395,8 +6591,8 @@
 				"type": "Casco de Asedio"
 			},
 			{
-				"text": "Casco de Brocado",
-				"type": "Casco de Brocado"
+				"text": "Casco Samnita",
+				"type": "Casco Samnita"
 			},
 			{
 				"text": "Borgoñota Ezomita",
@@ -6443,6 +6639,18 @@
 				"type": "Bacinete Rostro de Cerdo"
 			},
 			{
+				"text": "Máscara de angustia",
+				"type": "Máscara de angustia"
+			},
+			{
+				"text": "Máscara de redención",
+				"type": "Máscara de redención"
+			},
+			{
+				"text": "Máscara penitente",
+				"type": "Máscara penitente"
+			},
+			{
 				"text": "Cofia Oxidada",
 				"type": "Cofia Oxidada"
 			},
@@ -6481,6 +6689,18 @@
 			{
 				"text": "Corona de Profeta",
 				"type": "Corona de Profeta"
+			},
+			{
+				"text": "Corona de diablillo",
+				"type": "Corona de diablillo"
+			},
+			{
+				"text": "Corona de demonio",
+				"type": "Corona de demonio"
+			},
+			{
+				"text": "Corona de archidemonio",
+				"type": "Corona de archidemonio"
 			},
 			{
 				"text": "Corona de Flores Dorada",
@@ -6933,6 +7153,10 @@
 			{
 				"text": "Carcaj de Flecha Roma",
 				"type": "Carcaj de Flecha Roma"
+			},
+			{
+				"text": "Carcaj de Flecha Serradas",
+				"type": "Carcaj de Flecha Serradas"
 			}
 		],
 		"label": "Armaduras"
@@ -6942,6 +7166,10 @@
 			{
 				"text": "Riqueza Abandonada",
 				"type": "Riqueza Abandonada"
+			},
+			{
+				"text": "Aclimatación",
+				"type": "Aclimatación"
 			},
 			{
 				"text": "Una Gota de Tinta",
@@ -7032,6 +7260,10 @@
 				"type": "Sueño del Flechero"
 			},
 			{
+				"text": "Hermandad en el exilio",
+				"type": "Hermandad en el exilio"
+			},
+			{
 				"text": "El alijo de su hermano",
 				"type": "El alijo de su hermano"
 			},
@@ -7112,8 +7344,16 @@
 				"type": "Locura de Doedre"
 			},
 			{
+				"text": "Envuelto en sueños",
+				"type": "Envuelto en sueños"
+			},
+			{
 				"text": "Angustia Moribunda",
 				"type": "Angustia Moribunda"
+			},
+			{
+				"text": "Luz menguante",
+				"type": "Luz menguante"
 			},
 			{
 				"text": "Bebedor de Tierra",
@@ -7134,6 +7374,10 @@
 			{
 				"text": "Grabado con sangre",
 				"type": "Grabado con sangre"
+			},
+			{
+				"text": "Encuentro trascendental",
+				"type": "Encuentro trascendental"
 			},
 			{
 				"text": "Poder Prohibido",
@@ -7166,6 +7410,10 @@
 			{
 				"text": "Armonía de Almas",
 				"type": "Armonía de Almas"
+			},
+			{
+				"text": "Sombras acechantes",
+				"type": "Sombras acechantes"
 			},
 			{
 				"text": "Su Máscara",
@@ -7212,6 +7460,10 @@
 				"type": "Caja Sorpresa"
 			},
 			{
+				"text": "Corrupción del guardián",
+				"type": "Corrupción del guardián"
+			},
+			{
 				"text": "Amor Perdido de Lantador",
 				"type": "Amor Perdido de Lantador"
 			},
@@ -7234,6 +7486,10 @@
 			{
 				"text": "Mundos Perdidos",
 				"type": "Mundos Perdidos"
+			},
+			{
+				"text": "Amor a través del hielo",
+				"type": "Amor a través del hielo"
 			},
 			{
 				"text": "Lealtad",
@@ -7324,6 +7580,10 @@
 				"type": "Renacimiento"
 			},
 			{
+				"text": "Ambición temeraria",
+				"type": "Ambición temeraria"
+			},
+			{
 				"text": "Remembranza",
 				"type": "Remembranza"
 			},
@@ -7342,6 +7602,10 @@
 			{
 				"text": "Esquirla de Destino",
 				"type": "Esquirla de Destino"
+			},
+			{
+				"text": "Remordimiento de la sociedad",
+				"type": "Remordimiento de la sociedad"
 			},
 			{
 				"text": "Prosperidad malgastada",
@@ -7384,6 +7648,10 @@
 				"type": "El Artista"
 			},
 			{
+				"text": "El astrólogo",
+				"type": "El astrólogo"
+			},
+			{
 				"text": "El Vengador",
 				"type": "El Vengador"
 			},
@@ -7398,6 +7666,10 @@
 			{
 				"text": "El Nacido de la Batalla",
 				"type": "El Nacido de la Batalla"
+			},
+			{
+				"text": "La mujer oso",
+				"type": "La mujer oso"
 			},
 			{
 				"text": "La Bestia",
@@ -7780,6 +8052,10 @@
 				"type": "La gran estafa"
 			},
 			{
+				"text": "La larga guardia",
+				"type": "La larga guardia"
+			},
+			{
 				"text": "El Señor de Negro",
 				"type": "El Señor de Negro"
 			},
@@ -7862,6 +8138,10 @@
 			{
 				"text": "El Pacto",
 				"type": "El Pacto"
+			},
+			{
+				"text": "El paciente",
+				"type": "El paciente"
 			},
 			{
 				"text": "El Penitente",
@@ -8126,6 +8406,10 @@
 			{
 				"text": "El caballero blanco",
 				"type": "El caballero blanco"
+			},
+			{
+				"text": "El manto blanco",
+				"type": "El manto blanco"
 			},
 			{
 				"text": "La rosa marchita",
@@ -8461,6 +8745,10 @@
 				"type": "Sextante despertado"
 			},
 			{
+				"text": "Sextante elevado",
+				"type": "Sextante elevado"
+			},
+			{
 				"text": "Sextante primario",
 				"type": "Sextante primario"
 			},
@@ -8575,6 +8863,10 @@
 			{
 				"text": "Restos de Armaduras",
 				"type": "Restos de Armaduras"
+			},
+			{
+				"text": "Orbe de Destrucción",
+				"type": "Orbe de Destrucción"
 			},
 			{
 				"text": "Astilla de Chayula",
@@ -9397,8 +9689,8 @@
 				"type": "Fragmento atemporal maraketh"
 			},
 			{
-				"text": "Fragmento atemporal templario",
-				"type": "Fragmento atemporal templario"
+				"text": "Fragmento atemporal templaria",
+				"type": "Fragmento atemporal templaria"
 			},
 			{
 				"text": "Fragmento atemporal vaal",
@@ -9497,6 +9789,14 @@
 				"type": "Pluma de Rhoa Albino"
 			},
 			{
+				"text": "Fragmento de ritual",
+				"type": "Fragmento de ritual"
+			},
+			{
+				"text": "Recipiente de ritual",
+				"type": "Recipiente de ritual"
+			},
+			{
 				"text": "Sello del Cartógrafo Maestro",
 				"type": "Sello del Cartógrafo Maestro"
 			},
@@ -9523,6 +9823,10 @@
 			{
 				"text": "Esquirla del Ingeniero",
 				"type": "Esquirla del Ingeniero"
+			},
+			{
+				"text": "Orbe de la Especialista",
+				"type": "Orbe de la Especialista"
 			},
 			{
 				"text": "Orbe Regio",
@@ -9663,234 +9967,6 @@
 			{
 				"text": "Baraja Amontonada",
 				"type": "Baraja Amontonada"
-			},
-			{
-				"text": "Brote de fabricación herbaria",
-				"type": "Brote de fabricación herbaria"
-			},
-			{
-				"text": "Flor de fabricación herbaria",
-				"type": "Flor de fabricación herbaria"
-			},
-			{
-				"text": "Florecimiento de fabricación herbaria",
-				"type": "Florecimiento de fabricación herbaria"
-			},
-			{
-				"text": "Brote de fuerza vital",
-				"type": "Brote de fuerza vital"
-			},
-			{
-				"text": "Flor de fuerza vital",
-				"type": "Flor de fuerza vital"
-			},
-			{
-				"text": "Florecimiento de fuerza vital",
-				"type": "Florecimiento de fuerza vital"
-			},
-			{
-				"text": "Brote de fortuna",
-				"type": "Brote de fortuna"
-			},
-			{
-				"text": "Flor de fortuna",
-				"type": "Flor de fortuna"
-			},
-			{
-				"text": "Florecimiento de fortuna",
-				"type": "Florecimiento de fortuna"
-			},
-			{
-				"text": "Semilla de Arácnizo primitivo",
-				"type": "Semilla de Arácnizo primitivo"
-			},
-			{
-				"text": "Fruta espinosa salvaje",
-				"type": "Fruta espinosa salvaje"
-			},
-			{
-				"text": "Grano de Bestiarizo salvaje",
-				"type": "Grano de Bestiarizo salvaje"
-			},
-			{
-				"text": "Bulbo de Matriarca bestial salvaje",
-				"type": "Bulbo de Matriarca bestial salvaje"
-			},
-			{
-				"text": "Fruta pustulosa primitiva",
-				"type": "Fruta pustulosa primitiva"
-			},
-			{
-				"text": "Bulbo de Faucespinoso salvaje",
-				"type": "Bulbo de Faucespinoso salvaje"
-			},
-			{
-				"text": "Bulbo de Octolátigo salvaje",
-				"type": "Bulbo de Octolátigo salvaje"
-			},
-			{
-				"text": "Bulbo de Lomoerizado salvaje",
-				"type": "Bulbo de Lomoerizado salvaje"
-			},
-			{
-				"text": "Fruta escamosa vívida",
-				"type": "Fruta escamosa vívida"
-			},
-			{
-				"text": "Grano de Cacique salvaje",
-				"type": "Grano de Cacique salvaje"
-			},
-			{
-				"text": "Grano de Víbora primitiva",
-				"type": "Grano de Víbora primitiva"
-			},
-			{
-				"text": "Bulbo de Devorador vívido",
-				"type": "Bulbo de Devorador vívido"
-			},
-			{
-				"text": "Semilla de Úrsido salvaje",
-				"type": "Semilla de Úrsido salvaje"
-			},
-			{
-				"text": "Semilla de Fauces primitivas",
-				"type": "Semilla de Fauces primitivas"
-			},
-			{
-				"text": "Bulbo de Enquistado primitivo",
-				"type": "Bulbo de Enquistado primitivo"
-			},
-			{
-				"text": "Semilla de Fiera salvaje",
-				"type": "Semilla de Fiera salvaje"
-			},
-			{
-				"text": "Bulbo de Fiera alfa salvaje",
-				"type": "Bulbo de Fiera alfa salvaje"
-			},
-			{
-				"text": "Grano de Fiera voraz salvaje",
-				"type": "Grano de Fiera voraz salvaje"
-			},
-			{
-				"text": "Grano de Chupasavia vívido",
-				"type": "Grano de Chupasavia vívido"
-			},
-			{
-				"text": "Grano de Quimera primitiva",
-				"type": "Grano de Quimera primitiva"
-			},
-			{
-				"text": "Bulbo de Reina de infestación salvaje",
-				"type": "Bulbo de Reina de infestación salvaje"
-			},
-			{
-				"text": "Semilla de Cría salvaje",
-				"type": "Semilla de Cría salvaje"
-			},
-			{
-				"text": "Bulbo de Pustuloso primitivo",
-				"type": "Bulbo de Pustuloso primitivo"
-			},
-			{
-				"text": "Bulbo de Renacido primitivo",
-				"type": "Bulbo de Renacido primitivo"
-			},
-			{
-				"text": "Semilla de Arácnido vívido",
-				"type": "Semilla de Arácnido vívido"
-			},
-			{
-				"text": "Grano de Homúnculo salvaje",
-				"type": "Grano de Homúnculo salvaje"
-			},
-			{
-				"text": "Semilla de Simio salvaje",
-				"type": "Semilla de Simio salvaje"
-			},
-			{
-				"text": "Bulbo de Pinza destructora primitiva",
-				"type": "Bulbo de Pinza destructora primitiva"
-			},
-			{
-				"text": "Semilla de Sanguijuela vívida",
-				"type": "Semilla de Sanguijuela vívida"
-			},
-			{
-				"text": "Grano de Parásito vívido",
-				"type": "Grano de Parásito vívido"
-			},
-			{
-				"text": "Grano de Anidadora vívida",
-				"type": "Grano de Anidadora vívida"
-			},
-			{
-				"text": "Bulbo de Escorpión vívido",
-				"type": "Bulbo de Escorpión vívido"
-			},
-			{
-				"text": "Semilla de Horror voraz primitivo",
-				"type": "Semilla de Horror voraz primitivo"
-			},
-			{
-				"text": "Grano de Rhex primitivo",
-				"type": "Grano de Rhex primitivo"
-			},
-			{
-				"text": "Bulbo de Matriarca rhex primitiva",
-				"type": "Bulbo de Matriarca rhex primitiva"
-			},
-			{
-				"text": "Semilla de Rhoa primitivo",
-				"type": "Semilla de Rhoa primitivo"
-			},
-			{
-				"text": "Grano de Piernafilada vívida",
-				"type": "Grano de Piernafilada vívida"
-			},
-			{
-				"text": "Grano de Escarbador primitivo",
-				"type": "Grano de Escarbador primitivo"
-			},
-			{
-				"text": "Semilla de Escupetierra primitivo",
-				"type": "Semilla de Escupetierra primitivo"
-			},
-			{
-				"text": "Semilla de Escorpión vívido",
-				"type": "Semilla de Escorpión vívido"
-			},
-			{
-				"text": "Grano de Aguijonero vívido",
-				"type": "Grano de Aguijonero vívido"
-			},
-			{
-				"text": "Grano de Cangrejo polvoriento primitivo",
-				"type": "Grano de Cangrejo polvoriento primitivo"
-			},
-			{
-				"text": "Grano de Lomoafilado salvaje",
-				"type": "Grano de Lomoafilado salvaje"
-			},
-			{
-				"text": "Bulbo de Observador vívido",
-				"type": "Bulbo de Observador vívido"
-			},
-			{
-				"text": "Semilla de Tejespina salvaje",
-				"type": "Semilla de Tejespina salvaje"
-			},
-			{
-				"text": "Bulbo de Carroñero vívido",
-				"type": "Bulbo de Carroñero vívido"
-			},
-			{
-				"text": "Semilla de Weta vívido",
-				"type": "Semilla de Weta vívido"
-			},
-			{
-				"text": "Semilla de Loboespinoso salvaje",
-				"type": "Semilla de Loboespinoso salvaje"
 			},
 			{
 				"text": "Moneda del renegado",
@@ -10085,20 +10161,24 @@
 				"type": "Cáliz alquémico"
 			},
 			{
+				"text": "Fragmento creciente",
+				"type": "Fragmento creciente"
+			},
+			{
 				"text": "Alma Capturada de Mephod, la Quemadura de la Tierra",
 				"type": "Alma Capturada de Mephod, la Quemadura de la Tierra"
 			},
 			{
-				"text": "Alma Capturada de Thraxia",
-				"type": "Alma Capturada de Thraxia"
+				"text": "Alma Capturada de Excellis Aurafix",
+				"type": "Alma Capturada de Excellis Aurafix"
 			},
 			{
-				"text": "Alma Capturada de Glace",
-				"type": "Alma Capturada de Glace"
+				"text": "Alma Capturada de Puruna, la Retadora",
+				"type": "Alma Capturada de Puruna, la Retadora"
 			},
 			{
-				"text": "Alma Capturada del Campeón de los demacrados",
-				"type": "Alma Capturada del Campeón de los demacrados"
+				"text": "Alma Capturada del Corruptor Eedaiak",
+				"type": "Alma Capturada del Corruptor Eedaiak"
 			},
 			{
 				"text": "Alma Capturada del Acechador de las Dunas Interminables",
@@ -10133,7 +10213,7 @@
 				"type": "Fragmento de Espada de Legión"
 			}
 		],
-		"label": "Objeto monetario"
+		"label": "Objetos monetarios"
 	},
 	{
 		"entries": [
@@ -11019,6 +11099,10 @@
 				"type": "Explosión maléfica"
 			},
 			{
+				"text": "Hidroesfera",
+				"type": "Hidroesfera"
+			},
+			{
 				"text": "Choque de Hielo",
 				"type": "Choque de Hielo"
 			},
@@ -11107,8 +11191,8 @@
 				"type": "Teletransporte de Rayo"
 			},
 			{
-				"text": "Orbe de Magma",
-				"type": "Orbe de Magma"
+				"text": "Bola de Magma",
+				"type": "Bola de Magma"
 			},
 			{
 				"text": "Protector Ancestral",
@@ -11307,8 +11391,8 @@
 				"type": "Chispa"
 			},
 			{
-				"text": "Fanatismo",
-				"type": "Fanatismo"
+				"text": "Exaltación",
+				"type": "Exaltación"
 			},
 			{
 				"text": "Lanzahechizos",
@@ -12299,6 +12383,10 @@
 				"type": "Asistencia de Trampas Avanzadas"
 			},
 			{
+				"text": "Asistencia de Trinidad",
+				"type": "Asistencia de Trinidad"
+			},
+			{
 				"text": "Asistencia de Achaques Desatados",
 				"type": "Asistencia de Achaques Desatados"
 			},
@@ -12731,8 +12819,8 @@
 				"flags": {
 					"unique": 1
 				},
-				"name": "Florecimiento Frágil",
-				"text": "Florecimiento Frágil Joya Carmesí",
+				"name": "Florecimiento frágil",
+				"text": "Florecimiento frágil Joya Carmesí",
 				"type": "Joya Carmesí"
 			},
 			{
@@ -13163,8 +13251,8 @@
 				"flags": {
 					"unique": 1
 				},
-				"name": "Florecimiento Frágil (réplica)",
-				"text": "Florecimiento Frágil (réplica) Joya Carmesí",
+				"name": "Florecimiento frágil (réplica)",
+				"text": "Florecimiento frágil (réplica) Joya Carmesí",
 				"type": "Joya Carmesí"
 			},
 			{
@@ -13515,8 +13603,8 @@
 				"flags": {
 					"unique": 1
 				},
-				"name": "Instinto Antinatural",
-				"text": "Instinto Antinatural Joya Viridiana",
+				"name": "Instinto antinatural",
+				"text": "Instinto antinatural Joya Viridiana",
 				"type": "Joya Viridiana"
 			},
 			{
@@ -13571,8 +13659,8 @@
 				"flags": {
 					"unique": 1
 				},
-				"name": "Ojo del Observador",
-				"text": "Ojo del Observador Joya Prismática",
+				"name": "Ojo del observador",
+				"text": "Ojo del observador Joya Prismática",
 				"type": "Joya Prismática"
 			},
 			{
@@ -14040,6 +14128,11 @@
 			},
 			{
 				"disc": "warfortheatlas",
+				"text": "Mapa de Valle de zarzales",
+				"type": "Mapa de Valle de zarzales"
+			},
+			{
+				"disc": "warfortheatlas",
 				"text": "Mapa de Aposentos del Entierro",
 				"type": "Mapa de Aposentos del Entierro"
 			},
@@ -14100,6 +14193,11 @@
 			},
 			{
 				"disc": "warfortheatlas",
+				"text": "Mapa de Río helado",
+				"type": "Mapa de Río helado"
+			},
+			{
+				"disc": "warfortheatlas",
 				"text": "Mapa de Columnata",
 				"type": "Mapa de Columnata"
 			},
@@ -14145,6 +14243,11 @@
 			},
 			{
 				"disc": "warfortheatlas",
+				"text": "Mapa de Poblado carmesí",
+				"type": "Mapa de Poblado carmesí"
+			},
+			{
+				"disc": "warfortheatlas",
 				"text": "Mapa de Mina de Cristal",
 				"type": "Mapa de Mina de Cristal"
 			},
@@ -14177,6 +14280,11 @@
 				"disc": "warfortheatlas",
 				"text": "Mapa de Perforación",
 				"type": "Mapa de Perforación"
+			},
+			{
+				"disc": "warfortheatlas",
+				"text": "Mapa de Mar seco",
+				"type": "Mapa de Mar seco"
 			},
 			{
 				"disc": "warfortheatlas",
@@ -14215,6 +14323,26 @@
 			},
 			{
 				"disc": "warfortheatlas",
+				"text": "Mapa de Bosque prohibido",
+				"type": "Mapa de Bosque prohibido"
+			},
+			{
+				"disc": "warfortheatlas",
+				"text": "Mapa de Río bifurcado",
+				"type": "Mapa de Río bifurcado"
+			},
+			{
+				"disc": "warfortheatlas",
+				"text": "Mapa de Fundición",
+				"type": "Mapa de Fundición"
+			},
+			{
+				"disc": "warfortheatlas",
+				"text": "Mapa de Cabinas congeladas",
+				"type": "Mapa de Cabinas congeladas"
+			},
+			{
+				"disc": "warfortheatlas",
 				"text": "Mapa de Jardines",
 				"type": "Mapa de Jardines"
 			},
@@ -14232,6 +14360,11 @@
 				"disc": "warfortheatlas",
 				"text": "Mapa de Glaciar",
 				"type": "Mapa de Glaciar"
+			},
+			{
+				"disc": "warfortheatlas",
+				"text": "Mapa de Hondonada fúnebre",
+				"type": "Mapa de Hondonada fúnebre"
 			},
 			{
 				"disc": "warfortheatlas",
@@ -14510,6 +14643,11 @@
 			},
 			{
 				"disc": "warfortheatlas",
+				"text": "Mapa de Silo",
+				"type": "Mapa de Silo"
+			},
+			{
+				"disc": "warfortheatlas",
 				"text": "Mapa de Bosque de Arañas",
 				"type": "Mapa de Bosque de Arañas"
 			},
@@ -14522,6 +14660,11 @@
 				"disc": "warfortheatlas",
 				"text": "Mapa de Hondonada Fúngica",
 				"type": "Mapa de Hondonada Fúngica"
+			},
+			{
+				"disc": "warfortheatlas",
+				"text": "Mapa de Estancamiento",
+				"type": "Mapa de Estancamiento"
 			},
 			{
 				"disc": "warfortheatlas",
@@ -16768,6 +16911,10 @@
 				"type": "Emblema atemporal vaal"
 			},
 			{
+				"text": "Orden de la Especialista",
+				"type": "Orden de la Especialista"
+			},
+			{
 				"text": "Consagración a la Diosa",
 				"type": "Consagración a la Diosa"
 			},
@@ -16858,6 +17005,62 @@
 			{
 				"text": "Dolor Mortal",
 				"type": "Dolor Mortal"
+			},
+			{
+				"text": "Invitación de la Especialista: Túmulos de Glennach",
+				"type": "Invitación de la Especialista: Túmulos de Glennach"
+			},
+			{
+				"text": "Invitación de la Especialista: El descanso de Valdo",
+				"type": "Invitación de la Especialista: El descanso de Valdo"
+			},
+			{
+				"text": "Invitación de la Especialista: El final de Tirn",
+				"type": "Invitación de la Especialista: El final de Tirn"
+			},
+			{
+				"text": "Invitación de la Especialista: Lex Proxima",
+				"type": "Invitación de la Especialista: Lex Proxima"
+			},
+			{
+				"text": "Invitación de la Especialista: Nuevo Vastir",
+				"type": "Invitación de la Especialista: Nuevo Vastir"
+			},
+			{
+				"text": "Invitación de la Especialista: Lira Arthain",
+				"type": "Invitación de la Especialista: Lira Arthain"
+			},
+			{
+				"text": "Invitación de la Especialista: Aldea de Haewark",
+				"type": "Invitación de la Especialista: Aldea de Haewark"
+			},
+			{
+				"text": "Invitación de la Especialista: Lex Ejoris",
+				"type": "Invitación de la Especialista: Lex Ejoris"
+			},
+			{
+				"text": "Invitación de la Especialista: Los formados",
+				"type": "Invitación de la Especialista: Los formados"
+			},
+			{
+				"text": "Invitación de la Especialista: Los retorcidos",
+				"type": "Invitación de la Especialista: Los retorcidos"
+			},
+			{
+				"text": "Invitación de la Especialista: Los olvidados",
+				"type": "Invitación de la Especialista: Los olvidados"
+			},
+			{
+				"text": "Invitación de la Especialista: Los ocultos",
+				"type": "Invitación de la Especialista: Los ocultos"
+			},
+			{
+				"text": "Invitación de la Especialista: Los temidos",
+				"type": "Invitación de la Especialista: Los temidos"
+			},
+			{
+				"text": "Recipiente lleno de sangre",
+				"type": "Recipiente lleno de sangre"
 			},
 			{
 				"text": "Escarabajo oxidado de Bestiario",
@@ -17236,6 +17439,14 @@
 				"flags": {
 					"unique": 1
 				},
+				"name": "Cenizas del Sol",
+				"text": "Cenizas del Sol Maza de Madera",
+				"type": "Maza de Madera"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
 				"name": "Aversión de Atziri",
 				"text": "Aversión de Atziri Hacha vaal",
 				"type": "Hacha vaal"
@@ -17295,6 +17506,14 @@
 				"name": "Sueño Amargo",
 				"text": "Sueño Amargo Cetro de Sombras",
 				"type": "Cetro de Sombras"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "Sangre del Verano",
+				"text": "Sangre del Verano Espada Oxidada",
+				"type": "Espada Oxidada"
 			},
 			{
 				"flags": {
@@ -17503,6 +17722,14 @@
 				"name": "Música Fúnebre de Debeon",
 				"text": "Música Fúnebre de Debeon Hacha despótica",
 				"type": "Hacha despótica"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "Autoridad del Semidiós",
+				"text": "Autoridad del Semidiós Hoja dorada",
+				"type": "Hoja dorada"
 			},
 			{
 				"flags": {
@@ -17724,6 +17951,14 @@
 				"flags": {
 					"unique": 1
 				},
+				"name": "Fragmento de Eternidad",
+				"text": "Fragmento de Eternidad Navaja de Vidrio",
+				"type": "Navaja de Vidrio"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
 				"name": "Aliento de Escarcha",
 				"text": "Aliento de Escarcha Maza Ornamentada",
 				"type": "Maza Ornamentada"
@@ -17743,6 +17978,14 @@
 				"name": "Devoción de Geofri",
 				"text": "Devoción de Geofri Mazo de latón",
 				"type": "Mazo de latón"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "Astucia de trasgo",
+				"text": "Astucia de trasgo Emboscadora",
+				"type": "Emboscadora"
 			},
 			{
 				"flags": {
@@ -18332,6 +18575,14 @@
 				"flags": {
 					"unique": 1
 				},
+				"name": "Reliquia del Ciclo",
+				"text": "Reliquia del Ciclo Arco Rústico",
+				"type": "Arco Rústico"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
 				"name": "Fortaleza que Avanza (réplica)",
 				"text": "Fortaleza que Avanza (réplica) Destripadora",
 				"type": "Destripadora"
@@ -18628,6 +18879,14 @@
 				"flags": {
 					"unique": 1
 				},
+				"name": "Herrumbre de Invierno",
+				"text": "Herrumbre de Invierno Hachuela Oxidada",
+				"type": "Hachuela Oxidada"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
 				"name": "Ritmo Sanguíneo",
 				"text": "Ritmo Sanguíneo Cuchillo para Despellejar",
 				"type": "Cuchillo para Despellejar"
@@ -18639,6 +18898,14 @@
 				"name": "Scaeva",
 				"text": "Scaeva Gladius",
 				"type": "Gladius"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "Cicatriz del Destino",
+				"text": "Cicatriz del Destino Puño de Clavos",
+				"type": "Puño de Clavos"
 			},
 			{
 				"flags": {
@@ -18759,6 +19026,14 @@
 				"name": "Columna del Primer Reclamante",
 				"text": "Columna del Primer Reclamante Cetro de Hierro",
 				"type": "Cetro de Hierro"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "Astilla de la Luna",
+				"text": "Astilla de la Luna Varita de Madera",
+				"type": "Varita de Madera"
 			},
 			{
 				"flags": {
@@ -19108,6 +19383,14 @@
 				"flags": {
 					"unique": 1
 				},
+				"name": "Trueno del Alba",
+				"text": "Trueno del Alba Espada corroída",
+				"type": "Espada corroída"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
 				"name": "Destructor de Marea",
 				"text": "Destructor de Marea Mazo imperial",
 				"type": "Mazo imperial"
@@ -19207,6 +19490,14 @@
 				"name": "Varunastra",
 				"text": "Varunastra Hoja Vaal",
 				"type": "Hoja Vaal"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "Vestigio de Divinidad",
+				"text": "Vestigio de Divinidad Rama Retorcida",
+				"type": "Rama Retorcida"
 			},
 			{
 				"flags": {
@@ -19999,6 +20290,10 @@
 			{
 				"text": "Espada de Charan",
 				"type": "Espada de Charan"
+			},
+			{
+				"text": "Hoja dorada",
+				"type": "Hoja dorada"
 			},
 			{
 				"text": "Espada espiritual voluble",
@@ -23153,7 +23448,7 @@
 				"type": "K'aj Q'ura"
 			},
 			{
-				"text": "K'aj Y'ara'az",
+				"text": "K'aj Q'ura",
 				"type": "K'aj Y'ara'az"
 			},
 			{
@@ -23241,7 +23536,7 @@
 				"type": "Damoi Tui"
 			},
 			{
-				"text": "Bolt Piel Marrón",
+				"text": "Bolt Brownfur, Agitador de tierra",
 				"type": "Bolt Brownfur, Earth Churner"
 			},
 			{
@@ -23249,7 +23544,7 @@
 				"type": "Orra Greengate"
 			},
 			{
-				"text": "Thena Moga",
+				"text": "Thena Moga, la Tormenta carmesí",
 				"type": "Thena Moga, the Crimson Storm"
 			},
 			{
@@ -24081,7 +24376,7 @@
 				"type": "Gnar, Eater of Carrion"
 			},
 			{
-				"text": "El Gran Templario",
+				"text": "El Alto Templario",
 				"type": "The High Templar"
 			},
 			{
@@ -25001,6 +25296,14 @@
 				"flags": {
 					"unique": 1
 				},
+				"name": "En la cima del Atlas",
+				"text": "En la cima del Atlas Roca del vigilante de platino de Lex Ejoris",
+				"type": "Roca del vigilante de platino de Lex Ejoris"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
 				"name": "Población próspera",
 				"text": "Población próspera Roca del vigilante de marfil",
 				"type": "Roca del vigilante de marfil"
@@ -25020,6 +25323,14 @@
 				"name": "Desinformación",
 				"text": "Desinformación Roca del vigilante de marfil",
 				"type": "Roca del vigilante de marfil"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "Ciclos incesantes",
+				"text": "Ciclos incesantes Roca del vigilante de platino del Descanso de Valdo",
+				"type": "Roca del vigilante de platino del Descanso de Valdo"
 			},
 			{
 				"flags": {
@@ -25049,6 +25360,54 @@
 				"flags": {
 					"unique": 1
 				},
+				"name": "El constructor",
+				"text": "El constructor Roca del vigilante de platino de Túmulos de Glennach",
+				"type": "Roca del vigilante de platino de Túmulos de Glennach"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "La conquista",
+				"text": "La conquista Roca del vigilante de platino de El final de Tirn",
+				"type": "Roca del vigilante de platino de El final de Tirn"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "El pico más cercano",
+				"text": "El pico más cercano Roca del vigilante de platino de Lex Proxima",
+				"type": "Roca del vigilante de platino de Lex Proxima"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "La falsa esperanza",
+				"text": "La falsa esperanza Roca del vigilante de platino de Lira Arthain",
+				"type": "Roca del vigilante de platino de Lira Arthain"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "El vasto horizonte",
+				"text": "El vasto horizonte Roca del vigilante de platino de Nuevo Vastir",
+				"type": "Roca del vigilante de platino de Nuevo Vastir"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "Los muros",
+				"text": "Los muros Roca del vigilante de platino de la Aldea de Haewark",
+				"type": "Roca del vigilante de platino de la Aldea de Haewark"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
 				"name": "Guerra entre las estrellas",
 				"text": "Guerra entre las estrellas Roca del vigilante de marfil",
 				"type": "Roca del vigilante de marfil"
@@ -25062,8 +25421,8 @@
 				"type": "Roca del vigilante de cobalto"
 			},
 			{
-				"text": "Roca del vigilante verdosa",
-				"type": "Roca del vigilante verdosa"
+				"text": "Roca del vigilante viridiana",
+				"type": "Roca del vigilante viridiana"
 			},
 			{
 				"text": "Roca del vigilante dorada",
@@ -25072,6 +25431,102 @@
 			{
 				"text": "Roca del vigilante de marfil",
 				"type": "Roca del vigilante de marfil"
+			},
+			{
+				"text": "Roca del vigilante de cromo de la Aldea de Haewark",
+				"type": "Roca del vigilante de cromo de la Aldea de Haewark"
+			},
+			{
+				"text": "Roca del vigilante de cromo de El final de Tirn",
+				"type": "Roca del vigilante de cromo de El final de Tirn"
+			},
+			{
+				"text": "Roca del vigilante de cromo de Lex Proxima",
+				"type": "Roca del vigilante de cromo de Lex Proxima"
+			},
+			{
+				"text": "Roca del vigilante de cromo de Lex Ejoris",
+				"type": "Roca del vigilante de cromo de Lex Ejoris"
+			},
+			{
+				"text": "Roca del vigilante de cromo de Nuevo Vastir",
+				"type": "Roca del vigilante de cromo de Nuevo Vastir"
+			},
+			{
+				"text": "Roca del vigilante de cromo de Túmulos de Glennach",
+				"type": "Roca del vigilante de cromo de Túmulos de Glennach"
+			},
+			{
+				"text": "Roca del vigilante de cromo del Descanso de Valdo",
+				"type": "Roca del vigilante de cromo del Descanso de Valdo"
+			},
+			{
+				"text": "Roca del vigilante de cromo de Lira Arthain",
+				"type": "Roca del vigilante de cromo de Lira Arthain"
+			},
+			{
+				"text": "Roca del vigilante de platino de la Aldea de Haewark",
+				"type": "Roca del vigilante de platino de la Aldea de Haewark"
+			},
+			{
+				"text": "Roca del vigilante de platino de El final de Tirn",
+				"type": "Roca del vigilante de platino de El final de Tirn"
+			},
+			{
+				"text": "Roca del vigilante de platino de Lex Proxima",
+				"type": "Roca del vigilante de platino de Lex Proxima"
+			},
+			{
+				"text": "Roca del vigilante de platino de Lex Ejoris",
+				"type": "Roca del vigilante de platino de Lex Ejoris"
+			},
+			{
+				"text": "Roca del vigilante de platino de Nuevo Vastir",
+				"type": "Roca del vigilante de platino de Nuevo Vastir"
+			},
+			{
+				"text": "Roca del vigilante de platino de Túmulos de Glennach",
+				"type": "Roca del vigilante de platino de Túmulos de Glennach"
+			},
+			{
+				"text": "Roca del vigilante de platino del Descanso de Valdo",
+				"type": "Roca del vigilante de platino del Descanso de Valdo"
+			},
+			{
+				"text": "Roca del vigilante de platino de Lira Arthain",
+				"type": "Roca del vigilante de platino de Lira Arthain"
+			},
+			{
+				"text": "Roca del vigilante de titanio de la Aldea de Haewark",
+				"type": "Roca del vigilante de titanio de la Aldea de Haewark"
+			},
+			{
+				"text": "Roca del vigilante de titanio de El final de Tirn",
+				"type": "Roca del vigilante de titanio de El final de Tirn"
+			},
+			{
+				"text": "Roca del vigilante de titanio de Lex Proxima",
+				"type": "Roca del vigilante de titanio de Lex Proxima"
+			},
+			{
+				"text": "Roca del vigilante de titanio de Lex Ejoris",
+				"type": "Roca del vigilante de titanio de Lex Ejoris"
+			},
+			{
+				"text": "Roca del vigilante de titanio de Nuevo Vastir",
+				"type": "Roca del vigilante de titanio de Nuevo Vastir"
+			},
+			{
+				"text": "Roca del vigilante de titanio de Túmulos de Glennach",
+				"type": "Roca del vigilante de titanio de Túmulos de Glennach"
+			},
+			{
+				"text": "Roca del vigilante de titanio del Descanso de Valdo",
+				"type": "Roca del vigilante de titanio del Descanso de Valdo"
+			},
+			{
+				"text": "Roca del vigilante de titanio de Lira Arthain",
+				"type": "Roca del vigilante de titanio de Lira Arthain"
 			}
 		],
 		"label": ""

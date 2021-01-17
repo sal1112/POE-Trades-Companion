@@ -53,6 +53,14 @@
 				"flags": {
 					"unique": 1
 				},
+				"name": "Arns Qualen",
+				"text": "Arns Qualen Stoffgürtel",
+				"type": "Stoffgürtel"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
 				"name": "Dem Fleische entstiegen",
 				"text": "Dem Fleische entstiegen Kettengürtel",
 				"type": "Kettengürtel"
@@ -176,6 +184,14 @@
 				"name": "Biscos Leine",
 				"text": "Biscos Leine Robuster Gürtel",
 				"type": "Robuster Gürtel"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "Schwarzflamme",
+				"text": "Schwarzflamme Amethystring",
+				"type": "Amethystring"
 			},
 			{
 				"flags": {
@@ -517,6 +533,14 @@
 				"flags": {
 					"unique": 1
 				},
+				"name": "Gravens Geheimnis",
+				"text": "Gravens Geheimnis Stoffgürtel",
+				"type": "Stoffgürtel"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
 				"name": "Nacht des Grauens",
 				"text": "Nacht des Grauens Sockelring",
 				"type": "Sockelring"
@@ -784,6 +808,14 @@
 				"name": "Im Bann der Nacht",
 				"text": "Im Bann der Nacht Schwarzschlund-Talisman",
 				"type": "Schwarzschlund-Talisman"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "Olesyas Entzückung",
+				"text": "Olesyas Entzückung Stoffgürtel",
+				"type": "Stoffgürtel"
 			},
 			{
 				"flags": {
@@ -1093,6 +1125,14 @@
 				"flags": {
 					"unique": 1
 				},
+				"name": "Faulbluts Versprechen",
+				"text": "Faulbluts Versprechen Sockelring",
+				"type": "Sockelring"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
 				"name": "Ryslathas Spule",
 				"text": "Ryslathas Spule Nietengürtel",
 				"type": "Nietengürtel"
@@ -1224,6 +1264,14 @@
 				"name": "Sonneneruption",
 				"text": "Sonneneruption Stoffgürtel",
 				"type": "Stoffgürtel"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "Schuld des Überlebenden",
+				"text": "Schuld des Überlebenden Robuster Gürtel",
+				"type": "Robuster Gürtel"
 			},
 			{
 				"flags": {
@@ -2074,6 +2122,14 @@
 				"flags": {
 					"unique": 1
 				},
+				"name": "Uralter Schädel",
+				"text": "Uralter Schädel Knochenhelm",
+				"type": "Knochenhelm"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
 				"name": "Apeps Schlummer",
 				"text": "Apeps Schlummer Uralter Geistschild",
 				"type": "Uralter Geistschild"
@@ -2786,6 +2842,14 @@
 				"flags": {
 					"unique": 1
 				},
+				"name": "Gewand des Doppelgängers",
+				"text": "Gewand des Doppelgängers Sadistenrock",
+				"type": "Sadistenrock"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
 				"name": "Doryanis Verblendung",
 				"text": "Doryanis Verblendung Geschmeidige Stiefel",
 				"type": "Geschmeidige Stiefel"
@@ -3250,6 +3314,14 @@
 				"flags": {
 					"unique": 1
 				},
+				"name": "Hand des glühenden Anhängers",
+				"text": "Hand des glühenden Anhängers Fanatiker-Handschuhe",
+				"type": "Fanatiker-Handschuhe"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
 				"name": "Hände des Hohen Templers",
 				"text": "Hände des Hohen Templers Kreuzfahrer-Handschuhe",
 				"type": "Kreuzfahrer-Handschuhe"
@@ -3299,8 +3371,8 @@
 					"unique": 1
 				},
 				"name": "Hrimnors Entschlossenheit",
-				"text": "Hrimnors Entschlossenheit Samit-Helm",
-				"type": "Samit-Helm"
+				"text": "Hrimnors Entschlossenheit Samniten-Helm",
+				"type": "Samniten-Helm"
 			},
 			{
 				"flags": {
@@ -3493,6 +3565,14 @@
 				"name": "Anzüglicher Blick",
 				"text": "Anzüglicher Blick Festtagsmaske",
 				"type": "Festtagsmaske"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "Wutentbrannt",
+				"text": "Wutentbrannt Wyrmschuppenstiefel",
+				"type": "Wyrmschuppenstiefel"
 			},
 			{
 				"flags": {
@@ -3922,6 +4002,14 @@
 				"flags": {
 					"unique": 1
 				},
+				"name": "Qotras Regulator",
+				"text": "Qotras Regulator Monarchen-Stachelschild",
+				"type": "Monarchen-Stachelschild"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
 				"name": "Königin des Waldes",
 				"text": "Königin des Waldes Schicksalsleder",
 				"type": "Schicksalsleder"
@@ -3989,6 +4077,14 @@
 				"name": "Rotklingen-Trampler",
 				"text": "Rotklingen-Trampler Uralte Beinschienen",
 				"type": "Uralte Beinschienen"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "Relikt der Kaiserreiche",
+				"text": "Relikt der Kaiserreiche Ziegenleder-Faustschild",
+				"type": "Ziegenleder-Faustschild"
 			},
 			{
 				"flags": {
@@ -4501,6 +4597,14 @@
 				"name": "Schlangengriff",
 				"text": "Schlangengriff Bronzeschuppen-Panzerhandschuhe",
 				"type": "Bronzeschuppen-Panzerhandschuhe"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "Schimmer der Vorsehung",
+				"text": "Schimmer der Vorsehung Zackenpfeilköcher",
+				"type": "Zackenpfeilköcher"
 			},
 			{
 				"flags": {
@@ -5149,6 +5253,14 @@
 				"name": "Schuppen der Viper",
 				"text": "Schuppen der Viper Kettenpanzerrüstung",
 				"type": "Kettenpanzerrüstung"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "Viridis Schleier",
+				"text": "Viridis Schleier Prätorkrone",
+				"type": "Prätorkrone"
 			},
 			{
 				"flags": {
@@ -5863,6 +5975,18 @@
 				"type": "Meuchelstiefel"
 			},
 			{
+				"text": "Wolkenflüsterer-Stiefel",
+				"type": "Wolkenflüsterer-Stiefel"
+			},
+			{
+				"text": "Windschutz-Stiefel",
+				"type": "Windschutz-Stiefel"
+			},
+			{
+				"text": "Sturmreiter-Stiefel",
+				"type": "Sturmreiter-Stiefel"
+			},
+			{
 				"text": "Wollschuhe",
 				"type": "Wollschuhe"
 			},
@@ -5897,6 +6021,18 @@
 			{
 				"text": "Hexerstiefel",
 				"type": "Hexerstiefel"
+			},
+			{
+				"text": "Dämmerungspantinen",
+				"type": "Dämmerungspantinen"
+			},
+			{
+				"text": "Nachtwind-Pantinen",
+				"type": "Nachtwind-Pantinen"
+			},
+			{
+				"text": "Traumsucher-Pantinen",
+				"type": "Traumsucher-Pantinen"
 			},
 			{
 				"text": "Eisenbeinschienen",
@@ -5999,6 +6135,18 @@
 				"type": "Kreuzfahrerstiefel"
 			},
 			{
+				"text": "Basismetall-Läufer",
+				"type": "Basismetall-Läufer"
+			},
+			{
+				"text": "Dunkelstahl-Läufer",
+				"type": "Dunkelstahl-Läufer"
+			},
+			{
+				"text": "Schwefel-Läufer",
+				"type": "Schwefel-Läufer"
+			},
+			{
 				"text": "Griffige Handschuhe",
 				"type": "Griffige Handschuhe"
 			},
@@ -6083,6 +6231,18 @@
 				"type": "Meuchel-Stulpenhandschuhe"
 			},
 			{
+				"text": "Linkshandschuhe",
+				"type": "Linkshandschuhe"
+			},
+			{
+				"text": "Linkshänder-Handschuhe",
+				"type": "Linkshänder-Handschuhe"
+			},
+			{
+				"text": "Sinistrale Handschuhe",
+				"type": "Sinistrale Handschuhe"
+			},
+			{
 				"text": "Wollhandschuhe",
 				"type": "Wollhandschuhe"
 			},
@@ -6117,6 +6277,18 @@
 			{
 				"text": "Hexer-Handschuhe",
 				"type": "Hexer-Handschuhe"
+			},
+			{
+				"text": "Ley-Linien-Handschuhe",
+				"type": "Ley-Linien-Handschuhe"
+			},
+			{
+				"text": "Ätherwind-Handschuhe",
+				"type": "Ätherwind-Handschuhe"
+			},
+			{
+				"text": "Nexus-Handschuhe",
+				"type": "Nexus-Handschuhe"
 			},
 			{
 				"text": "Eisenpanzerhandschuhe",
@@ -6219,6 +6391,18 @@
 				"type": "Kreuzfahrer-Handschuhe"
 			},
 			{
+				"text": "Strapazierfähige Panzerhandschuhe",
+				"type": "Strapazierfähige Panzerhandschuhe"
+			},
+			{
+				"text": "Zermürbende Panzerhandschuhe",
+				"type": "Zermürbende Panzerhandschuhe"
+			},
+			{
+				"text": "Schwächende Panzerhandschuhe",
+				"type": "Schwächende Panzerhandschuhe"
+			},
+			{
 				"text": "Knochenhelm",
 				"type": "Knochenhelm"
 			},
@@ -6311,6 +6495,18 @@
 				"type": "Harlekinmaske"
 			},
 			{
+				"text": "Sturmkrone",
+				"type": "Sturmkrone"
+			},
+			{
+				"text": "Winterkrone",
+				"type": "Winterkrone"
+			},
+			{
+				"text": "Schneesturmkrone",
+				"type": "Schneesturmkrone"
+			},
+			{
 				"text": "Rankendiadem",
 				"type": "Rankendiadem"
 			},
@@ -6391,8 +6587,8 @@
 				"type": "Belagerungshelm"
 			},
 			{
-				"text": "Samit-Helm",
-				"type": "Samit-Helm"
+				"text": "Samniten-Helm",
+				"type": "Samniten-Helm"
 			},
 			{
 				"text": "Ezomytische Burgunderhaube",
@@ -6439,6 +6635,18 @@
 				"type": "Schweinsbeckenhaube"
 			},
 			{
+				"text": "Trauer-Maske",
+				"type": "Trauer-Maske"
+			},
+			{
+				"text": "Sühner-Maske",
+				"type": "Sühner-Maske"
+			},
+			{
+				"text": "Büßermaske",
+				"type": "Büßermaske"
+			},
+			{
 				"text": "Rostige Bundhaube",
 				"type": "Rostige Bundhaube"
 			},
@@ -6477,6 +6685,18 @@
 			{
 				"text": "Prophetenkrone",
 				"type": "Prophetenkrone"
+			},
+			{
+				"text": "Koboldkrone",
+				"type": "Koboldkrone"
+			},
+			{
+				"text": "Dämonenkrone",
+				"type": "Dämonenkrone"
+			},
+			{
+				"text": "Erzdämonenkrone",
+				"type": "Erzdämonenkrone"
 			},
 			{
 				"text": "Goldener Kranz",
@@ -6940,6 +7160,10 @@
 				"type": "Zurückgelassener Reichtum"
 			},
 			{
+				"text": "Akklimatisierung",
+				"type": "Akklimatisierung"
+			},
+			{
 				"text": "Die rote Tinte",
 				"type": "Die rote Tinte"
 			},
@@ -7028,6 +7252,10 @@
 				"type": "Der Traum des Bogenmachers"
 			},
 			{
+				"text": "Bruderschaft in Verbannung",
+				"type": "Bruderschaft in Verbannung"
+			},
+			{
 				"text": "Des Bruders Schatz",
 				"type": "Des Bruders Schatz"
 			},
@@ -7108,8 +7336,16 @@
 				"type": "Doedres Wahnsinn"
 			},
 			{
+				"text": "In Träume gehüllt",
+				"type": "In Träume gehüllt"
+			},
+			{
 				"text": "Die ersterbende Pein",
 				"type": "Die ersterbende Pein"
+			},
+			{
+				"text": "Das sterbende Licht",
+				"type": "Das sterbende Licht"
 			},
 			{
 				"text": "Der Erdentrinker",
@@ -7130,6 +7366,10 @@
 			{
 				"text": "Mit Blut geschrieben",
 				"type": "Mit Blut geschrieben"
+			},
+			{
+				"text": "Die schicksalhafte Begegnung",
+				"type": "Die schicksalhafte Begegnung"
 			},
 			{
 				"text": "Die verbotenen Kräfte",
@@ -7162,6 +7402,10 @@
 			{
 				"text": "Harmonie der Seelen",
 				"type": "Harmonie der Seelen"
+			},
+			{
+				"text": "Gespenstische Schatten",
+				"type": "Gespenstische Schatten"
 			},
 			{
 				"text": "Ihre Maske",
@@ -7208,6 +7452,10 @@
 				"type": "Der Schachtelteufel"
 			},
 			{
+				"text": "Die Verderbtheit des Wächters",
+				"type": "Die Verderbtheit des Wächters"
+			},
+			{
 				"text": "Lantadors verlorene Liebe",
 				"type": "Lantadors verlorene Liebe"
 			},
@@ -7230,6 +7478,10 @@
 			{
 				"text": "Die verlorenen Welten",
 				"type": "Die verlorenen Welten"
+			},
+			{
+				"text": "Liebe durch Eis",
+				"type": "Liebe durch Eis"
 			},
 			{
 				"text": "Die Treue",
@@ -7320,6 +7572,10 @@
 				"type": "Die Wiedergeburt"
 			},
 			{
+				"text": "Der rücksichtslose Ehrgeiz",
+				"type": "Der rücksichtslose Ehrgeiz"
+			},
+			{
 				"text": "Das Andenken",
 				"type": "Das Andenken"
 			},
@@ -7338,6 +7594,10 @@
 			{
 				"text": "Die Scherbe des Schicksals",
 				"type": "Die Scherbe des Schicksals"
+			},
+			{
+				"text": "Reue der Gesellschaft",
+				"type": "Reue der Gesellschaft"
 			},
 			{
 				"text": "Verschleuderter Wohlstand",
@@ -7380,6 +7640,10 @@
 				"type": "Der Künstler"
 			},
 			{
+				"text": "Der Astromant",
+				"type": "Der Astromant"
+			},
+			{
 				"text": "Der Rächer",
 				"type": "Der Rächer"
 			},
@@ -7394,6 +7658,10 @@
 			{
 				"text": "Der Kampfgeborene",
 				"type": "Der Kampfgeborene"
+			},
+			{
+				"text": "Die Bärenfrau",
+				"type": "Die Bärenfrau"
 			},
 			{
 				"text": "Die Bestie",
@@ -7772,6 +8040,10 @@
 				"type": "Der große Schwindel"
 			},
 			{
+				"text": "Die lange Wache",
+				"type": "Die lange Wache"
+			},
+			{
 				"text": "Der Fürst in Schwarz",
 				"type": "Der Fürst in Schwarz"
 			},
@@ -7854,6 +8126,10 @@
 			{
 				"text": "Der Pakt",
 				"type": "Der Pakt"
+			},
+			{
+				"text": "Der Patient",
+				"type": "Der Patient"
 			},
 			{
 				"text": "Der Büßer",
@@ -8120,6 +8396,10 @@
 				"type": "Der weiße Ritter"
 			},
 			{
+				"text": "Eiswirbel",
+				"type": "Eiswirbel"
+			},
+			{
 				"text": "Die verwelkte Rose",
 				"type": "Die verwelkte Rose"
 			},
@@ -8308,6 +8588,14 @@
 				"flags": {
 					"unique": 1
 				},
+				"name": "Zweites Bruchstück der Brutalität",
+				"text": "Zweites Bruchstück der Brutalität Kaiserlicher Stab (Bruchstück)",
+				"type": "Kaiserlicher Stab (Bruchstück)"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
 				"name": "Zweites Bruchstück der Richtungen",
 				"text": "Zweites Bruchstück der Richtungen Stumpfpfeilköcher (Bruchstück)",
 				"type": "Stumpfpfeilköcher (Bruchstück)"
@@ -8449,6 +8737,10 @@
 				"type": "Erweckter Sextant"
 			},
 			{
+				"text": "Erhabener Sextant",
+				"type": "Erhabener Sextant"
+			},
+			{
 				"text": "Außergewöhnlicher Sextant",
 				"type": "Außergewöhnlicher Sextant"
 			},
@@ -8563,6 +8855,10 @@
 			{
 				"text": "Plattnerstück",
 				"type": "Plattnerstück"
+			},
+			{
+				"text": "Sphäre der Umkehr",
+				"type": "Sphäre der Umkehr"
 			},
 			{
 				"text": "Chayulas Splitter",
@@ -9485,6 +9781,14 @@
 				"type": "Albino-Rhoa-Feder"
 			},
 			{
+				"text": "Ritualsplitter",
+				"type": "Ritualsplitter"
+			},
+			{
+				"text": "Ritualgefäß",
+				"type": "Ritualgefäß"
+			},
+			{
 				"text": "Siegel des Kartographenmeisters",
 				"type": "Siegel des Kartographenmeisters"
 			},
@@ -9511,6 +9815,10 @@
 			{
 				"text": "Scherbe des Ingenieurs",
 				"type": "Scherbe des Ingenieurs"
+			},
+			{
+				"text": "Sphäre der Seherin",
+				"type": "Sphäre der Seherin"
 			},
 			{
 				"text": "Hoheitliche Sphäre",
@@ -9647,234 +9955,6 @@
 			{
 				"text": "Kartenstapel",
 				"type": "Kartenstapel"
-			},
-			{
-				"text": "Knospe der Anfertigung",
-				"type": "Knospe der Anfertigung"
-			},
-			{
-				"text": "Blume der Anfertigung",
-				"type": "Blume der Anfertigung"
-			},
-			{
-				"text": "Blüte der Anfertigung",
-				"type": "Blüte der Anfertigung"
-			},
-			{
-				"text": "Knospe der Lebenskraft",
-				"type": "Knospe der Lebenskraft"
-			},
-			{
-				"text": "Blume der Lebenskraft",
-				"type": "Blume der Lebenskraft"
-			},
-			{
-				"text": "Blüte der Lebenskraft",
-				"type": "Blüte der Lebenskraft"
-			},
-			{
-				"text": "Knospe des Glücks",
-				"type": "Knospe des Glücks"
-			},
-			{
-				"text": "Blume des Glücks",
-				"type": "Blume des Glücks"
-			},
-			{
-				"text": "Blüte des Glücks",
-				"type": "Blüte des Glücks"
-			},
-			{
-				"text": "Samen des urzeitlichen Spalters",
-				"type": "Samen des urzeitlichen Spalters"
-			},
-			{
-				"text": "Wilde Dornenfrucht",
-				"type": "Wilde Dornenfrucht"
-			},
-			{
-				"text": "Korn der wilden Borstenbestie",
-				"type": "Korn der wilden Borstenbestie"
-			},
-			{
-				"text": "Knolle der lebhaften Borstenmutter",
-				"type": "Knolle der lebhaften Borstenmutter"
-			},
-			{
-				"text": "Urzeitliche Blasenfrucht",
-				"type": "Urzeitliche Blasenfrucht"
-			},
-			{
-				"text": "Knolle des wilden Dornenschlunds",
-				"type": "Knolle des wilden Dornenschlunds"
-			},
-			{
-				"text": "Knolle des lebhaften Peitschenbeins",
-				"type": "Knolle des lebhaften Peitschenbeins"
-			},
-			{
-				"text": "Knolle des wilden Dornenrückens",
-				"type": "Knolle des wilden Dornenrückens"
-			},
-			{
-				"text": "Lebhafte Schuppenfrucht",
-				"type": "Lebhafte Schuppenfrucht"
-			},
-			{
-				"text": "Korn des wilden Stammesführers",
-				"type": "Korn des wilden Stammesführers"
-			},
-			{
-				"text": "Korn der urzeitlichen Viper",
-				"type": "Korn der urzeitlichen Viper"
-			},
-			{
-				"text": "Knolle des lebhaften Verschlingers",
-				"type": "Knolle des lebhaften Verschlingers"
-			},
-			{
-				"text": "Samen des wilden Ursalings",
-				"type": "Samen des wilden Ursalings"
-			},
-			{
-				"text": "Samen des urzeitlichen Schlunds",
-				"type": "Samen des urzeitlichen Schlunds"
-			},
-			{
-				"text": "Knolle des urzeitlichen Zystenrufers",
-				"type": "Knolle des urzeitlichen Zystenrufers"
-			},
-			{
-				"text": "Samen des wilden Biests",
-				"type": "Samen des wilden Biests"
-			},
-			{
-				"text": "Knolle des wilden Alpha-Biests",
-				"type": "Knolle des wilden Alpha-Biests"
-			},
-			{
-				"text": "Korn des wilden Schnapphunds",
-				"type": "Korn des wilden Schnapphunds"
-			},
-			{
-				"text": "Korn des lebhaften Marksaugers",
-				"type": "Korn des lebhaften Marksaugers"
-			},
-			{
-				"text": "Korn der urzeitlichen Chimäre",
-				"type": "Korn der urzeitlichen Chimäre"
-			},
-			{
-				"text": "Knolle der wilden Plagenkönigin",
-				"type": "Knolle der wilden Plagenkönigin"
-			},
-			{
-				"text": "Samen des wilden Schlüpflings",
-				"type": "Samen des wilden Schlüpflings"
-			},
-			{
-				"text": "Knolle des urzeitlichen Blasenfürsten",
-				"type": "Knolle des urzeitlichen Blasenfürsten"
-			},
-			{
-				"text": "Knolle der urzeitlichen Wiedergeburt",
-				"type": "Knolle der urzeitlichen Wiedergeburt"
-			},
-			{
-				"text": "Samen der lebhaften Arachnide",
-				"type": "Samen der lebhaften Arachnide"
-			},
-			{
-				"text": "Korn des wilden Homunkulus",
-				"type": "Korn des wilden Homunkulus"
-			},
-			{
-				"text": "Samen des wilden Affens",
-				"type": "Samen des wilden Affens"
-			},
-			{
-				"text": "Knolle des urzeitlichen Scherenquetschers",
-				"type": "Knolle des urzeitlichen Scherenquetschers"
-			},
-			{
-				"text": "Samen des lebhaften Blutegels",
-				"type": "Samen des lebhaften Blutegels"
-			},
-			{
-				"text": "Korn des lebhaften Parasiten",
-				"type": "Korn des lebhaften Parasiten"
-			},
-			{
-				"text": "Korn der lebhaften Spinnenmutter",
-				"type": "Korn der lebhaften Spinnenmutter"
-			},
-			{
-				"text": "Knolle des lebhaften Panzerskorpions",
-				"type": "Knolle des lebhaften Panzerskorpions"
-			},
-			{
-				"text": "Samen des urzeitlichen Schreckens",
-				"type": "Samen des urzeitlichen Schreckens"
-			},
-			{
-				"text": "Korn des urzeitlichen Rhex",
-				"type": "Korn des urzeitlichen Rhex"
-			},
-			{
-				"text": "Knolle der urzeitlichen Rhex-Matriarchin",
-				"type": "Knolle der urzeitlichen Rhex-Matriarchin"
-			},
-			{
-				"text": "Samen des urzeitlichen Rhoas",
-				"type": "Samen des urzeitlichen Rhoas"
-			},
-			{
-				"text": "Korn des lebhaften Schlitzbeins",
-				"type": "Korn des lebhaften Schlitzbeins"
-			},
-			{
-				"text": "Korn des urzeitlichen Sandscharrers",
-				"type": "Korn des urzeitlichen Sandscharrers"
-			},
-			{
-				"text": "Samen des urzeitlichen Staubspuckers",
-				"type": "Samen des urzeitlichen Staubspuckers"
-			},
-			{
-				"text": "Samen des lebhaften Skorpions",
-				"type": "Samen des lebhaften Skorpions"
-			},
-			{
-				"text": "Korn des lebhaften Peitschenskorpions",
-				"type": "Korn des lebhaften Peitschenskorpions"
-			},
-			{
-				"text": "Korn der urzeitlichen Staubkrabbe",
-				"type": "Korn der urzeitlichen Staubkrabbe"
-			},
-			{
-				"text": "Korn des wilden Stachelrückens",
-				"type": "Korn des wilden Stachelrückens"
-			},
-			{
-				"text": "Knolle des lebhaften Wächters",
-				"type": "Knolle des lebhaften Wächters"
-			},
-			{
-				"text": "Samen des lebhaften Dornenwebers",
-				"type": "Samen des lebhaften Dornenwebers"
-			},
-			{
-				"text": "Knolle des lebhaften Geiers",
-				"type": "Knolle des lebhaften Geiers"
-			},
-			{
-				"text": "Samen des lebhaften Wetas",
-				"type": "Samen des lebhaften Wetas"
-			},
-			{
-				"text": "Samen des wilden Dornenwolfs",
-				"type": "Samen des wilden Dornenwolfs"
 			},
 			{
 				"text": "Signum der Abtrünnigen",
@@ -10069,20 +10149,24 @@
 				"type": "Alchemistischer Kelch"
 			},
 			{
+				"text": "Halbmond-Splitter",
+				"type": "Halbmond-Splitter"
+			},
+			{
 				"text": "Eingefangene Seele von Mephod dem Erdenversenger",
 				"type": "Eingefangene Seele von Mephod dem Erdenversenger"
 			},
 			{
-				"text": "Eingefangene Seele von Thraxia",
-				"type": "Eingefangene Seele von Thraxia"
+				"text": "Eingefangene Seele von Excellis Aurafix",
+				"type": "Eingefangene Seele von Excellis Aurafix"
 			},
 			{
-				"text": "Eingefangene Seele von Glace",
-				"type": "Eingefangene Seele von Glace"
+				"text": "Eingefangene Seele von Puruna der Herausforderer",
+				"type": "Eingefangene Seele von Puruna der Herausforderer"
 			},
 			{
-				"text": "Eingefangene Seele des Streiters der Höhlen",
-				"type": "Eingefangene Seele des Streiters der Höhlen"
+				"text": "Eingefangene Seele von Verderber Eedaiak",
+				"type": "Eingefangene Seele von Verderber Eedaiak"
 			},
 			{
 				"text": "Eingefangene Seele der Pirscherin der endlosen Wüste",
@@ -11003,6 +11087,10 @@
 				"type": "Explodierende Verhexung"
 			},
 			{
+				"text": "Hydrosphäre",
+				"type": "Hydrosphäre"
+			},
+			{
 				"text": "Eishieb",
 				"type": "Eishieb"
 			},
@@ -11295,8 +11383,8 @@
 				"type": "Funken"
 			},
 			{
-				"text": "Fanatismus",
-				"type": "Fanatismus"
+				"text": "Glaubenseifer",
+				"type": "Glaubenseifer"
 			},
 			{
 				"text": "Zauberschwinger",
@@ -12285,6 +12373,10 @@
 			{
 				"text": "Unterstützung: Fortschrittliche Fallen",
 				"type": "Unterstützung: Fortschrittliche Fallen"
+			},
+			{
+				"text": "Unterstützung: Dreieinigkeit",
+				"type": "Unterstützung: Dreieinigkeit"
 			},
 			{
 				"text": "Unterstützung: Entfesselte Beeinträchtigungen",
@@ -14028,6 +14120,11 @@
 			},
 			{
 				"disc": "warfortheatlas",
+				"text": "'Dornental'-Karte",
+				"type": "'Dornental'-Karte"
+			},
+			{
+				"disc": "warfortheatlas",
 				"text": "'Grabkammern'-Karte",
 				"type": "'Grabkammern'-Karte"
 			},
@@ -14088,6 +14185,11 @@
 			},
 			{
 				"disc": "warfortheatlas",
+				"text": "'Kalter Fluss'-Karte",
+				"type": "'Kalter Fluss'-Karte"
+			},
+			{
+				"disc": "warfortheatlas",
 				"text": "'Kolonnade'-Karte",
 				"type": "'Kolonnade'-Karte"
 			},
@@ -14133,6 +14235,11 @@
 			},
 			{
 				"disc": "warfortheatlas",
+				"text": "'Die Purpurne Gemeinde'-Karte",
+				"type": "'Die Purpurne Gemeinde'-Karte"
+			},
+			{
+				"disc": "warfortheatlas",
 				"text": "'Kristallmine'-Karte",
 				"type": "'Kristallmine'-Karte"
 			},
@@ -14165,6 +14272,11 @@
 				"disc": "warfortheatlas",
 				"text": "'Ausgrabung'-Karte",
 				"type": "'Ausgrabung'-Karte"
+			},
+			{
+				"disc": "warfortheatlas",
+				"text": "'Meeresgrund'-Karte",
+				"type": "'Meeresgrund'-Karte"
 			},
 			{
 				"disc": "warfortheatlas",
@@ -14203,6 +14315,26 @@
 			},
 			{
 				"disc": "warfortheatlas",
+				"text": "'Verbotene Wälder'-Karte",
+				"type": "'Verbotene Wälder'-Karte"
+			},
+			{
+				"disc": "warfortheatlas",
+				"text": "'Flussgabelung'-Karte",
+				"type": "'Flussgabelung'-Karte"
+			},
+			{
+				"disc": "warfortheatlas",
+				"text": "'Gießerei'-Karte",
+				"type": "'Gießerei'-Karte"
+			},
+			{
+				"disc": "warfortheatlas",
+				"text": "'Gefrorene Hütten'-Karte",
+				"type": "'Gefrorene Hütten'-Karte"
+			},
+			{
+				"disc": "warfortheatlas",
 				"text": "'Gärten'-Karte",
 				"type": "'Gärten'-Karte"
 			},
@@ -14220,6 +14352,11 @@
 				"disc": "warfortheatlas",
 				"text": "'Gletscher'-Karte",
 				"type": "'Gletscher'-Karte"
+			},
+			{
+				"disc": "warfortheatlas",
+				"text": "'Grabmulde'-Karte",
+				"type": "'Grabmulde'-Karte"
 			},
 			{
 				"disc": "warfortheatlas",
@@ -14498,6 +14635,11 @@
 			},
 			{
 				"disc": "warfortheatlas",
+				"text": "'Silo'-Karte",
+				"type": "'Silo'-Karte"
+			},
+			{
+				"disc": "warfortheatlas",
 				"text": "'Spinnenwald'-Karte",
 				"type": "'Spinnenwald'-Karte"
 			},
@@ -14510,6 +14652,11 @@
 				"disc": "warfortheatlas",
 				"text": "'Pilzbewachsene Höhle'-Karte",
 				"type": "'Pilzbewachsene Höhle'-Karte"
+			},
+			{
+				"disc": "warfortheatlas",
+				"text": "'Sumpftal'-Karte",
+				"type": "'Sumpftal'-Karte"
 			},
 			{
 				"disc": "warfortheatlas",
@@ -16724,12 +16871,12 @@
 				"type": "Fragment der Vernichtung"
 			},
 			{
-				"text": "Fragment des Unterdrückung",
-				"type": "Fragment des Unterdrückung"
+				"text": "Fragment der Unterdrückung",
+				"type": "Fragment der Unterdrückung"
 			},
 			{
-				"text": "Fragment des Läuterung",
-				"type": "Fragment des Läuterung"
+				"text": "Fragment der Läuterung",
+				"type": "Fragment der Läuterung"
 			},
 			{
 				"text": "Göttliches Gefäß",
@@ -16754,6 +16901,10 @@
 			{
 				"text": "Immerwährendes Emblem der Vaal",
 				"type": "Immerwährendes Emblem der Vaal"
+			},
+			{
+				"text": "Das Schriftstück der Seherin",
+				"type": "Das Schriftstück der Seherin"
 			},
 			{
 				"text": "Hingabe an die Göttin",
@@ -16846,6 +16997,62 @@
 			{
 				"text": "Tödliche Trauer",
 				"type": "Tödliche Trauer"
+			},
+			{
+				"text": "Einladung der Seherin: Glennach Cairns",
+				"type": "Einladung der Seherin: Glennach Cairns"
+			},
+			{
+				"text": "Einladung der Seherin: Valdos Rast",
+				"type": "Einladung der Seherin: Valdos Rast"
+			},
+			{
+				"text": "Einladung der Seherin: Tirns Ende",
+				"type": "Einladung der Seherin: Tirns Ende"
+			},
+			{
+				"text": "Einladung der Seherin: Lex Proxima",
+				"type": "Einladung der Seherin: Lex Proxima"
+			},
+			{
+				"text": "Einladung der Seherin: Neu Vastir",
+				"type": "Einladung der Seherin: Neu Vastir"
+			},
+			{
+				"text": "Einladung der Seherin: Lira Arthain",
+				"type": "Einladung der Seherin: Lira Arthain"
+			},
+			{
+				"text": "Einladung der Seherin: Haewark Hamlet",
+				"type": "Einladung der Seherin: Haewark Hamlet"
+			},
+			{
+				"text": "Einladung der Seherin: Lex Ejoris",
+				"type": "Einladung der Seherin: Lex Ejoris"
+			},
+			{
+				"text": "Einladung der Seherin: Die Verformten",
+				"type": "Einladung der Seherin: Die Verformten"
+			},
+			{
+				"text": "Einladung der Seherin: Die Verdorbenen",
+				"type": "Einladung der Seherin: Die Verdorbenen"
+			},
+			{
+				"text": "Einladung der Seherin: Die Vergessenen",
+				"type": "Einladung der Seherin: Die Vergessenen"
+			},
+			{
+				"text": "Einladung der Seherin: Die Verborgenen",
+				"type": "Einladung der Seherin: Die Verborgenen"
+			},
+			{
+				"text": "Einladung der Seherin: Die Gefürchteten",
+				"type": "Einladung der Seherin: Die Gefürchteten"
+			},
+			{
+				"text": "Blutgefülltes Gefäß",
+				"type": "Blutgefülltes Gefäß"
 			},
 			{
 				"text": "Verrosteter Skarabäus des Bestiariums",
@@ -17224,6 +17431,14 @@
 				"flags": {
 					"unique": 1
 				},
+				"name": "Asche der Sonne",
+				"text": "Asche der Sonne Treibholzkeule",
+				"type": "Treibholzkeule"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
 				"name": "Atziris Missgunst",
 				"text": "Atziris Missgunst Vaal-Axt",
 				"type": "Vaal-Axt"
@@ -17283,6 +17498,14 @@
 				"name": "Zittertraum",
 				"text": "Zittertraum Schattenzepter",
 				"type": "Schattenzepter"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "Blut des Sommers",
+				"text": "Blut des Sommers Rostiges Schwert",
+				"type": "Rostiges Schwert"
 			},
 			{
 				"flags": {
@@ -17491,6 +17714,14 @@
 				"name": "Debeons Klagelied",
 				"text": "Debeons Klagelied Despotenaxt",
 				"type": "Despotenaxt"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "Autorität des Halbgottes",
+				"text": "Autorität des Halbgottes Goldene Klinge",
+				"type": "Goldene Klinge"
 			},
 			{
 				"flags": {
@@ -17712,6 +17943,14 @@
 				"flags": {
 					"unique": 1
 				},
+				"name": "Fragment der Ewigkeit",
+				"text": "Fragment der Ewigkeit Umwickelte Scherbe",
+				"type": "Umwickelte Scherbe"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
 				"name": "Frosthauch",
 				"text": "Frosthauch Verzierter Streitkolben",
 				"type": "Verzierter Streitkolben"
@@ -17731,6 +17970,14 @@
 				"name": "Geofris Hingabe",
 				"text": "Geofris Hingabe Messinghammer",
 				"type": "Messinghammer"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "Goblinschneide",
+				"text": "Goblinschneide Hinterhaltdolch",
+				"type": "Hinterhaltdolch"
 			},
 			{
 				"flags": {
@@ -18320,6 +18567,14 @@
 				"flags": {
 					"unique": 1
 				},
+				"name": "Relikt des Kreislaufs",
+				"text": "Relikt des Kreislaufs Einfacher Bogen",
+				"type": "Einfacher Bogen"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
 				"name": "Replik: Schreitende Festung",
 				"text": "Replik: Schreitende Festung Bauchschlitzer",
 				"type": "Bauchschlitzer"
@@ -18616,6 +18871,14 @@
 				"flags": {
 					"unique": 1
 				},
+				"name": "Winterrost",
+				"text": "Winterrost Rostiges Kriegsbeil",
+				"type": "Rostiges Kriegsbeil"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
 				"name": "Blutiger Tanz",
 				"text": "Blutiger Tanz Kürschnermesser",
 				"type": "Kürschnermesser"
@@ -18627,6 +18890,14 @@
 				"name": "Scaeva",
 				"text": "Scaeva Gladius",
 				"type": "Gladius"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "Narbe des Schicksals",
+				"text": "Narbe des Schicksals Nagelfaust",
+				"type": "Nagelfaust"
 			},
 			{
 				"flags": {
@@ -18747,6 +19018,14 @@
 				"name": "Rückgrat des ersten Anwärters",
 				"text": "Rückgrat des ersten Anwärters Eisenzepter",
 				"type": "Eisenzepter"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "Mondsplitter",
+				"text": "Mondsplitter Treibholz-Zauberstab",
+				"type": "Treibholz-Zauberstab"
 			},
 			{
 				"flags": {
@@ -19096,6 +19375,14 @@
 				"flags": {
 					"unique": 1
 				},
+				"name": "Donner der Dämmerung",
+				"text": "Donner der Dämmerung Verrostete Klinge",
+				"type": "Verrostete Klinge"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
 				"name": "Wellenbrecher",
 				"text": "Wellenbrecher Kaiserlicher Hammer",
 				"type": "Kaiserlicher Hammer"
@@ -19200,9 +19487,17 @@
 				"flags": {
 					"unique": 1
 				},
+				"name": "Überrest der Göttlichkeit",
+				"text": "Überrest der Göttlichkeit Knorriger Ast",
+				"type": "Knorriger Ast"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
 				"name": "Leerenspeicher",
-				"text": "Leerenspeicher Prophezeihungszauberstab",
-				"type": "Prophezeihungszauberstab"
+				"text": "Leerenspeicher Prophezeiungszauberstab",
+				"type": "Prophezeiungszauberstab"
 			},
 			{
 				"flags": {
@@ -19989,6 +20284,10 @@
 				"type": "Charans Schwert"
 			},
 			{
+				"text": "Goldene Klinge",
+				"type": "Goldene Klinge"
+			},
+			{
 				"text": "Unbeständige Geisterklinge",
 				"type": "Unbeständige Geisterklinge"
 			},
@@ -20137,8 +20436,8 @@
 				"type": "Tornado-Zauberstab"
 			},
 			{
-				"text": "Prophezeihungszauberstab",
-				"type": "Prophezeihungszauberstab"
+				"text": "Prophezeiungszauberstab",
+				"type": "Prophezeiungszauberstab"
 			},
 			{
 				"text": "Ziegenhorn",
@@ -22793,7 +23092,7 @@
 				"type": "The Grey Plague"
 			},
 			{
-				"text": "Mephod, der Erdenversenger",
+				"text": "Mephod der Erdenversenger",
 				"type": "Mephod, the Earth Scorcher"
 			},
 			{
@@ -24981,6 +25280,14 @@
 				"flags": {
 					"unique": 1
 				},
+				"name": "Auf dem Atlas",
+				"text": "Auf dem Atlas Platin-Wächterstein von Lex Ejoris",
+				"type": "Platin-Wächterstein von Lex Ejoris"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
 				"name": "Wachsende Bevölkerung",
 				"text": "Wachsende Bevölkerung Elfenbeinfarbener Wächterstein",
 				"type": "Elfenbeinfarbener Wächterstein"
@@ -25000,6 +25307,14 @@
 				"name": "Fehlinformation",
 				"text": "Fehlinformation Elfenbeinfarbener Wächterstein",
 				"type": "Elfenbeinfarbener Wächterstein"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "Ruhelose Zyklen",
+				"text": "Ruhelose Zyklen Platin-Wächterstein von Valdos Rast",
+				"type": "Platin-Wächterstein von Valdos Rast"
 			},
 			{
 				"flags": {
@@ -25029,6 +25344,54 @@
 				"flags": {
 					"unique": 1
 				},
+				"name": "Der Erbauer",
+				"text": "Der Erbauer Platin-Wächterstein von Glennach Cairns",
+				"type": "Platin-Wächterstein von Glennach Cairns"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "Der Anspruch",
+				"text": "Der Anspruch Platin-Wächterstein von Tirns Ende",
+				"type": "Platin-Wächterstein von Tirns Ende"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "Der nächstgelegene Gipfel",
+				"text": "Der nächstgelegene Gipfel Platin-Wächterstein von Lex Proxima",
+				"type": "Platin-Wächterstein von Lex Proxima"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "Die falsche Hoffnung",
+				"text": "Die falsche Hoffnung Platin-Wächterstein von Lira Arthain",
+				"type": "Platin-Wächterstein von Lira Arthain"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "Der unendliche Horizont",
+				"text": "Der unendliche Horizont Platin-Wächterstein von Neu Vastir",
+				"type": "Platin-Wächterstein von Neu Vastir"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "Die Mauern",
+				"text": "Die Mauern Platin-Wächterstein von Haewark Hamlet",
+				"type": "Platin-Wächterstein von Haewark Hamlet"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
 				"name": "Krieg unter Sternen",
 				"text": "Krieg unter Sternen Elfenbeinfarbener Wächterstein",
 				"type": "Elfenbeinfarbener Wächterstein"
@@ -25052,6 +25415,102 @@
 			{
 				"text": "Elfenbeinfarbener Wächterstein",
 				"type": "Elfenbeinfarbener Wächterstein"
+			},
+			{
+				"text": "Chrom-Wächterstein von Haewark Hamlet",
+				"type": "Chrom-Wächterstein von Haewark Hamlet"
+			},
+			{
+				"text": "Chrom-Wächterstein von Tirns Ende",
+				"type": "Chrom-Wächterstein von Tirns Ende"
+			},
+			{
+				"text": "Chrom-Wächterstein von Lex Proxima",
+				"type": "Chrom-Wächterstein von Lex Proxima"
+			},
+			{
+				"text": "Chrom-Wächterstein von Lex Ejoris",
+				"type": "Chrom-Wächterstein von Lex Ejoris"
+			},
+			{
+				"text": "Chrom-Wächterstein von Neu Vastir",
+				"type": "Chrom-Wächterstein von Neu Vastir"
+			},
+			{
+				"text": "Chrom-Wächterstein von Glennach Cairns",
+				"type": "Chrom-Wächterstein von Glennach Cairns"
+			},
+			{
+				"text": "Chrom-Wächterstein von Valdos Rast",
+				"type": "Chrom-Wächterstein von Valdos Rast"
+			},
+			{
+				"text": "Chrom-Wächterstein von Lira Arthain",
+				"type": "Chrom-Wächterstein von Lira Arthain"
+			},
+			{
+				"text": "Platin-Wächterstein von Haewark Hamlet",
+				"type": "Platin-Wächterstein von Haewark Hamlet"
+			},
+			{
+				"text": "Platin-Wächterstein von Tirns Ende",
+				"type": "Platin-Wächterstein von Tirns Ende"
+			},
+			{
+				"text": "Platin-Wächterstein von Lex Proxima",
+				"type": "Platin-Wächterstein von Lex Proxima"
+			},
+			{
+				"text": "Platin-Wächterstein von Lex Ejoris",
+				"type": "Platin-Wächterstein von Lex Ejoris"
+			},
+			{
+				"text": "Platin-Wächterstein von Neu Vastir",
+				"type": "Platin-Wächterstein von Neu Vastir"
+			},
+			{
+				"text": "Platin-Wächterstein von Glennach Cairns",
+				"type": "Platin-Wächterstein von Glennach Cairns"
+			},
+			{
+				"text": "Platin-Wächterstein von Valdos Rast",
+				"type": "Platin-Wächterstein von Valdos Rast"
+			},
+			{
+				"text": "Platin-Wächterstein von Lira Arthain",
+				"type": "Platin-Wächterstein von Lira Arthain"
+			},
+			{
+				"text": "Titan-Wächterstein von Haewark Hamlet",
+				"type": "Titan-Wächterstein von Haewark Hamlet"
+			},
+			{
+				"text": "Titan-Wächterstein von Tirns Ende",
+				"type": "Titan-Wächterstein von Tirns Ende"
+			},
+			{
+				"text": "Titan-Wächterstein von Lex Proxima",
+				"type": "Titan-Wächterstein von Lex Proxima"
+			},
+			{
+				"text": "Titan-Wächterstein von Lex Ejoris",
+				"type": "Titan-Wächterstein von Lex Ejoris"
+			},
+			{
+				"text": "Titan-Wächterstein von Neu Vastir",
+				"type": "Titan-Wächterstein von Neu Vastir"
+			},
+			{
+				"text": "Titan-Wächterstein von Glennach Cairns",
+				"type": "Titan-Wächterstein von Glennach Cairns"
+			},
+			{
+				"text": "Titan-Wächterstein von Valdos Rast",
+				"type": "Titan-Wächterstein von Valdos Rast"
+			},
+			{
+				"text": "Titan-Wächterstein von Lira Arthain",
+				"type": "Titan-Wächterstein von Lira Arthain"
 			}
 		],
 		"label": ""

@@ -1,3 +1,8 @@
+1.15.BETA_9995 (17 Jan 2021)
+
+	Changes:
+	- Updated item location grid according to new positions while not in a folder tab.
+
 = = = = = = = = = = = = =
 
 1.15.BETA_9994 (14 Oct 2020)

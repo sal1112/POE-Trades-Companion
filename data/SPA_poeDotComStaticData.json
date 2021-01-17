@@ -167,6 +167,11 @@
 				"text": "Moneda Perandus"
 			},
 			{
+				"id": "rogues-marker",
+				"image": "/image/Art/2DItems/Currency/Heist/HeistCoinCurrency.png?v=91f470e219855da2a828fd553feb30f6",
+				"text": "Moneda del renegado"
+			},
+			{
 				"id": "silver",
 				"image": "/image/Art/2DItems/Currency/SilverObol.png?v=93c1b204ec2736a2fe5aabbb99510bcf",
 				"text": "Moneda de Plata"
@@ -197,14 +202,14 @@
 				"text": "Orbe del despertar"
 			},
 			{
+				"id": "mavens-orb",
+				"image": "/image/Art/2DItems/Currency/MavenOrb.png?v=c2947400505e6885ac9b4e10d5b6a346",
+				"text": "Orbe de la Especialista"
+			},
+			{
 				"id": "facetors",
 				"image": "/image/Art/2DItems/Currency/CurrencyGemExperience.png?v=3d005916b44ac5cc03714d71e4d20146",
 				"text": "Lente del facetador"
-			},
-			{
-				"id": "rogues-marker",
-				"image": "/image/Art/2DItems/Currency/Heist/HeistCoinCurrency.png?v=91f470e219855da2a828fd553feb30f6",
-				"text": "Moneda del renegado"
 			},
 			{
 				"id": "prime-regrading-lens",
@@ -226,6 +231,72 @@
 				"image": "/image/Art/2DItems/Currency/DivineEnchantWeaponCurrency.png?v=a04c73695d57792be93cbf91864a2467",
 				"text": "Orbe de sastrería"
 			},
+			{
+				"id": "stacked-deck",
+				"image": "/image/Art/2DItems/Divination/Deck.png?v=0e5e6da39f79fc57f3d38d463126617a",
+				"text": "Baraja Amontonada"
+			},
+			{
+				"id": "ritual-vessel",
+				"image": "/image/Art/2DItems/Currency/Ritual/Effigy.png?v=851918ae4cd7761b8dc745a06c191138",
+				"text": "Recipiente de ritual"
+			},
+			{
+				"id": "apprentice-sextant",
+				"image": "/image/Art/2DItems/Currency/AtlasRadiusTier1.png?v=7c21fc06120d910018893083227406df",
+				"text": "Sextante simple"
+			},
+			{
+				"id": "journeyman-sextant",
+				"image": "/image/Art/2DItems/Currency/AtlasRadiusTier2.png?v=043e5f4d8c52af6b302e30afaffa5eba",
+				"text": "Sextante primario"
+			},
+			{
+				"id": "master-sextant",
+				"image": "/image/Art/2DItems/Currency/AtlasRadiusTier3.png?v=d69377f526ff51c408461b0cee4d4ade",
+				"text": "Sextante despertado"
+			},
+			{
+				"id": "elevated-sextant",
+				"image": "/image/Art/2DItems/Currency/AtlasRadiusTier4.png?v=fef0aade0b4ac2bea98fb58f60e3075c",
+				"text": "Sextante elevado"
+			},
+			{
+				"id": "orb-of-unmaking",
+				"image": "/image/Art/2DItems/Currency/RegretOrb.png?v=2a2321a13ab36e01da75a717e103f943",
+				"text": "Orbe de Destrucción"
+			},
+			{
+				"id": "blessing-xoph",
+				"image": "/image/Art/2DItems/Currency/Breach/BreachUpgraderFire.png?v=6c7efd3a8fc9150d4b293d5a5917fd04",
+				"text": "Bendición de Xoph"
+			},
+			{
+				"id": "blessing-tul",
+				"image": "/image/Art/2DItems/Currency/Breach/BreachUpgraderCold.png?v=c25b6df9be1fd051d99616e4bb78066e",
+				"text": "Bendición de Tul"
+			},
+			{
+				"id": "blessing-esh",
+				"image": "/image/Art/2DItems/Currency/Breach/BreachUpgraderLightning.png?v=ed7bb0e73f5ca907ef62592e48d442dc",
+				"text": "Bendición de Esh"
+			},
+			{
+				"id": "blessing-uul-netol",
+				"image": "/image/Art/2DItems/Currency/Breach/BreachUpgraderPhysical.png?v=cf3d245db6b6bb796112a952d74543e0",
+				"text": "Bendición de Uul-Netol"
+			},
+			{
+				"id": "blessing-chayula",
+				"image": "/image/Art/2DItems/Currency/Breach/BreachUpgraderChaos.png?v=841360bbd5f81619761a0d16f8c36793",
+				"text": "Bendición de Chayula"
+			}
+		],
+		"id": "Currency",
+		"label": "Objetos monetarios"
+	},
+	{
+		"entries": [
 			{
 				"id": "annulment-shard",
 				"image": "/image/Art/2DItems/Currency/AnnullShard.png?v=502496c41d3da750bcecbb194d0aa3f4",
@@ -277,46 +348,6 @@
 				"text": "Esquirla Regia"
 			},
 			{
-				"id": "apprentice-sextant",
-				"image": "/image/Art/2DItems/Currency/AtlasRadiusTier1.png?v=7c21fc06120d910018893083227406df",
-				"text": "Sextante simple"
-			},
-			{
-				"id": "journeyman-sextant",
-				"image": "/image/Art/2DItems/Currency/AtlasRadiusTier2.png?v=043e5f4d8c52af6b302e30afaffa5eba",
-				"text": "Sextante primario"
-			},
-			{
-				"id": "master-sextant",
-				"image": "/image/Art/2DItems/Currency/AtlasRadiusTier3.png?v=d69377f526ff51c408461b0cee4d4ade",
-				"text": "Sextante despertado"
-			},
-			{
-				"id": "blessing-xoph",
-				"image": "/image/Art/2DItems/Currency/Breach/BreachUpgraderFire.png?v=6c7efd3a8fc9150d4b293d5a5917fd04",
-				"text": "Bendición de Xoph"
-			},
-			{
-				"id": "blessing-tul",
-				"image": "/image/Art/2DItems/Currency/Breach/BreachUpgraderCold.png?v=c25b6df9be1fd051d99616e4bb78066e",
-				"text": "Bendición de Tul"
-			},
-			{
-				"id": "blessing-esh",
-				"image": "/image/Art/2DItems/Currency/Breach/BreachUpgraderLightning.png?v=ed7bb0e73f5ca907ef62592e48d442dc",
-				"text": "Bendición de Esh"
-			},
-			{
-				"id": "blessing-uul-netol",
-				"image": "/image/Art/2DItems/Currency/Breach/BreachUpgraderPhysical.png?v=cf3d245db6b6bb796112a952d74543e0",
-				"text": "Bendición de Uul-Netol"
-			},
-			{
-				"id": "blessing-chayula",
-				"image": "/image/Art/2DItems/Currency/Breach/BreachUpgraderChaos.png?v=841360bbd5f81619761a0d16f8c36793",
-				"text": "Bendición de Chayula"
-			},
-			{
 				"id": "splinter-xoph",
 				"image": "/image/Art/2DItems/Currency/Breach/BreachShardFire.png?v=4635e0847323cf1d62c8b4e8101351bf",
 				"text": "Astilla de Xoph"
@@ -359,7 +390,7 @@
 			{
 				"id": "timeless-templar-splinter",
 				"image": "/image/Art/2DItems/Maps/TemplarShard.png?v=82d3d517ed1caa15a3dfad5f3a0a8fff",
-				"text": "Fragmento atemporal templario"
+				"text": "Fragmento atemporal templaria"
 			},
 			{
 				"id": "timeless-vaal-splinter",
@@ -372,13 +403,18 @@
 				"text": "Fragmento de Simulacro"
 			},
 			{
-				"id": "stacked-deck",
-				"image": "/image/Art/2DItems/Divination/Deck.png?v=0e5e6da39f79fc57f3d38d463126617a",
-				"text": "Baraja Amontonada"
+				"id": "crescent-splinter",
+				"image": "/image/Art/2DItems/Currency/Atlas/MavenKeyFragment.png?v=9e37fd3f3349186380cbf778727693ba",
+				"text": "Fragmento creciente"
+			},
+			{
+				"id": "ritual-splinter",
+				"image": "/image/Art/2DItems/Currency/Ritual/RitualSplinter.png?v=8a9f842e7dfa8d5b3124d6f60696476e",
+				"text": "Fragmento de ritual"
 			}
 		],
-		"id": "Currency",
-		"label": "Objeto monetario"
+		"id": "Splinters",
+		"label": "Fragmentos y esquirlas"
 	},
 	{
 		"entries": [
@@ -681,6 +717,76 @@
 				"id": "offer-dedication",
 				"image": "/image/Art/2DItems/Maps/LabyrinthHarvestInfused2.png?v=06c2d9e0a639206b91b168227b531160",
 				"text": "Consagración a la Diosa"
+			},
+			{
+				"id": "haewark-hamlet",
+				"image": "/image/Art/2DItems/Currency/Atlas/ProvingGroundHaewarkHamlet5.png?v=4e4005d82fe0bdfc6748967655f00262",
+				"text": "Invitación de la Especialista: Aldea de Haewark"
+			},
+			{
+				"id": "tirns-end",
+				"image": "/image/Art/2DItems/Currency/Atlas/ProvingGroundTirnsEnd5.png?v=40d75f9ec9333aced4a1e37c2c4f6954",
+				"text": "Invitación de la Especialista: El final de Tirn"
+			},
+			{
+				"id": "lex-proxima",
+				"image": "/image/Art/2DItems/Currency/Atlas/ProvingGroundLexProxima5.png?v=f3f3baac34f51c6cc03ff0558cef794b",
+				"text": "Invitación de la Especialista: Lex Proxima"
+			},
+			{
+				"id": "lex-ejoris",
+				"image": "/image/Art/2DItems/Currency/Atlas/ProvingGroundLexEjoras5.png?v=0a7ff9f10adee6c0ab4b90156871331b",
+				"text": "Invitación de la Especialista: Lex Ejoris"
+			},
+			{
+				"id": "new-vastir",
+				"image": "/image/Art/2DItems/Currency/Atlas/ProvingGroundNewVastir5.png?v=a6775031afde9cddddf23f753b8497fa",
+				"text": "Invitación de la Especialista: Nuevo Vastir"
+			},
+			{
+				"id": "glennach-cairns",
+				"image": "/image/Art/2DItems/Currency/Atlas/ProvingGroundGlennachCairns5.png?v=a0608dd031382c2a09396eff6dca7b52",
+				"text": "Invitación de la Especialista: Túmulos de Glennach"
+			},
+			{
+				"id": "valdos-rest",
+				"image": "/image/Art/2DItems/Currency/Atlas/ProvingGroundValdosRest5.png?v=65e55778a369b3f6ffe3cc6c3202e904",
+				"text": "Invitación de la Especialista: El descanso de Valdo"
+			},
+			{
+				"id": "lira-arthain",
+				"image": "/image/Art/2DItems/Currency/Atlas/ProvingGroundLiraArthain5.png?v=7c5cdd6e70f2a0f34dd943ee7800bfdf",
+				"text": "Invitación de la Especialista: Lira Arthain"
+			},
+			{
+				"id": "the-formed",
+				"image": "/image/Art/2DItems/Currency/Atlas/NullVoid1.png?v=c123d6e46f6f927bbfc3e28a6099a778",
+				"text": "Invitación de la Especialista: Los formados"
+			},
+			{
+				"id": "the-twisted",
+				"image": "/image/Art/2DItems/Currency/Atlas/NullVoid2.png?v=0c1181efcccb198b3a8680def013cb9a",
+				"text": "Invitación de la Especialista: Los retorcidos"
+			},
+			{
+				"id": "the-forgotten",
+				"image": "/image/Art/2DItems/Currency/Atlas/NullVoid3.png?v=1a606c895da74fab9f649855563b6e7b",
+				"text": "Invitación de la Especialista: Los olvidados"
+			},
+			{
+				"id": "the-hidden",
+				"image": "/image/Art/2DItems/Currency/Atlas/NullVoid4.png?v=9440fddcfb2fee54d58c113a01baa25c",
+				"text": "Invitación de la Especialista: Los ocultos"
+			},
+			{
+				"id": "the-feared",
+				"image": "/image/Art/2DItems/Currency/Atlas/NullVoid5.png?v=6b53e402ab8265d565e24baefefc37c2",
+				"text": "Invitación de la Especialista: Los temidos"
+			},
+			{
+				"id": "the-mavens-writ",
+				"image": "/image/Art/2DItems/Currency/Atlas/MavenKey.png?v=f6f832213f2c77778dc7c24d5ffd781f",
+				"text": "Orden de la Especialista"
 			},
 			{
 				"id": "ancient-reliquary-key",
@@ -2112,6 +2218,10 @@
 				"text": "Riqueza Abandonada"
 			},
 			{
+				"id": "acclimatisation",
+				"text": "Aclimatación"
+			},
+			{
 				"id": "akils-prophecy",
 				"text": "Profecía de Akil"
 			},
@@ -2182,6 +2292,10 @@
 			{
 				"id": "bowyers-dream",
 				"text": "Sueño del Flechero"
+			},
+			{
+				"id": "brotherhood-in-exile",
+				"text": "Hermandad en el exilio"
 			},
 			{
 				"id": "brothers-stash",
@@ -2264,8 +2378,16 @@
 				"text": "Locura de Doedre"
 			},
 			{
+				"id": "draped-in-dreams",
+				"text": "Envuelto en sueños"
+			},
+			{
 				"id": "dying-anguish",
 				"text": "Angustia Moribunda"
+			},
+			{
+				"id": "dying-light",
+				"text": "Luz menguante"
 			},
 			{
 				"id": "earth-drinker",
@@ -2286,6 +2408,10 @@
 			{
 				"id": "etched-in-blood",
 				"text": "Grabado con sangre"
+			},
+			{
+				"id": "fateful-meeting",
+				"text": "Encuentro trascendental"
 			},
 			{
 				"id": "forbidden-power",
@@ -2318,6 +2444,10 @@
 			{
 				"id": "harmony-of-souls",
 				"text": "Armonía de Almas"
+			},
+			{
+				"id": "haunting-shadows",
+				"text": "Sombras acechantes"
 			},
 			{
 				"id": "her-mask",
@@ -2364,6 +2494,10 @@
 				"text": "Caja Sorpresa"
 			},
 			{
+				"id": "keepers-corruption",
+				"text": "Corrupción del guardián"
+			},
+			{
 				"id": "lantadors-lost-love",
 				"text": "Amor Perdido de Lantador"
 			},
@@ -2386,6 +2520,10 @@
 			{
 				"id": "lost-worlds",
 				"text": "Mundos Perdidos"
+			},
+			{
+				"id": "love-through-ice",
+				"text": "Amor a través del hielo"
 			},
 			{
 				"id": "loyalty",
@@ -2480,6 +2618,10 @@
 				"text": "Renacimiento"
 			},
 			{
+				"id": "reckless-ambition",
+				"text": "Ambición temeraria"
+			},
+			{
 				"id": "remembrance",
 				"text": "Remembranza"
 			},
@@ -2498,6 +2640,10 @@
 			{
 				"id": "shard-of-fate",
 				"text": "Esquirla de Destino"
+			},
+			{
+				"id": "societys-remorse",
+				"text": "Remordimiento de la sociedad"
 			},
 			{
 				"id": "squandered-prosperity",
@@ -2540,6 +2686,10 @@
 				"text": "El Artista"
 			},
 			{
+				"id": "the-astromancer",
+				"text": "El astrólogo"
+			},
+			{
 				"id": "the-avenger",
 				"text": "El Vengador"
 			},
@@ -2554,6 +2704,10 @@
 			{
 				"id": "the-battle-born",
 				"text": "El Nacido de la Batalla"
+			},
+			{
+				"id": "the-bear-woman",
+				"text": "La mujer oso"
 			},
 			{
 				"id": "the-beast",
@@ -2940,6 +3094,10 @@
 				"text": "La gran estafa"
 			},
 			{
+				"id": "the-long-watch",
+				"text": "La larga guardia"
+			},
+			{
 				"id": "the-lord-in-black",
 				"text": "El Señor de Negro"
 			},
@@ -3022,6 +3180,10 @@
 			{
 				"id": "the-pact",
 				"text": "El Pacto"
+			},
+			{
+				"id": "the-patient",
+				"text": "El paciente"
 			},
 			{
 				"id": "the-penitent",
@@ -3288,6 +3450,10 @@
 				"text": "El caballero blanco"
 			},
 			{
+				"id": "the-whiteout",
+				"text": "El manto blanco"
+			},
+			{
 				"id": "the-wilted-rose",
 				"text": "La rosa marchita"
 			},
@@ -3410,20 +3576,20 @@
 	{
 		"entries": [
 			{
-				"id": "tower-map-tier-1",
-				"text": "Mapa de la Torre"
+				"id": "arcade-map-tier-1",
+				"text": "Mapa de Galería"
 			},
 			{
-				"id": "park-map-tier-1",
-				"text": "Mapa de Parque"
+				"id": "coves-map-tier-1",
+				"text": "Mapa de Caletas"
 			},
 			{
-				"id": "mausoleum-map-tier-1",
-				"text": "Mapa de Mausoleo"
+				"id": "jungle-valley-map-tier-1",
+				"text": "Mapa de Valle de la Jungla"
 			},
 			{
-				"id": "volcano-map-tier-1",
-				"text": "Mapa de Volcán"
+				"id": "pen-map-tier-1",
+				"text": "Mapa de Corral"
 			}
 		],
 		"id": "MapsTier1",
@@ -3432,84 +3598,84 @@
 	{
 		"entries": [
 			{
-				"id": "desert-spring-map-tier-2",
-				"text": "Mapa de Manantial de Desierto"
+				"id": "arena-map-tier-2",
+				"text": "Mapa de Arena"
 			},
 			{
-				"id": "caldera-map-tier-2",
-				"text": "Mapa de Caldera"
+				"id": "crater-map-tier-2",
+				"text": "Mapa de Cráter"
 			},
 			{
-				"id": "coves-map-tier-2",
-				"text": "Mapa de Caletas"
-			},
-			{
-				"id": "colonnade-map-tier-2",
-				"text": "Mapa de Columnata"
-			},
-			{
-				"id": "pier-map-tier-2",
-				"text": "Mapa de Muelle"
-			},
-			{
-				"id": "wasteland-map-tier-2",
-				"text": "Mapa de Páramo"
-			},
-			{
-				"id": "moon-temple-map-tier-2",
-				"text": "Mapa de Templo de la Luna"
-			},
-			{
-				"id": "underground-river-map-tier-2",
-				"text": "Mapa de Río Subterráneo"
-			},
-			{
-				"id": "residence-map-tier-2",
-				"text": "Mapa de Residencia"
-			},
-			{
-				"id": "lava-chamber-map-tier-2",
-				"text": "Mapa de Cámara de Lava"
-			},
-			{
-				"id": "coral-ruins-map-tier-2",
-				"text": "Mapa de Ruinas de Coral"
-			},
-			{
-				"id": "underground-sea-map-tier-2",
-				"text": "Mapa de Mar Subterráneo"
-			},
-			{
-				"id": "haunted-mansion-map-tier-2",
-				"text": "Mapa de Mansión Embrujada"
+				"id": "defiled-cathedral-map-tier-2",
+				"text": "Mapa de Catedral Profanada"
 			},
 			{
 				"id": "fields-map-tier-2",
 				"text": "Mapa de Campos"
 			},
 			{
-				"id": "conservatory-map-tier-2",
-				"text": "Mapa de Conservatorio"
+				"id": "frozen-cabins-map-tier-2",
+				"text": "Mapa de Cabinas congeladas"
 			},
 			{
-				"id": "glacier-map-tier-2",
-				"text": "Mapa de Glaciar"
+				"id": "gardens-map-tier-2",
+				"text": "Mapa de Jardines"
 			},
 			{
-				"id": "dungeon-map-tier-2",
-				"text": "Mapa de Mazmorra"
+				"id": "grotto-map-tier-2",
+				"text": "Mapa de Gruta"
 			},
 			{
-				"id": "beach-map-tier-2",
-				"text": "Mapa de Playa"
+				"id": "infested-valley-map-tier-2",
+				"text": "Mapa de Valle Infestado"
 			},
 			{
-				"id": "lookout-map-tier-2",
-				"text": "Mapa de Puesto de Observación"
+				"id": "lair-map-tier-2",
+				"text": "Mapa de Guarida"
 			},
 			{
-				"id": "phantasmagoria-map-tier-2",
-				"text": "Mapa de Fantasmagoria"
+				"id": "moon-temple-map-tier-2",
+				"text": "Mapa de Templo de la Luna"
+			},
+			{
+				"id": "peninsula-map-tier-2",
+				"text": "Mapa de Península"
+			},
+			{
+				"id": "promenade-map-tier-2",
+				"text": "Mapa de Rambla"
+			},
+			{
+				"id": "spider-forest-map-tier-2",
+				"text": "Mapa de Bosque de Arañas"
+			},
+			{
+				"id": "sunken-city-map-tier-2",
+				"text": "Mapa de Ciudad Hundida"
+			},
+			{
+				"id": "tower-map-tier-2",
+				"text": "Mapa de la Torre"
+			},
+			{
+				"id": "tropical-island-map-tier-2",
+				"text": "Mapa de Isla Tropical"
+			},
+			{
+				"id": "underground-river-map-tier-2",
+				"text": "Mapa de Río Subterráneo"
+			},
+			{
+				"id": "underground-sea-map-tier-2",
+				"text": "Mapa de Mar Subterráneo"
+			},
+			{
+				"id": "volcano-map-tier-2",
+				"text": "Mapa de Volcán"
+			},
+			{
+				"id": "wharf-map-tier-2",
+				"text": "Mapa de Embarcadero"
 			}
 		],
 		"id": "MapsTier2",
@@ -3518,116 +3684,116 @@
 	{
 		"entries": [
 			{
-				"id": "primordial-blocks-map-tier-3",
-				"text": "Mapa de Bloques Primordiales"
+				"id": "ancient-city-map-tier-3",
+				"text": "Mapa de Ciudad Antigua"
 			},
 			{
-				"id": "dig-map-tier-3",
-				"text": "Mapa de Perforación"
+				"id": "arid-lake-map-tier-3",
+				"text": "Mapa de Lago Árido"
 			},
 			{
-				"id": "arsenal-map-tier-3",
-				"text": "Mapa de Arsenal"
+				"id": "ashen-wood-map-tier-3",
+				"text": "Mapa de Bosque pálido"
 			},
 			{
-				"id": "ghetto-map-tier-3",
-				"text": "Mapa de Gueto"
+				"id": "basilica-map-tier-3",
+				"text": "Mapa de Basílica"
 			},
 			{
-				"id": "racecourse-map-tier-3",
-				"text": "Mapa de Estadio"
+				"id": "belfry-map-tier-3",
+				"text": "Mapa de Campanario"
 			},
 			{
-				"id": "villa-map-tier-3",
-				"text": "Mapa de Villa"
-			},
-			{
-				"id": "mesa-map-tier-3",
-				"text": "Mapa de Mesa"
-			},
-			{
-				"id": "orchard-map-tier-3",
-				"text": "Mapa de Huerto"
-			},
-			{
-				"id": "bog-map-tier-3",
-				"text": "Mapa de Ciénaga"
-			},
-			{
-				"id": "shipyard-map-tier-3",
-				"text": "Mapa de Astillero"
-			},
-			{
-				"id": "arena-map-tier-3",
-				"text": "Mapa de Arena"
+				"id": "canyon-map-tier-3",
+				"text": "Mapa de Cañón"
 			},
 			{
 				"id": "cemetery-map-tier-3",
 				"text": "Mapa de Camposanto"
 			},
 			{
-				"id": "estuary-map-tier-3",
-				"text": "Mapa de Estuario"
-			},
-			{
-				"id": "plateau-map-tier-3",
-				"text": "Mapa de Meseta"
-			},
-			{
-				"id": "shore-map-tier-3",
-				"text": "Mapa de Orilla"
-			},
-			{
-				"id": "mud-geyser-map-tier-3",
-				"text": "Mapa de Géiser de Fango"
-			},
-			{
 				"id": "courtyard-map-tier-3",
 				"text": "Mapa de Patio"
 			},
 			{
-				"id": "vaal-pyramid-map-tier-3",
-				"text": "Mapa de Pirámide Vaal"
+				"id": "factory-map-tier-3",
+				"text": "Mapa de Fábrica"
 			},
 			{
-				"id": "bazaar-map-tier-3",
-				"text": "Mapa de Bazar"
+				"id": "forking-river-map-tier-3",
+				"text": "Mapa de Río bifurcado"
 			},
 			{
-				"id": "gardens-map-tier-3",
-				"text": "Mapa de Jardines"
+				"id": "geode-map-tier-3",
+				"text": "Mapa de Geoda"
 			},
 			{
-				"id": "temple-map-tier-3",
-				"text": "Mapa de Templo"
-			},
-			{
-				"id": "thicket-map-tier-3",
-				"text": "Mapa de Matorral"
-			},
-			{
-				"id": "strand-map-tier-3",
-				"text": "Mapa de Litoral"
-			},
-			{
-				"id": "crater-map-tier-3",
-				"text": "Mapa de Cráter"
-			},
-			{
-				"id": "iceberg-map-tier-3",
-				"text": "Mapa de Iceberg"
-			},
-			{
-				"id": "pen-map-tier-3",
-				"text": "Mapa de Corral"
+				"id": "glacier-map-tier-3",
+				"text": "Mapa de Glaciar"
 			},
 			{
 				"id": "graveyard-map-tier-3",
 				"text": "Mapa de Cementerio"
 			},
 			{
-				"id": "grotto-map-tier-3",
-				"text": "Mapa de Gruta"
+				"id": "laboratory-map-tier-3",
+				"text": "Mapa de Laboratorio"
+			},
+			{
+				"id": "lava-chamber-map-tier-3",
+				"text": "Mapa de Cámara de Lava"
+			},
+			{
+				"id": "mud-geyser-map-tier-3",
+				"text": "Mapa de Géiser de Fango"
+			},
+			{
+				"id": "orchard-map-tier-3",
+				"text": "Mapa de Huerto"
+			},
+			{
+				"id": "overgrown-ruin-map-tier-3",
+				"text": "Mapa de Ruinas Descuidadas"
+			},
+			{
+				"id": "pier-map-tier-3",
+				"text": "Mapa de Muelle"
+			},
+			{
+				"id": "plaza-map-tier-3",
+				"text": "Mapa de Plaza"
+			},
+			{
+				"id": "primordial-blocks-map-tier-3",
+				"text": "Mapa de Bloques Primordiales"
+			},
+			{
+				"id": "reef-map-tier-3",
+				"text": "Mapa de Arrecife"
+			},
+			{
+				"id": "shore-map-tier-3",
+				"text": "Mapa de Orilla"
+			},
+			{
+				"id": "strand-map-tier-3",
+				"text": "Mapa de Litoral"
+			},
+			{
+				"id": "sulphur-vents-map-tier-3",
+				"text": "Mapa de Fumarolas de Azufre"
+			},
+			{
+				"id": "temple-map-tier-3",
+				"text": "Mapa de Templo"
+			},
+			{
+				"id": "toxic-sewer-map-tier-3",
+				"text": "Mapa de Alcantarilla Tóxica"
+			},
+			{
+				"id": "vaal-pyramid-map-tier-3",
+				"text": "Mapa de Pirámide Vaal"
 			}
 		],
 		"id": "MapsTier3",
@@ -3636,96 +3802,96 @@
 	{
 		"entries": [
 			{
-				"id": "tower-map-tier-4",
-				"text": "Mapa de la Torre"
+				"id": "academy-map-tier-4",
+				"text": "Mapa de Academia"
 			},
 			{
-				"id": "terrace-map-tier-4",
-				"text": "Mapa de Terraza"
+				"id": "arcade-map-tier-4",
+				"text": "Mapa de Galería"
 			},
 			{
-				"id": "park-map-tier-4",
-				"text": "Mapa de Parque"
-			},
-			{
-				"id": "reef-map-tier-4",
-				"text": "Mapa de Arrecife"
-			},
-			{
-				"id": "defiled-cathedral-map-tier-4",
-				"text": "Mapa de Catedral Profanada"
-			},
-			{
-				"id": "colosseum-map-tier-4",
-				"text": "Mapa de Coliseo"
-			},
-			{
-				"id": "precinct-map-tier-4",
-				"text": "Mapa de Recinto"
-			},
-			{
-				"id": "siege-map-tier-4",
-				"text": "Mapa de Asedio"
-			},
-			{
-				"id": "museum-map-tier-4",
-				"text": "Mapa de Museo"
-			},
-			{
-				"id": "tropical-island-map-tier-4",
-				"text": "Mapa de Isla Tropical"
+				"id": "arsenal-map-tier-4",
+				"text": "Mapa de Arsenal"
 			},
 			{
 				"id": "bone-crypt-map-tier-4",
 				"text": "Mapa de Cripta de Hueso"
 			},
 			{
-				"id": "dunes-map-tier-4",
-				"text": "Mapa de Dunas"
-			},
-			{
-				"id": "ramparts-map-tier-4",
-				"text": "Mapa de Murallas"
-			},
-			{
-				"id": "mausoleum-map-tier-4",
-				"text": "Mapa de Mausoleo"
-			},
-			{
-				"id": "ivory-temple-map-tier-4",
-				"text": "Mapa de Templo de Marfil"
-			},
-			{
-				"id": "toxic-sewer-map-tier-4",
-				"text": "Mapa de Alcantarilla Tóxica"
+				"id": "cage-map-tier-4",
+				"text": "Mapa de Jaula"
 			},
 			{
 				"id": "channel-map-tier-4",
 				"text": "Mapa de Cauce"
 			},
 			{
-				"id": "volcano-map-tier-4",
-				"text": "Mapa de Volcán"
-			},
-			{
 				"id": "courthouse-map-tier-4",
 				"text": "Mapa de Juzgado"
 			},
 			{
-				"id": "excavation-map-tier-4",
-				"text": "Mapa de Excavación"
+				"id": "coves-map-tier-4",
+				"text": "Mapa de Caletas"
 			},
 			{
-				"id": "marshes-map-tier-4",
-				"text": "Mapa de Marjales"
+				"id": "crimson-temple-map-tier-4",
+				"text": "Mapa de Templo Carmesí"
+			},
+			{
+				"id": "crystal-ore-map-tier-4",
+				"text": "Mapa de Mina de Cristal"
+			},
+			{
+				"id": "desert-map-tier-4",
+				"text": "Mapa de Desierto"
+			},
+			{
+				"id": "dunes-map-tier-4",
+				"text": "Mapa de Dunas"
+			},
+			{
+				"id": "iceberg-map-tier-4",
+				"text": "Mapa de Iceberg"
 			},
 			{
 				"id": "jungle-valley-map-tier-4",
 				"text": "Mapa de Valle de la Jungla"
 			},
 			{
-				"id": "academy-map-tier-4",
-				"text": "Mapa de Academia"
+				"id": "leyline-map-tier-4",
+				"text": "Mapa de Línea Ley"
+			},
+			{
+				"id": "lookout-map-tier-4",
+				"text": "Mapa de Puesto de Observación"
+			},
+			{
+				"id": "marshes-map-tier-4",
+				"text": "Mapa de Marjales"
+			},
+			{
+				"id": "museum-map-tier-4",
+				"text": "Mapa de Museo"
+			},
+			{
+				"id": "pen-map-tier-4",
+				"text": "Mapa de Corral"
+			},
+			{
+				"id": "precinct-map-tier-4",
+				"text": "Mapa de Recinto"
+			},
+			{
+				"id": "primordial-pool-map-tier-4",
+				"text": "Mapa de Charca Primordial"
+			},
+			{
+				"id": "ramparts-map-tier-4",
+				"text": "Mapa de Murallas"
+			},
+			{
+				"id": "wasteland-map-tier-4",
+				"text": "Mapa de Páramo"
 			}
 		],
 		"id": "MapsTier4",
@@ -3734,92 +3900,84 @@
 	{
 		"entries": [
 			{
-				"id": "plaza-map-tier-5",
-				"text": "Mapa de Plaza"
-			},
-			{
-				"id": "basilica-map-tier-5",
-				"text": "Mapa de Basílica"
-			},
-			{
-				"id": "caldera-map-tier-5",
-				"text": "Mapa de Caldera"
-			},
-			{
-				"id": "castle-ruins-map-tier-5",
-				"text": "Mapa de Ruinas del Castillo"
-			},
-			{
-				"id": "colonnade-map-tier-5",
-				"text": "Mapa de Columnata"
-			},
-			{
-				"id": "moon-temple-map-tier-5",
-				"text": "Mapa de Templo de la Luna"
-			},
-			{
-				"id": "infested-valley-map-tier-5",
-				"text": "Mapa de Valle Infestado"
-			},
-			{
-				"id": "laboratory-map-tier-5",
-				"text": "Mapa de Laboratorio"
-			},
-			{
-				"id": "residence-map-tier-5",
-				"text": "Mapa de Residencia"
+				"id": "armoury-map-tier-5",
+				"text": "Mapa de Armería"
 			},
 			{
 				"id": "atoll-map-tier-5",
 				"text": "Mapa de Atolón"
 			},
 			{
-				"id": "haunted-mansion-map-tier-5",
-				"text": "Mapa de Mansión Embrujada"
+				"id": "carcass-map-tier-5",
+				"text": "Mapa de Cadáver"
 			},
 			{
-				"id": "fields-map-tier-5",
-				"text": "Mapa de Campos"
-			},
-			{
-				"id": "conservatory-map-tier-5",
-				"text": "Mapa de Conservatorio"
+				"id": "cells-map-tier-5",
+				"text": "Mapa de Celdas"
 			},
 			{
 				"id": "chateau-map-tier-5",
 				"text": "Mapa de Palacete"
 			},
 			{
-				"id": "port-map-tier-5",
-				"text": "Mapa de Puerto"
+				"id": "crater-map-tier-5",
+				"text": "Mapa de Cráter"
 			},
 			{
-				"id": "cage-map-tier-5",
-				"text": "Mapa de Jaula"
+				"id": "desert-spring-map-tier-5",
+				"text": "Mapa de Manantial de Desierto"
 			},
 			{
-				"id": "arid-lake-map-tier-5",
-				"text": "Mapa de Lago Árido"
+				"id": "fields-map-tier-5",
+				"text": "Mapa de Campos"
 			},
 			{
-				"id": "alleyways-map-tier-5",
-				"text": "Mapa de Callejones"
+				"id": "grotto-map-tier-5",
+				"text": "Mapa de Gruta"
 			},
 			{
-				"id": "dungeon-map-tier-5",
-				"text": "Mapa de Mazmorra"
+				"id": "haunted-mansion-map-tier-5",
+				"text": "Mapa de Mansión Embrujada"
 			},
 			{
-				"id": "lookout-map-tier-5",
-				"text": "Mapa de Puesto de Observación"
+				"id": "infested-valley-map-tier-5",
+				"text": "Mapa de Valle Infestado"
 			},
 			{
-				"id": "phantasmagoria-map-tier-5",
-				"text": "Mapa de Fantasmagoria"
+				"id": "lair-map-tier-5",
+				"text": "Mapa de Guarida"
 			},
 			{
-				"id": "wharf-map-tier-5",
-				"text": "Mapa de Embarcadero"
+				"id": "lighthouse-map-tier-5",
+				"text": "Mapa de Faro"
+			},
+			{
+				"id": "moon-temple-map-tier-5",
+				"text": "Mapa de Templo de la Luna"
+			},
+			{
+				"id": "palace-map-tier-5",
+				"text": "Mapa de Palacio"
+			},
+			{
+				"id": "peninsula-map-tier-5",
+				"text": "Mapa de Península"
+			},
+			{
+				"id": "promenade-map-tier-5",
+				"text": "Mapa de Rambla"
+			},
+			{
+				"id": "shrine-map-tier-5",
+				"text": "Mapa de Santuario"
+			},
+			{
+				"id": "tower-map-tier-5",
+				"text": "Mapa de la Torre"
+			},
+			{
+				"id": "waste-pool-map-tier-5",
+				"text": "Mapa de Charca de Desechos"
 			}
 		],
 		"id": "MapsTier5",
@@ -3828,112 +3986,116 @@
 	{
 		"entries": [
 			{
-				"id": "primordial-blocks-map-tier-6",
-				"text": "Mapa de Bloques Primordiales"
-			},
-			{
-				"id": "desert-spring-map-tier-6",
-				"text": "Mapa de Manantial de Desierto"
-			},
-			{
-				"id": "dig-map-tier-6",
-				"text": "Mapa de Perforación"
-			},
-			{
-				"id": "racecourse-map-tier-6",
-				"text": "Mapa de Estadio"
-			},
-			{
-				"id": "villa-map-tier-6",
-				"text": "Mapa de Villa"
-			},
-			{
-				"id": "coves-map-tier-6",
-				"text": "Mapa de Caletas"
-			},
-			{
-				"id": "pier-map-tier-6",
-				"text": "Mapa de Muelle"
-			},
-			{
-				"id": "bog-map-tier-6",
-				"text": "Mapa de Ciénaga"
-			},
-			{
-				"id": "wasteland-map-tier-6",
-				"text": "Mapa de Páramo"
-			},
-			{
-				"id": "scriptorium-map-tier-6",
-				"text": "Mapa de Sala del Escriba"
+				"id": "ancient-city-map-tier-6",
+				"text": "Mapa de Ciudad Antigua"
 			},
 			{
 				"id": "arena-map-tier-6",
 				"text": "Mapa de Arena"
 			},
 			{
-				"id": "sepulchre-map-tier-6",
-				"text": "Mapa de Sepulcro"
+				"id": "arid-lake-map-tier-6",
+				"text": "Mapa de Lago Árido"
 			},
 			{
-				"id": "shore-map-tier-6",
-				"text": "Mapa de Orilla"
+				"id": "basilica-map-tier-6",
+				"text": "Mapa de Basílica"
 			},
 			{
-				"id": "mud-geyser-map-tier-6",
-				"text": "Mapa de Géiser de Fango"
+				"id": "belfry-map-tier-6",
+				"text": "Mapa de Campanario"
 			},
 			{
-				"id": "bazaar-map-tier-6",
-				"text": "Mapa de Bazar"
+				"id": "defiled-cathedral-map-tier-6",
+				"text": "Mapa de Catedral Profanada"
 			},
 			{
-				"id": "underground-river-map-tier-6",
-				"text": "Mapa de Río Subterráneo"
+				"id": "forking-river-map-tier-6",
+				"text": "Mapa de Río bifurcado"
 			},
 			{
-				"id": "lava-chamber-map-tier-6",
-				"text": "Mapa de Cámara de Lava"
+				"id": "frozen-cabins-map-tier-6",
+				"text": "Mapa de Cabinas congeladas"
 			},
 			{
-				"id": "coral-ruins-map-tier-6",
-				"text": "Mapa de Ruinas de Coral"
-			},
-			{
-				"id": "underground-sea-map-tier-6",
-				"text": "Mapa de Mar Subterráneo"
-			},
-			{
-				"id": "temple-map-tier-6",
-				"text": "Mapa de Templo"
-			},
-			{
-				"id": "thicket-map-tier-6",
-				"text": "Mapa de Matorral"
+				"id": "gardens-map-tier-6",
+				"text": "Mapa de Jardines"
 			},
 			{
 				"id": "glacier-map-tier-6",
 				"text": "Mapa de Glaciar"
 			},
 			{
-				"id": "crater-map-tier-6",
-				"text": "Mapa de Cráter"
+				"id": "lava-chamber-map-tier-6",
+				"text": "Mapa de Cámara de Lava"
 			},
 			{
-				"id": "iceberg-map-tier-6",
-				"text": "Mapa de Iceberg"
+				"id": "malformation-map-tier-6",
+				"text": "Mapa de Malformación"
 			},
 			{
-				"id": "pen-map-tier-6",
-				"text": "Mapa de Corral"
+				"id": "mud-geyser-map-tier-6",
+				"text": "Mapa de Géiser de Fango"
 			},
 			{
-				"id": "graveyard-map-tier-6",
-				"text": "Mapa de Cementerio"
+				"id": "orchard-map-tier-6",
+				"text": "Mapa de Huerto"
 			},
 			{
-				"id": "beach-map-tier-6",
-				"text": "Mapa de Playa"
+				"id": "plaza-map-tier-6",
+				"text": "Mapa de Plaza"
+			},
+			{
+				"id": "primordial-blocks-map-tier-6",
+				"text": "Mapa de Bloques Primordiales"
+			},
+			{
+				"id": "reef-map-tier-6",
+				"text": "Mapa de Arrecife"
+			},
+			{
+				"id": "shore-map-tier-6",
+				"text": "Mapa de Orilla"
+			},
+			{
+				"id": "silo-map-tier-6",
+				"text": "Mapa de Silo"
+			},
+			{
+				"id": "spider-forest-map-tier-6",
+				"text": "Mapa de Bosque de Arañas"
+			},
+			{
+				"id": "sulphur-vents-map-tier-6",
+				"text": "Mapa de Fumarolas de Azufre"
+			},
+			{
+				"id": "sunken-city-map-tier-6",
+				"text": "Mapa de Ciudad Hundida"
+			},
+			{
+				"id": "temple-map-tier-6",
+				"text": "Mapa de Templo"
+			},
+			{
+				"id": "tropical-island-map-tier-6",
+				"text": "Mapa de Isla Tropical"
+			},
+			{
+				"id": "underground-river-map-tier-6",
+				"text": "Mapa de Río Subterráneo"
+			},
+			{
+				"id": "underground-sea-map-tier-6",
+				"text": "Mapa de Mar Subterráneo"
+			},
+			{
+				"id": "volcano-map-tier-6",
+				"text": "Mapa de Volcán"
+			},
+			{
+				"id": "wharf-map-tier-6",
+				"text": "Mapa de Embarcadero"
 			}
 		],
 		"id": "MapsTier6",
@@ -3942,112 +4104,112 @@
 	{
 		"entries": [
 			{
+				"id": "academy-map-tier-7",
+				"text": "Mapa de Academia"
+			},
+			{
 				"id": "arsenal-map-tier-7",
 				"text": "Mapa de Arsenal"
 			},
 			{
-				"id": "ghetto-map-tier-7",
-				"text": "Mapa de Gueto"
-			},
-			{
-				"id": "defiled-cathedral-map-tier-7",
-				"text": "Mapa de Catedral Profanada"
-			},
-			{
-				"id": "mesa-map-tier-7",
-				"text": "Mapa de Mesa"
-			},
-			{
-				"id": "colosseum-map-tier-7",
-				"text": "Mapa de Coliseo"
-			},
-			{
-				"id": "orchard-map-tier-7",
-				"text": "Mapa de Huerto"
-			},
-			{
-				"id": "precinct-map-tier-7",
-				"text": "Mapa de Recinto"
-			},
-			{
-				"id": "siege-map-tier-7",
-				"text": "Mapa de Asedio"
-			},
-			{
-				"id": "shipyard-map-tier-7",
-				"text": "Mapa de Astillero"
-			},
-			{
-				"id": "museum-map-tier-7",
-				"text": "Mapa de Museo"
-			},
-			{
-				"id": "cemetery-map-tier-7",
-				"text": "Mapa de Camposanto"
-			},
-			{
-				"id": "estuary-map-tier-7",
-				"text": "Mapa de Estuario"
-			},
-			{
-				"id": "plateau-map-tier-7",
-				"text": "Mapa de Meseta"
-			},
-			{
-				"id": "courtyard-map-tier-7",
-				"text": "Mapa de Patio"
-			},
-			{
-				"id": "vaal-pyramid-map-tier-7",
-				"text": "Mapa de Pirámide Vaal"
-			},
-			{
-				"id": "gardens-map-tier-7",
-				"text": "Mapa de Jardines"
+				"id": "ashen-wood-map-tier-7",
+				"text": "Mapa de Bosque pálido"
 			},
 			{
 				"id": "bone-crypt-map-tier-7",
 				"text": "Mapa de Cripta de Hueso"
 			},
 			{
+				"id": "cage-map-tier-7",
+				"text": "Mapa de Jaula"
+			},
+			{
+				"id": "canyon-map-tier-7",
+				"text": "Mapa de Cañón"
+			},
+			{
+				"id": "cemetery-map-tier-7",
+				"text": "Mapa de Camposanto"
+			},
+			{
+				"id": "channel-map-tier-7",
+				"text": "Mapa de Cauce"
+			},
+			{
+				"id": "courtyard-map-tier-7",
+				"text": "Mapa de Patio"
+			},
+			{
+				"id": "crystal-ore-map-tier-7",
+				"text": "Mapa de Mina de Cristal"
+			},
+			{
+				"id": "dark-forest-map-tier-7",
+				"text": "Mapa de Bosque Oscuro"
+			},
+			{
+				"id": "factory-map-tier-7",
+				"text": "Mapa de Fábrica"
+			},
+			{
+				"id": "geode-map-tier-7",
+				"text": "Mapa de Geoda"
+			},
+			{
+				"id": "graveyard-map-tier-7",
+				"text": "Mapa de Cementerio"
+			},
+			{
+				"id": "laboratory-map-tier-7",
+				"text": "Mapa de Laboratorio"
+			},
+			{
+				"id": "leyline-map-tier-7",
+				"text": "Mapa de Línea Ley"
+			},
+			{
+				"id": "lookout-map-tier-7",
+				"text": "Mapa de Puesto de Observación"
+			},
+			{
+				"id": "marshes-map-tier-7",
+				"text": "Mapa de Marjales"
+			},
+			{
+				"id": "museum-map-tier-7",
+				"text": "Mapa de Museo"
+			},
+			{
+				"id": "overgrown-ruin-map-tier-7",
+				"text": "Mapa de Ruinas Descuidadas"
+			},
+			{
+				"id": "pier-map-tier-7",
+				"text": "Mapa de Muelle"
+			},
+			{
+				"id": "primordial-pool-map-tier-7",
+				"text": "Mapa de Charca Primordial"
+			},
+			{
 				"id": "ramparts-map-tier-7",
 				"text": "Mapa de Murallas"
-			},
-			{
-				"id": "toxic-sewer-map-tier-7",
-				"text": "Mapa de Alcantarilla Tóxica"
-			},
-			{
-				"id": "lighthouse-map-tier-7",
-				"text": "Mapa de Faro"
-			},
-			{
-				"id": "courthouse-map-tier-7",
-				"text": "Mapa de Juzgado"
 			},
 			{
 				"id": "strand-map-tier-7",
 				"text": "Mapa de Litoral"
 			},
 			{
-				"id": "city-square-map-tier-7",
-				"text": "Mapa de Plaza de Ciudad"
+				"id": "toxic-sewer-map-tier-7",
+				"text": "Mapa de Alcantarilla Tóxica"
 			},
 			{
-				"id": "excavation-map-tier-7",
-				"text": "Mapa de Excavación"
+				"id": "vaal-pyramid-map-tier-7",
+				"text": "Mapa de Pirámide Vaal"
 			},
 			{
-				"id": "grotto-map-tier-7",
-				"text": "Mapa de Gruta"
-			},
-			{
-				"id": "jungle-valley-map-tier-7",
-				"text": "Mapa de Valle de la Jungla"
-			},
-			{
-				"id": "academy-map-tier-7",
-				"text": "Mapa de Academia"
+				"id": "waterways-map-tier-7",
+				"text": "Mapa de Canales"
 			}
 		],
 		"id": "MapsTier7",
@@ -4056,72 +4218,76 @@
 	{
 		"entries": [
 			{
-				"id": "tower-map-tier-8",
-				"text": "Mapa de la Torre"
+				"id": "alleyways-map-tier-8",
+				"text": "Mapa de Callejones"
 			},
 			{
-				"id": "terrace-map-tier-8",
-				"text": "Mapa de Terraza"
+				"id": "arcade-map-tier-8",
+				"text": "Mapa de Galería"
 			},
 			{
-				"id": "malformation-map-tier-8",
-				"text": "Mapa de Malformación"
+				"id": "armoury-map-tier-8",
+				"text": "Mapa de Armería"
 			},
 			{
-				"id": "park-map-tier-8",
-				"text": "Mapa de Parque"
+				"id": "cells-map-tier-8",
+				"text": "Mapa de Celdas"
 			},
 			{
-				"id": "reef-map-tier-8",
-				"text": "Mapa de Arrecife"
+				"id": "courthouse-map-tier-8",
+				"text": "Mapa de Juzgado"
 			},
 			{
-				"id": "castle-ruins-map-tier-8",
-				"text": "Mapa de Ruinas del Castillo"
+				"id": "coves-map-tier-8",
+				"text": "Mapa de Caletas"
 			},
 			{
-				"id": "tropical-island-map-tier-8",
-				"text": "Mapa de Isla Tropical"
+				"id": "crimson-temple-map-tier-8",
+				"text": "Mapa de Templo Carmesí"
 			},
 			{
-				"id": "infested-valley-map-tier-8",
-				"text": "Mapa de Valle Infestado"
+				"id": "desert-map-tier-8",
+				"text": "Mapa de Desierto"
+			},
+			{
+				"id": "dry-sea-map-tier-8",
+				"text": "Mapa de Mar seco"
 			},
 			{
 				"id": "dunes-map-tier-8",
 				"text": "Mapa de Dunas"
 			},
 			{
-				"id": "mausoleum-map-tier-8",
-				"text": "Mapa de Mausoleo"
+				"id": "iceberg-map-tier-8",
+				"text": "Mapa de Iceberg"
 			},
 			{
-				"id": "ivory-temple-map-tier-8",
-				"text": "Mapa de Templo de Marfil"
+				"id": "jungle-valley-map-tier-8",
+				"text": "Mapa de Valle de la Jungla"
 			},
 			{
-				"id": "ancient-city-map-tier-8",
-				"text": "Mapa de Ciudad Antigua"
+				"id": "palace-map-tier-8",
+				"text": "Mapa de Palacio"
 			},
 			{
-				"id": "channel-map-tier-8",
-				"text": "Mapa de Cauce"
+				"id": "pen-map-tier-8",
+				"text": "Mapa de Corral"
 			},
 			{
-				"id": "volcano-map-tier-8",
-				"text": "Mapa de Volcán"
+				"id": "precinct-map-tier-8",
+				"text": "Mapa de Recinto"
 			},
 			{
-				"id": "port-map-tier-8",
-				"text": "Mapa de Puerto"
+				"id": "racecourse-map-tier-8",
+				"text": "Mapa de Estadio"
 			},
 			{
-				"id": "marshes-map-tier-8",
-				"text": "Mapa de Marjales"
+				"id": "waste-pool-map-tier-8",
+				"text": "Mapa de Charca de Desechos"
 			},
 			{
-				"id": "alleyways-map-tier-8",
-				"text": "Mapa de Callejones"
+				"id": "wasteland-map-tier-8",
+				"text": "Mapa de Páramo"
 			}
 		],
 		"id": "MapsTier8",
@@ -4130,156 +4296,152 @@
 	{
 		"entries": [
 			{
-				"id": "desert-spring-map-tier-9",
-				"text": "Mapa de Manantial de Desierto"
-			},
-			{
-				"id": "plaza-map-tier-9",
-				"text": "Mapa de Plaza"
-			},
-			{
-				"id": "basilica-map-tier-9",
-				"text": "Mapa de Basílica"
-			},
-			{
-				"id": "dig-map-tier-9",
-				"text": "Mapa de Perforación"
-			},
-			{
-				"id": "shrine-map-tier-9",
-				"text": "Mapa de Santuario"
-			},
-			{
-				"id": "caldera-map-tier-9",
-				"text": "Mapa de Caldera"
-			},
-			{
-				"id": "overgrown-shrine-map-tier-9",
-				"text": "Mapa de Santuario Descuidado"
-			},
-			{
-				"id": "acid-caverns-map-tier-9",
-				"text": "Mapa de Cavernas Ácidas"
-			},
-			{
-				"id": "factory-map-tier-9",
-				"text": "Mapa de Fábrica"
-			},
-			{
-				"id": "coves-map-tier-9",
-				"text": "Mapa de Caletas"
-			},
-			{
-				"id": "colonnade-map-tier-9",
-				"text": "Mapa de Columnata"
-			},
-			{
-				"id": "pier-map-tier-9",
-				"text": "Mapa de Muelle"
-			},
-			{
-				"id": "wasteland-map-tier-9",
-				"text": "Mapa de Páramo"
-			},
-			{
-				"id": "waste-pool-map-tier-9",
-				"text": "Mapa de Charca de Desechos"
-			},
-			{
-				"id": "moon-temple-map-tier-9",
-				"text": "Mapa de Templo de la Luna"
-			},
-			{
-				"id": "geode-map-tier-9",
-				"text": "Mapa de Geoda"
-			},
-			{
-				"id": "laboratory-map-tier-9",
-				"text": "Mapa de Laboratorio"
-			},
-			{
-				"id": "underground-river-map-tier-9",
-				"text": "Mapa de Río Subterráneo"
-			},
-			{
-				"id": "residence-map-tier-9",
-				"text": "Mapa de Residencia"
-			},
-			{
-				"id": "lava-chamber-map-tier-9",
-				"text": "Mapa de Cámara de Lava"
-			},
-			{
-				"id": "coral-ruins-map-tier-9",
-				"text": "Mapa de Ruinas de Coral"
-			},
-			{
-				"id": "underground-sea-map-tier-9",
-				"text": "Mapa de Mar Subterráneo"
+				"id": "arena-map-tier-9",
+				"text": "Mapa de Arena"
 			},
 			{
 				"id": "atoll-map-tier-9",
 				"text": "Mapa de Atolón"
 			},
 			{
-				"id": "thicket-map-tier-9",
-				"text": "Mapa de Matorral"
+				"id": "basilica-map-tier-9",
+				"text": "Mapa de Basílica"
 			},
 			{
-				"id": "haunted-mansion-map-tier-9",
-				"text": "Mapa de Mansión Embrujada"
+				"id": "belfry-map-tier-9",
+				"text": "Mapa de Campanario"
 			},
 			{
-				"id": "fields-map-tier-9",
-				"text": "Mapa de Campos"
-			},
-			{
-				"id": "conservatory-map-tier-9",
-				"text": "Mapa de Conservatorio"
-			},
-			{
-				"id": "lighthouse-map-tier-9",
-				"text": "Mapa de Faro"
-			},
-			{
-				"id": "glacier-map-tier-9",
-				"text": "Mapa de Glaciar"
+				"id": "carcass-map-tier-9",
+				"text": "Mapa de Cadáver"
 			},
 			{
 				"id": "chateau-map-tier-9",
 				"text": "Mapa de Palacete"
 			},
 			{
-				"id": "relic-chambers-map-tier-9",
-				"text": "Mapa de las Cámaras de Reliquias"
+				"id": "crater-map-tier-9",
+				"text": "Mapa de Cráter"
 			},
 			{
-				"id": "cage-map-tier-9",
-				"text": "Mapa de Jaula"
+				"id": "dark-forest-map-tier-9",
+				"text": "Mapa de Bosque Oscuro"
 			},
 			{
-				"id": "arid-lake-map-tier-9",
-				"text": "Mapa de Lago Árido"
+				"id": "defiled-cathedral-map-tier-9",
+				"text": "Mapa de Catedral Profanada"
+			},
+			{
+				"id": "desert-spring-map-tier-9",
+				"text": "Mapa de Manantial de Desierto"
 			},
 			{
 				"id": "dungeon-map-tier-9",
 				"text": "Mapa de Mazmorra"
 			},
 			{
-				"id": "graveyard-map-tier-9",
-				"text": "Mapa de Cementerio"
+				"id": "fields-map-tier-9",
+				"text": "Mapa de Campos"
 			},
 			{
-				"id": "beach-map-tier-9",
-				"text": "Mapa de Playa"
+				"id": "gardens-map-tier-9",
+				"text": "Mapa de Jardines"
 			},
 			{
-				"id": "lookout-map-tier-9",
-				"text": "Mapa de Puesto de Observación"
+				"id": "grotto-map-tier-9",
+				"text": "Mapa de Gruta"
 			},
 			{
-				"id": "phantasmagoria-map-tier-9",
-				"text": "Mapa de Fantasmagoria"
+				"id": "haunted-mansion-map-tier-9",
+				"text": "Mapa de Mansión Embrujada"
+			},
+			{
+				"id": "infested-valley-map-tier-9",
+				"text": "Mapa de Valle Infestado"
+			},
+			{
+				"id": "lair-map-tier-9",
+				"text": "Mapa de Guarida"
+			},
+			{
+				"id": "lighthouse-map-tier-9",
+				"text": "Mapa de Faro"
+			},
+			{
+				"id": "mausoleum-map-tier-9",
+				"text": "Mapa de Mausoleo"
+			},
+			{
+				"id": "mineral-pools-map-tier-9",
+				"text": "Mapa de Charcas Minerales"
+			},
+			{
+				"id": "moon-temple-map-tier-9",
+				"text": "Mapa de Templo de la Luna"
+			},
+			{
+				"id": "orchard-map-tier-9",
+				"text": "Mapa de Huerto"
+			},
+			{
+				"id": "overgrown-shrine-map-tier-9",
+				"text": "Mapa de Santuario Descuidado"
+			},
+			{
+				"id": "peninsula-map-tier-9",
+				"text": "Mapa de Península"
+			},
+			{
+				"id": "promenade-map-tier-9",
+				"text": "Mapa de Rambla"
+			},
+			{
+				"id": "relic-chambers-map-tier-9",
+				"text": "Mapa de las Cámaras de Reliquias"
+			},
+			{
+				"id": "shrine-map-tier-9",
+				"text": "Mapa de Santuario"
+			},
+			{
+				"id": "silo-map-tier-9",
+				"text": "Mapa de Silo"
+			},
+			{
+				"id": "spider-forest-map-tier-9",
+				"text": "Mapa de Bosque de Arañas"
+			},
+			{
+				"id": "spider-lair-map-tier-9",
+				"text": "Mapa de Guarida de la Araña"
+			},
+			{
+				"id": "stagnation-map-tier-9",
+				"text": "Mapa de Estancamiento"
+			},
+			{
+				"id": "sunken-city-map-tier-9",
+				"text": "Mapa de Ciudad Hundida"
+			},
+			{
+				"id": "tower-map-tier-9",
+				"text": "Mapa de la Torre"
+			},
+			{
+				"id": "tropical-island-map-tier-9",
+				"text": "Mapa de Isla Tropical"
+			},
+			{
+				"id": "underground-river-map-tier-9",
+				"text": "Mapa de Río Subterráneo"
+			},
+			{
+				"id": "underground-sea-map-tier-9",
+				"text": "Mapa de Mar Subterráneo"
+			},
+			{
+				"id": "volcano-map-tier-9",
+				"text": "Mapa de Volcán"
 			},
 			{
 				"id": "wharf-map-tier-9",
@@ -4292,160 +4454,168 @@
 	{
 		"entries": [
 			{
-				"id": "primordial-blocks-map-tier-10",
-				"text": "Mapa de Bloques Primordiales"
+				"id": "ancient-city-map-tier-10",
+				"text": "Mapa de Ciudad Antigua"
 			},
 			{
-				"id": "tower-map-tier-10",
-				"text": "Mapa de la Torre"
+				"id": "arcade-map-tier-10",
+				"text": "Mapa de Galería"
 			},
 			{
-				"id": "dark-forest-map-tier-10",
-				"text": "Mapa de Bosque Oscuro"
+				"id": "arid-lake-map-tier-10",
+				"text": "Mapa de Lago Árido"
 			},
 			{
-				"id": "arsenal-map-tier-10",
-				"text": "Mapa de Arsenal"
+				"id": "ashen-wood-map-tier-10",
+				"text": "Mapa de Bosque pálido"
 			},
 			{
-				"id": "park-map-tier-10",
-				"text": "Mapa de Parque"
-			},
-			{
-				"id": "ghetto-map-tier-10",
-				"text": "Mapa de Gueto"
-			},
-			{
-				"id": "racecourse-map-tier-10",
-				"text": "Mapa de Estadio"
-			},
-			{
-				"id": "villa-map-tier-10",
-				"text": "Mapa de Villa"
-			},
-			{
-				"id": "defiled-cathedral-map-tier-10",
-				"text": "Mapa de Catedral Profanada"
-			},
-			{
-				"id": "mesa-map-tier-10",
-				"text": "Mapa de Mesa"
-			},
-			{
-				"id": "colosseum-map-tier-10",
-				"text": "Mapa de Coliseo"
-			},
-			{
-				"id": "orchard-map-tier-10",
-				"text": "Mapa de Huerto"
-			},
-			{
-				"id": "bog-map-tier-10",
-				"text": "Mapa de Ciénaga"
-			},
-			{
-				"id": "siege-map-tier-10",
-				"text": "Mapa de Asedio"
-			},
-			{
-				"id": "scriptorium-map-tier-10",
-				"text": "Mapa de Sala del Escriba"
-			},
-			{
-				"id": "shipyard-map-tier-10",
-				"text": "Mapa de Astillero"
-			},
-			{
-				"id": "arena-map-tier-10",
-				"text": "Mapa de Arena"
+				"id": "canyon-map-tier-10",
+				"text": "Mapa de Cañón"
 			},
 			{
 				"id": "cemetery-map-tier-10",
 				"text": "Mapa de Camposanto"
 			},
 			{
-				"id": "estuary-map-tier-10",
-				"text": "Mapa de Estuario"
+				"id": "courtyard-map-tier-10",
+				"text": "Mapa de Patio"
 			},
 			{
-				"id": "plateau-map-tier-10",
-				"text": "Mapa de Meseta"
+				"id": "coves-map-tier-10",
+				"text": "Mapa de Caletas"
 			},
 			{
-				"id": "sepulchre-map-tier-10",
-				"text": "Mapa de Sepulcro"
+				"id": "crystal-ore-map-tier-10",
+				"text": "Mapa de Mina de Cristal"
 			},
 			{
-				"id": "mineral-pools-map-tier-10",
-				"text": "Mapa de Charcas Minerales"
+				"id": "dry-sea-map-tier-10",
+				"text": "Mapa de Mar seco"
 			},
 			{
-				"id": "shore-map-tier-10",
-				"text": "Mapa de Orilla"
+				"id": "factory-map-tier-10",
+				"text": "Mapa de Fábrica"
+			},
+			{
+				"id": "forbidden-woods-map-tier-10",
+				"text": "Mapa de Bosque prohibido"
+			},
+			{
+				"id": "forking-river-map-tier-10",
+				"text": "Mapa de Río bifurcado"
+			},
+			{
+				"id": "frozen-cabins-map-tier-10",
+				"text": "Mapa de Cabinas congeladas"
+			},
+			{
+				"id": "geode-map-tier-10",
+				"text": "Mapa de Geoda"
+			},
+			{
+				"id": "ghetto-map-tier-10",
+				"text": "Mapa de Gueto"
+			},
+			{
+				"id": "glacier-map-tier-10",
+				"text": "Mapa de Glaciar"
+			},
+			{
+				"id": "graveyard-map-tier-10",
+				"text": "Mapa de Cementerio"
+			},
+			{
+				"id": "jungle-valley-map-tier-10",
+				"text": "Mapa de Valle de la Jungla"
+			},
+			{
+				"id": "laboratory-map-tier-10",
+				"text": "Mapa de Laboratorio"
+			},
+			{
+				"id": "lava-chamber-map-tier-10",
+				"text": "Mapa de Cámara de Lava"
+			},
+			{
+				"id": "leyline-map-tier-10",
+				"text": "Mapa de Línea Ley"
+			},
+			{
+				"id": "lookout-map-tier-10",
+				"text": "Mapa de Puesto de Observación"
+			},
+			{
+				"id": "malformation-map-tier-10",
+				"text": "Mapa de Malformación"
+			},
+			{
+				"id": "marshes-map-tier-10",
+				"text": "Mapa de Marjales"
 			},
 			{
 				"id": "mud-geyser-map-tier-10",
 				"text": "Mapa de Géiser de Fango"
 			},
 			{
-				"id": "courtyard-map-tier-10",
-				"text": "Mapa de Patio"
-			},
-			{
-				"id": "vaal-pyramid-map-tier-10",
-				"text": "Mapa de Pirámide Vaal"
-			},
-			{
-				"id": "bazaar-map-tier-10",
-				"text": "Mapa de Bazar"
-			},
-			{
-				"id": "gardens-map-tier-10",
-				"text": "Mapa de Jardines"
-			},
-			{
-				"id": "cells-map-tier-10",
-				"text": "Mapa de Celdas"
-			},
-			{
-				"id": "temple-map-tier-10",
-				"text": "Mapa de Templo"
-			},
-			{
-				"id": "mausoleum-map-tier-10",
-				"text": "Mapa de Mausoleo"
-			},
-			{
-				"id": "volcano-map-tier-10",
-				"text": "Mapa de Volcán"
-			},
-			{
-				"id": "courthouse-map-tier-10",
-				"text": "Mapa de Juzgado"
-			},
-			{
-				"id": "strand-map-tier-10",
-				"text": "Mapa de Litoral"
-			},
-			{
-				"id": "crater-map-tier-10",
-				"text": "Mapa de Cráter"
-			},
-			{
-				"id": "excavation-map-tier-10",
-				"text": "Mapa de Excavación"
-			},
-			{
-				"id": "iceberg-map-tier-10",
-				"text": "Mapa de Iceberg"
+				"id": "overgrown-ruin-map-tier-10",
+				"text": "Mapa de Ruinas Descuidadas"
 			},
 			{
 				"id": "pen-map-tier-10",
 				"text": "Mapa de Corral"
 			},
 			{
-				"id": "grotto-map-tier-10",
-				"text": "Mapa de Gruta"
+				"id": "phantasmagoria-map-tier-10",
+				"text": "Mapa de Fantasmagoria"
+			},
+			{
+				"id": "pier-map-tier-10",
+				"text": "Mapa de Muelle"
+			},
+			{
+				"id": "plaza-map-tier-10",
+				"text": "Mapa de Plaza"
+			},
+			{
+				"id": "primordial-blocks-map-tier-10",
+				"text": "Mapa de Bloques Primordiales"
+			},
+			{
+				"id": "primordial-pool-map-tier-10",
+				"text": "Mapa de Charca Primordial"
+			},
+			{
+				"id": "reef-map-tier-10",
+				"text": "Mapa de Arrecife"
+			},
+			{
+				"id": "scriptorium-map-tier-10",
+				"text": "Mapa de Sala del Escriba"
+			},
+			{
+				"id": "shore-map-tier-10",
+				"text": "Mapa de Orilla"
+			},
+			{
+				"id": "strand-map-tier-10",
+				"text": "Mapa de Litoral"
+			},
+			{
+				"id": "sulphur-vents-map-tier-10",
+				"text": "Mapa de Fumarolas de Azufre"
+			},
+			{
+				"id": "temple-map-tier-10",
+				"text": "Mapa de Templo"
+			},
+			{
+				"id": "toxic-sewer-map-tier-10",
+				"text": "Mapa de Alcantarilla Tóxica"
+			},
+			{
+				"id": "vaal-pyramid-map-tier-10",
+				"text": "Mapa de Pirámide Vaal"
 			}
 		],
 		"id": "MapsTier10",
@@ -4454,248 +4624,252 @@
 	{
 		"entries": [
 			{
-				"id": "desert-spring-map-tier-11",
-				"text": "Mapa de Manantial de Desierto"
-			},
-			{
-				"id": "plaza-map-tier-11",
-				"text": "Mapa de Plaza"
-			},
-			{
-				"id": "crimson-temple-map-tier-11",
-				"text": "Mapa de Templo Carmesí"
-			},
-			{
-				"id": "core-map-tier-11",
-				"text": "Mapa de Núcleo"
-			},
-			{
-				"id": "arsenal-map-tier-11",
-				"text": "Mapa de Arsenal"
-			},
-			{
-				"id": "terrace-map-tier-11",
-				"text": "Mapa de Terraza"
-			},
-			{
-				"id": "caldera-map-tier-11",
-				"text": "Mapa de Caldera"
-			},
-			{
-				"id": "racecourse-map-tier-11",
-				"text": "Mapa de Estadio"
-			},
-			{
-				"id": "reef-map-tier-11",
-				"text": "Mapa de Arrecife"
-			},
-			{
-				"id": "overgrown-shrine-map-tier-11",
-				"text": "Mapa de Santuario Descuidado"
-			},
-			{
-				"id": "mesa-map-tier-11",
-				"text": "Mapa de Mesa"
-			},
-			{
-				"id": "factory-map-tier-11",
-				"text": "Mapa de Fábrica"
-			},
-			{
-				"id": "coves-map-tier-11",
-				"text": "Mapa de Caletas"
-			},
-			{
-				"id": "colonnade-map-tier-11",
-				"text": "Mapa de Columnata"
-			},
-			{
-				"id": "pier-map-tier-11",
-				"text": "Mapa de Muelle"
-			},
-			{
-				"id": "precinct-map-tier-11",
-				"text": "Mapa de Recinto"
-			},
-			{
-				"id": "wasteland-map-tier-11",
-				"text": "Mapa de Páramo"
-			},
-			{
-				"id": "museum-map-tier-11",
-				"text": "Mapa de Museo"
-			},
-			{
-				"id": "arena-map-tier-11",
-				"text": "Mapa de Arena"
-			},
-			{
-				"id": "estuary-map-tier-11",
-				"text": "Mapa de Estuario"
-			},
-			{
-				"id": "moon-temple-map-tier-11",
-				"text": "Mapa de Templo de la Luna"
-			},
-			{
-				"id": "mud-geyser-map-tier-11",
-				"text": "Mapa de Géiser de Fango"
-			},
-			{
-				"id": "courtyard-map-tier-11",
-				"text": "Mapa de Patio"
-			},
-			{
-				"id": "armoury-map-tier-11",
-				"text": "Mapa de Armería"
-			},
-			{
-				"id": "vaal-pyramid-map-tier-11",
-				"text": "Mapa de Pirámide Vaal"
-			},
-			{
-				"id": "underground-river-map-tier-11",
-				"text": "Mapa de Río Subterráneo"
-			},
-			{
-				"id": "bone-crypt-map-tier-11",
-				"text": "Mapa de Cripta de Hueso"
-			},
-			{
-				"id": "dunes-map-tier-11",
-				"text": "Mapa de Dunas"
-			},
-			{
-				"id": "ramparts-map-tier-11",
-				"text": "Mapa de Murallas"
-			},
-			{
-				"id": "residence-map-tier-11",
-				"text": "Mapa de Residencia"
-			},
-			{
-				"id": "lava-chamber-map-tier-11",
-				"text": "Mapa de Cámara de Lava"
-			},
-			{
-				"id": "coral-ruins-map-tier-11",
-				"text": "Mapa de Ruinas de Coral"
-			},
-			{
-				"id": "underground-sea-map-tier-11",
-				"text": "Mapa de Mar Subterráneo"
-			},
-			{
-				"id": "thicket-map-tier-11",
-				"text": "Mapa de Matorral"
-			},
-			{
-				"id": "barrows-map-tier-11",
-				"text": "Mapa de Túmulos"
-			},
-			{
-				"id": "ivory-temple-map-tier-11",
-				"text": "Mapa de Templo de Marfil"
+				"id": "academy-map-tier-11",
+				"text": "Mapa de Academia"
 			},
 			{
 				"id": "ancient-city-map-tier-11",
 				"text": "Mapa de Ciudad Antigua"
 			},
 			{
-				"id": "toxic-sewer-map-tier-11",
-				"text": "Mapa de Alcantarilla Tóxica"
-			},
-			{
-				"id": "haunted-mansion-map-tier-11",
-				"text": "Mapa de Mansión Embrujada"
-			},
-			{
-				"id": "channel-map-tier-11",
-				"text": "Mapa de Cauce"
-			},
-			{
-				"id": "fields-map-tier-11",
-				"text": "Mapa de Campos"
-			},
-			{
-				"id": "conservatory-map-tier-11",
-				"text": "Mapa de Conservatorio"
-			},
-			{
-				"id": "lighthouse-map-tier-11",
-				"text": "Mapa de Faro"
-			},
-			{
-				"id": "glacier-map-tier-11",
-				"text": "Mapa de Glaciar"
-			},
-			{
-				"id": "chateau-map-tier-11",
-				"text": "Mapa de Palacete"
-			},
-			{
-				"id": "relic-chambers-map-tier-11",
-				"text": "Mapa de las Cámaras de Reliquias"
-			},
-			{
-				"id": "port-map-tier-11",
-				"text": "Mapa de Puerto"
-			},
-			{
-				"id": "cage-map-tier-11",
-				"text": "Mapa de Jaula"
-			},
-			{
-				"id": "iceberg-map-tier-11",
-				"text": "Mapa de Iceberg"
-			},
-			{
-				"id": "marshes-map-tier-11",
-				"text": "Mapa de Marjales"
-			},
-			{
-				"id": "flooded-mine-map-tier-11",
-				"text": "Mapa de Mina Inundada"
+				"id": "arena-map-tier-11",
+				"text": "Mapa de Arena"
 			},
 			{
 				"id": "arid-lake-map-tier-11",
 				"text": "Mapa de Lago Árido"
 			},
 			{
+				"id": "armoury-map-tier-11",
+				"text": "Mapa de Armería"
+			},
+			{
+				"id": "arsenal-map-tier-11",
+				"text": "Mapa de Arsenal"
+			},
+			{
+				"id": "ashen-wood-map-tier-11",
+				"text": "Mapa de Bosque pálido"
+			},
+			{
+				"id": "belfry-map-tier-11",
+				"text": "Mapa de Campanario"
+			},
+			{
+				"id": "bone-crypt-map-tier-11",
+				"text": "Mapa de Cripta de Hueso"
+			},
+			{
+				"id": "cage-map-tier-11",
+				"text": "Mapa de Jaula"
+			},
+			{
+				"id": "carcass-map-tier-11",
+				"text": "Mapa de Cadáver"
+			},
+			{
+				"id": "cells-map-tier-11",
+				"text": "Mapa de Celdas"
+			},
+			{
+				"id": "channel-map-tier-11",
+				"text": "Mapa de Cauce"
+			},
+			{
+				"id": "chateau-map-tier-11",
+				"text": "Mapa de Palacete"
+			},
+			{
+				"id": "cold-river-map-tier-11",
+				"text": "Mapa de Río helado"
+			},
+			{
+				"id": "conservatory-map-tier-11",
+				"text": "Mapa de Conservatorio"
+			},
+			{
+				"id": "courthouse-map-tier-11",
+				"text": "Mapa de Juzgado"
+			},
+			{
+				"id": "courtyard-map-tier-11",
+				"text": "Mapa de Patio"
+			},
+			{
+				"id": "crater-map-tier-11",
+				"text": "Mapa de Cráter"
+			},
+			{
+				"id": "crimson-temple-map-tier-11",
+				"text": "Mapa de Templo Carmesí"
+			},
+			{
+				"id": "dark-forest-map-tier-11",
+				"text": "Mapa de Bosque Oscuro"
+			},
+			{
+				"id": "defiled-cathedral-map-tier-11",
+				"text": "Mapa de Catedral Profanada"
+			},
+			{
 				"id": "desert-map-tier-11",
 				"text": "Mapa de Desierto"
 			},
 			{
-				"id": "alleyways-map-tier-11",
-				"text": "Mapa de Callejones"
+				"id": "desert-spring-map-tier-11",
+				"text": "Mapa de Manantial de Desierto"
 			},
 			{
-				"id": "dungeon-map-tier-11",
-				"text": "Mapa de Mazmorra"
+				"id": "dunes-map-tier-11",
+				"text": "Mapa de Dunas"
 			},
 			{
-				"id": "graveyard-map-tier-11",
-				"text": "Mapa de Cementerio"
+				"id": "fields-map-tier-11",
+				"text": "Mapa de Campos"
 			},
 			{
-				"id": "beach-map-tier-11",
-				"text": "Mapa de Playa"
+				"id": "flooded-mine-map-tier-11",
+				"text": "Mapa de Mina Inundada"
 			},
 			{
-				"id": "lookout-map-tier-11",
-				"text": "Mapa de Puesto de Observación"
+				"id": "forbidden-woods-map-tier-11",
+				"text": "Mapa de Bosque prohibido"
 			},
 			{
-				"id": "jungle-valley-map-tier-11",
-				"text": "Mapa de Valle de la Jungla"
+				"id": "fungal-hollow-map-tier-11",
+				"text": "Mapa de Hondonada Fúngica"
 			},
 			{
-				"id": "phantasmagoria-map-tier-11",
-				"text": "Mapa de Fantasmagoria"
+				"id": "gardens-map-tier-11",
+				"text": "Mapa de Jardines"
 			},
 			{
-				"id": "academy-map-tier-11",
-				"text": "Mapa de Academia"
+				"id": "glacier-map-tier-11",
+				"text": "Mapa de Glaciar"
+			},
+			{
+				"id": "grave-trough-map-tier-11",
+				"text": "Mapa de Hondonada fúnebre"
+			},
+			{
+				"id": "grotto-map-tier-11",
+				"text": "Mapa de Gruta"
+			},
+			{
+				"id": "haunted-mansion-map-tier-11",
+				"text": "Mapa de Mansión Embrujada"
+			},
+			{
+				"id": "iceberg-map-tier-11",
+				"text": "Mapa de Iceberg"
+			},
+			{
+				"id": "infested-valley-map-tier-11",
+				"text": "Mapa de Valle Infestado"
+			},
+			{
+				"id": "ivory-temple-map-tier-11",
+				"text": "Mapa de Templo de Marfil"
+			},
+			{
+				"id": "lair-map-tier-11",
+				"text": "Mapa de Guarida"
+			},
+			{
+				"id": "lava-chamber-map-tier-11",
+				"text": "Mapa de Cámara de Lava"
+			},
+			{
+				"id": "mineral-pools-map-tier-11",
+				"text": "Mapa de Charcas Minerales"
+			},
+			{
+				"id": "moon-temple-map-tier-11",
+				"text": "Mapa de Templo de la Luna"
+			},
+			{
+				"id": "museum-map-tier-11",
+				"text": "Mapa de Museo"
+			},
+			{
+				"id": "orchard-map-tier-11",
+				"text": "Mapa de Huerto"
+			},
+			{
+				"id": "overgrown-ruin-map-tier-11",
+				"text": "Mapa de Ruinas Descuidadas"
+			},
+			{
+				"id": "overgrown-shrine-map-tier-11",
+				"text": "Mapa de Santuario Descuidado"
+			},
+			{
+				"id": "peninsula-map-tier-11",
+				"text": "Mapa de Península"
+			},
+			{
+				"id": "port-map-tier-11",
+				"text": "Mapa de Puerto"
+			},
+			{
+				"id": "precinct-map-tier-11",
+				"text": "Mapa de Recinto"
+			},
+			{
+				"id": "promenade-map-tier-11",
+				"text": "Mapa de Rambla"
+			},
+			{
+				"id": "racecourse-map-tier-11",
+				"text": "Mapa de Estadio"
+			},
+			{
+				"id": "ramparts-map-tier-11",
+				"text": "Mapa de Murallas"
+			},
+			{
+				"id": "silo-map-tier-11",
+				"text": "Mapa de Silo"
+			},
+			{
+				"id": "spider-forest-map-tier-11",
+				"text": "Mapa de Bosque de Arañas"
+			},
+			{
+				"id": "stagnation-map-tier-11",
+				"text": "Mapa de Estancamiento"
+			},
+			{
+				"id": "sunken-city-map-tier-11",
+				"text": "Mapa de Ciudad Hundida"
+			},
+			{
+				"id": "tower-map-tier-11",
+				"text": "Mapa de la Torre"
+			},
+			{
+				"id": "toxic-sewer-map-tier-11",
+				"text": "Mapa de Alcantarilla Tóxica"
+			},
+			{
+				"id": "tropical-island-map-tier-11",
+				"text": "Mapa de Isla Tropical"
+			},
+			{
+				"id": "underground-river-map-tier-11",
+				"text": "Mapa de Río Subterráneo"
+			},
+			{
+				"id": "underground-sea-map-tier-11",
+				"text": "Mapa de Mar Subterráneo"
+			},
+			{
+				"id": "vaal-pyramid-map-tier-11",
+				"text": "Mapa de Pirámide Vaal"
+			},
+			{
+				"id": "volcano-map-tier-11",
+				"text": "Mapa de Volcán"
 			},
 			{
 				"id": "wharf-map-tier-11",
@@ -4708,188 +4882,192 @@
 	{
 		"entries": [
 			{
-				"id": "primordial-blocks-map-tier-12",
-				"text": "Mapa de Bloques Primordiales"
+				"id": "alleyways-map-tier-12",
+				"text": "Mapa de Callejones"
 			},
 			{
-				"id": "dark-forest-map-tier-12",
-				"text": "Mapa de Bosque Oscuro"
-			},
-			{
-				"id": "basilica-map-tier-12",
-				"text": "Mapa de Basílica"
-			},
-			{
-				"id": "dig-map-tier-12",
-				"text": "Mapa de Perforación"
-			},
-			{
-				"id": "shrine-map-tier-12",
-				"text": "Mapa de Santuario"
-			},
-			{
-				"id": "malformation-map-tier-12",
-				"text": "Mapa de Malformación"
-			},
-			{
-				"id": "ghetto-map-tier-12",
-				"text": "Mapa de Gueto"
-			},
-			{
-				"id": "villa-map-tier-12",
-				"text": "Mapa de Villa"
-			},
-			{
-				"id": "crystal-ore-map-tier-12",
-				"text": "Mapa de Mina de Cristal"
-			},
-			{
-				"id": "castle-ruins-map-tier-12",
-				"text": "Mapa de Ruinas del Castillo"
-			},
-			{
-				"id": "defiled-cathedral-map-tier-12",
-				"text": "Mapa de Catedral Profanada"
-			},
-			{
-				"id": "colosseum-map-tier-12",
-				"text": "Mapa de Coliseo"
-			},
-			{
-				"id": "acid-caverns-map-tier-12",
-				"text": "Mapa de Cavernas Ácidas"
-			},
-			{
-				"id": "spider-forest-map-tier-12",
-				"text": "Mapa de Bosque de Arañas"
-			},
-			{
-				"id": "orchard-map-tier-12",
-				"text": "Mapa de Huerto"
-			},
-			{
-				"id": "bog-map-tier-12",
-				"text": "Mapa de Ciénaga"
-			},
-			{
-				"id": "siege-map-tier-12",
-				"text": "Mapa de Asedio"
-			},
-			{
-				"id": "scriptorium-map-tier-12",
-				"text": "Mapa de Sala del Escriba"
-			},
-			{
-				"id": "shipyard-map-tier-12",
-				"text": "Mapa de Astillero"
-			},
-			{
-				"id": "cemetery-map-tier-12",
-				"text": "Mapa de Camposanto"
-			},
-			{
-				"id": "plateau-map-tier-12",
-				"text": "Mapa de Meseta"
-			},
-			{
-				"id": "waste-pool-map-tier-12",
-				"text": "Mapa de Charca de Desechos"
-			},
-			{
-				"id": "sepulchre-map-tier-12",
-				"text": "Mapa de Sepulcro"
-			},
-			{
-				"id": "mineral-pools-map-tier-12",
-				"text": "Mapa de Charcas Minerales"
-			},
-			{
-				"id": "tropical-island-map-tier-12",
-				"text": "Mapa de Isla Tropical"
-			},
-			{
-				"id": "shore-map-tier-12",
-				"text": "Mapa de Orilla"
-			},
-			{
-				"id": "geode-map-tier-12",
-				"text": "Mapa de Geoda"
-			},
-			{
-				"id": "infested-valley-map-tier-12",
-				"text": "Mapa de Valle Infestado"
-			},
-			{
-				"id": "laboratory-map-tier-12",
-				"text": "Mapa de Laboratorio"
-			},
-			{
-				"id": "bazaar-map-tier-12",
-				"text": "Mapa de Bazar"
-			},
-			{
-				"id": "arachnid-nest-map-tier-12",
-				"text": "Mapa de Nido Arácnido"
-			},
-			{
-				"id": "gardens-map-tier-12",
-				"text": "Mapa de Jardines"
-			},
-			{
-				"id": "bone-crypt-map-tier-12",
-				"text": "Mapa de Cripta de Hueso"
-			},
-			{
-				"id": "temple-map-tier-12",
-				"text": "Mapa de Templo"
+				"id": "arsenal-map-tier-12",
+				"text": "Mapa de Arsenal"
 			},
 			{
 				"id": "atoll-map-tier-12",
 				"text": "Mapa de Atolón"
 			},
 			{
-				"id": "ivory-temple-map-tier-12",
-				"text": "Mapa de Templo de Marfil"
+				"id": "basilica-map-tier-12",
+				"text": "Mapa de Basílica"
 			},
 			{
-				"id": "toxic-sewer-map-tier-12",
-				"text": "Mapa de Alcantarilla Tóxica"
+				"id": "bone-crypt-map-tier-12",
+				"text": "Mapa de Cripta de Hueso"
 			},
 			{
 				"id": "canyon-map-tier-12",
 				"text": "Mapa de Cañón"
 			},
 			{
-				"id": "courthouse-map-tier-12",
-				"text": "Mapa de Juzgado"
+				"id": "cells-map-tier-12",
+				"text": "Mapa de Celdas"
+			},
+			{
+				"id": "cemetery-map-tier-12",
+				"text": "Mapa de Camposanto"
+			},
+			{
+				"id": "coral-ruins-map-tier-12",
+				"text": "Mapa de Ruinas de Coral"
+			},
+			{
+				"id": "crimson-township-map-tier-12",
+				"text": "Mapa de Poblado carmesí"
+			},
+			{
+				"id": "crystal-ore-map-tier-12",
+				"text": "Mapa de Mina de Cristal"
+			},
+			{
+				"id": "desert-map-tier-12",
+				"text": "Mapa de Desierto"
+			},
+			{
+				"id": "dig-map-tier-12",
+				"text": "Mapa de Perforación"
+			},
+			{
+				"id": "dungeon-map-tier-12",
+				"text": "Mapa de Mazmorra"
+			},
+			{
+				"id": "forking-river-map-tier-12",
+				"text": "Mapa de Río bifurcado"
+			},
+			{
+				"id": "frozen-cabins-map-tier-12",
+				"text": "Mapa de Cabinas congeladas"
+			},
+			{
+				"id": "geode-map-tier-12",
+				"text": "Mapa de Geoda"
+			},
+			{
+				"id": "ghetto-map-tier-12",
+				"text": "Mapa de Gueto"
+			},
+			{
+				"id": "graveyard-map-tier-12",
+				"text": "Mapa de Cementerio"
+			},
+			{
+				"id": "laboratory-map-tier-12",
+				"text": "Mapa de Laboratorio"
+			},
+			{
+				"id": "leyline-map-tier-12",
+				"text": "Mapa de Línea Ley"
+			},
+			{
+				"id": "lighthouse-map-tier-12",
+				"text": "Mapa de Faro"
+			},
+			{
+				"id": "lookout-map-tier-12",
+				"text": "Mapa de Puesto de Observación"
+			},
+			{
+				"id": "malformation-map-tier-12",
+				"text": "Mapa de Malformación"
+			},
+			{
+				"id": "marshes-map-tier-12",
+				"text": "Mapa de Marjales"
+			},
+			{
+				"id": "mausoleum-map-tier-12",
+				"text": "Mapa de Mausoleo"
+			},
+			{
+				"id": "mud-geyser-map-tier-12",
+				"text": "Mapa de Géiser de Fango"
+			},
+			{
+				"id": "palace-map-tier-12",
+				"text": "Mapa de Palacio"
+			},
+			{
+				"id": "phantasmagoria-map-tier-12",
+				"text": "Mapa de Fantasmagoria"
+			},
+			{
+				"id": "pier-map-tier-12",
+				"text": "Mapa de Muelle"
+			},
+			{
+				"id": "plaza-map-tier-12",
+				"text": "Mapa de Plaza"
+			},
+			{
+				"id": "primordial-blocks-map-tier-12",
+				"text": "Mapa de Bloques Primordiales"
+			},
+			{
+				"id": "primordial-pool-map-tier-12",
+				"text": "Mapa de Charca Primordial"
+			},
+			{
+				"id": "ramparts-map-tier-12",
+				"text": "Mapa de Murallas"
+			},
+			{
+				"id": "reef-map-tier-12",
+				"text": "Mapa de Arrecife"
+			},
+			{
+				"id": "relic-chambers-map-tier-12",
+				"text": "Mapa de las Cámaras de Reliquias"
+			},
+			{
+				"id": "shipyard-map-tier-12",
+				"text": "Mapa de Astillero"
+			},
+			{
+				"id": "shore-map-tier-12",
+				"text": "Mapa de Orilla"
+			},
+			{
+				"id": "shrine-map-tier-12",
+				"text": "Mapa de Santuario"
+			},
+			{
+				"id": "siege-map-tier-12",
+				"text": "Mapa de Asedio"
+			},
+			{
+				"id": "spider-lair-map-tier-12",
+				"text": "Mapa de Guarida de la Araña"
 			},
 			{
 				"id": "strand-map-tier-12",
 				"text": "Mapa de Litoral"
 			},
 			{
-				"id": "city-square-map-tier-12",
-				"text": "Mapa de Plaza de Ciudad"
+				"id": "sulphur-vents-map-tier-12",
+				"text": "Mapa de Fumarolas de Azufre"
 			},
 			{
-				"id": "crater-map-tier-12",
-				"text": "Mapa de Cráter"
+				"id": "temple-map-tier-12",
+				"text": "Mapa de Templo"
 			},
 			{
-				"id": "excavation-map-tier-12",
-				"text": "Mapa de Excavación"
+				"id": "waste-pool-map-tier-12",
+				"text": "Mapa de Charca de Desechos"
 			},
 			{
-				"id": "pen-map-tier-12",
-				"text": "Mapa de Corral"
+				"id": "wasteland-map-tier-12",
+				"text": "Mapa de Páramo"
 			},
 			{
-				"id": "alleyways-map-tier-12",
-				"text": "Mapa de Callejones"
-			},
-			{
-				"id": "academy-map-tier-12",
-				"text": "Mapa de Academia"
+				"id": "waterways-map-tier-12",
+				"text": "Mapa de Canales"
 			}
 		],
 		"id": "MapsTier12",
@@ -4898,96 +5076,100 @@
 	{
 		"entries": [
 			{
-				"id": "crimson-temple-map-tier-13",
-				"text": "Mapa de Templo Carmesí"
+				"id": "academy-map-tier-13",
+				"text": "Mapa de Academia"
 			},
 			{
-				"id": "core-map-tier-13",
-				"text": "Mapa de Núcleo"
+				"id": "alleyways-map-tier-13",
+				"text": "Mapa de Callejones"
 			},
 			{
-				"id": "shrine-map-tier-13",
-				"text": "Mapa de Santuario"
-			},
-			{
-				"id": "terrace-map-tier-13",
-				"text": "Mapa de Terraza"
-			},
-			{
-				"id": "malformation-map-tier-13",
-				"text": "Mapa de Malformación"
-			},
-			{
-				"id": "reef-map-tier-13",
-				"text": "Mapa de Arrecife"
-			},
-			{
-				"id": "castle-ruins-map-tier-13",
-				"text": "Mapa de Ruinas del Castillo"
-			},
-			{
-				"id": "lair-map-tier-13",
-				"text": "Mapa de Guarida"
-			},
-			{
-				"id": "cursed-crypt-map-tier-13",
-				"text": "Mapa de Cripta Maldita"
-			},
-			{
-				"id": "precinct-map-tier-13",
-				"text": "Mapa de Recinto"
-			},
-			{
-				"id": "museum-map-tier-13",
-				"text": "Mapa de Museo"
-			},
-			{
-				"id": "geode-map-tier-13",
-				"text": "Mapa de Geoda"
-			},
-			{
-				"id": "dunes-map-tier-13",
-				"text": "Mapa de Dunas"
-			},
-			{
-				"id": "ramparts-map-tier-13",
-				"text": "Mapa de Murallas"
-			},
-			{
-				"id": "cells-map-tier-13",
-				"text": "Mapa de Celdas"
-			},
-			{
-				"id": "barrows-map-tier-13",
-				"text": "Mapa de Túmulos"
-			},
-			{
-				"id": "ancient-city-map-tier-13",
-				"text": "Mapa de Ciudad Antigua"
-			},
-			{
-				"id": "maze-map-tier-13",
-				"text": "Mapa de Laberinto"
+				"id": "armoury-map-tier-13",
+				"text": "Mapa de Armería"
 			},
 			{
 				"id": "channel-map-tier-13",
 				"text": "Mapa de Cauce"
 			},
 			{
-				"id": "arcade-map-tier-13",
-				"text": "Mapa de Galería"
+				"id": "conservatory-map-tier-13",
+				"text": "Mapa de Conservatorio"
 			},
 			{
-				"id": "port-map-tier-13",
-				"text": "Mapa de Puerto"
+				"id": "courthouse-map-tier-13",
+				"text": "Mapa de Juzgado"
 			},
 			{
-				"id": "marshes-map-tier-13",
-				"text": "Mapa de Marjales"
+				"id": "crimson-temple-map-tier-13",
+				"text": "Mapa de Templo Carmesí"
 			},
 			{
-				"id": "grotto-map-tier-13",
-				"text": "Mapa de Gruta"
+				"id": "cursed-crypt-map-tier-13",
+				"text": "Mapa de Cripta Maldita"
+			},
+			{
+				"id": "dunes-map-tier-13",
+				"text": "Mapa de Dunas"
+			},
+			{
+				"id": "factory-map-tier-13",
+				"text": "Mapa de Fábrica"
+			},
+			{
+				"id": "flooded-mine-map-tier-13",
+				"text": "Mapa de Mina Inundada"
+			},
+			{
+				"id": "fungal-hollow-map-tier-13",
+				"text": "Mapa de Hondonada Fúngica"
+			},
+			{
+				"id": "grave-trough-map-tier-13",
+				"text": "Mapa de Hondonada fúnebre"
+			},
+			{
+				"id": "iceberg-map-tier-13",
+				"text": "Mapa de Iceberg"
+			},
+			{
+				"id": "mausoleum-map-tier-13",
+				"text": "Mapa de Mausoleo"
+			},
+			{
+				"id": "maze-map-tier-13",
+				"text": "Mapa de Laberinto"
+			},
+			{
+				"id": "museum-map-tier-13",
+				"text": "Mapa de Museo"
+			},
+			{
+				"id": "palace-map-tier-13",
+				"text": "Mapa de Palacio"
+			},
+			{
+				"id": "park-map-tier-13",
+				"text": "Mapa de Parque"
+			},
+			{
+				"id": "plateau-map-tier-13",
+				"text": "Mapa de Meseta"
+			},
+			{
+				"id": "precinct-map-tier-13",
+				"text": "Mapa de Recinto"
+			},
+			{
+				"id": "racecourse-map-tier-13",
+				"text": "Mapa de Estadio"
+			},
+			{
+				"id": "relic-chambers-map-tier-13",
+				"text": "Mapa de las Cámaras de Reliquias"
+			},
+			{
+				"id": "scriptorium-map-tier-13",
+				"text": "Mapa de Sala del Escriba"
 			}
 		],
 		"id": "MapsTier13",
@@ -4996,352 +5178,368 @@
 	{
 		"entries": [
 			{
-				"id": "carcass-map-tier-14",
-				"text": "Mapa de Cadáver"
-			},
-			{
-				"id": "primordial-blocks-map-tier-14",
-				"text": "Mapa de Bloques Primordiales"
-			},
-			{
-				"id": "tower-map-tier-14",
-				"text": "Mapa de la Torre"
-			},
-			{
-				"id": "desert-spring-map-tier-14",
-				"text": "Mapa de Manantial de Desierto"
-			},
-			{
-				"id": "plaza-map-tier-14",
-				"text": "Mapa de Plaza"
-			},
-			{
-				"id": "basilica-map-tier-14",
-				"text": "Mapa de Basílica"
-			},
-			{
-				"id": "sunken-city-map-tier-14",
-				"text": "Mapa de Ciudad Hundida"
-			},
-			{
-				"id": "dig-map-tier-14",
-				"text": "Mapa de Perforación"
-			},
-			{
-				"id": "arsenal-map-tier-14",
-				"text": "Mapa de Arsenal"
-			},
-			{
-				"id": "park-map-tier-14",
-				"text": "Mapa de Parque"
-			},
-			{
-				"id": "ghetto-map-tier-14",
-				"text": "Mapa de Gueto"
-			},
-			{
-				"id": "caldera-map-tier-14",
-				"text": "Mapa de Caldera"
-			},
-			{
-				"id": "racecourse-map-tier-14",
-				"text": "Mapa de Estadio"
-			},
-			{
-				"id": "villa-map-tier-14",
-				"text": "Mapa de Villa"
-			},
-			{
-				"id": "crystal-ore-map-tier-14",
-				"text": "Mapa de Mina de Cristal"
-			},
-			{
-				"id": "overgrown-shrine-map-tier-14",
-				"text": "Mapa de Santuario Descuidado"
-			},
-			{
-				"id": "defiled-cathedral-map-tier-14",
-				"text": "Mapa de Catedral Profanada"
-			},
-			{
-				"id": "mesa-map-tier-14",
-				"text": "Mapa de Mesa"
-			},
-			{
-				"id": "colosseum-map-tier-14",
-				"text": "Mapa de Coliseo"
-			},
-			{
 				"id": "acid-caverns-map-tier-14",
 				"text": "Mapa de Cavernas Ácidas"
 			},
 			{
-				"id": "factory-map-tier-14",
-				"text": "Mapa de Fábrica"
+				"id": "ancient-city-map-tier-14",
+				"text": "Mapa de Ciudad Antigua"
 			},
 			{
-				"id": "spider-forest-map-tier-14",
-				"text": "Mapa de Bosque de Arañas"
-			},
-			{
-				"id": "coves-map-tier-14",
-				"text": "Mapa de Caletas"
-			},
-			{
-				"id": "primordial-pool-map-tier-14",
-				"text": "Mapa de Charca Primordial"
-			},
-			{
-				"id": "colonnade-map-tier-14",
-				"text": "Mapa de Columnata"
-			},
-			{
-				"id": "pier-map-tier-14",
-				"text": "Mapa de Muelle"
-			},
-			{
-				"id": "bog-map-tier-14",
-				"text": "Mapa de Ciénaga"
-			},
-			{
-				"id": "wasteland-map-tier-14",
-				"text": "Mapa de Páramo"
-			},
-			{
-				"id": "belfry-map-tier-14",
-				"text": "Mapa de Campanario"
-			},
-			{
-				"id": "siege-map-tier-14",
-				"text": "Mapa de Asedio"
-			},
-			{
-				"id": "scriptorium-map-tier-14",
-				"text": "Mapa de Sala del Escriba"
+				"id": "arcade-map-tier-14",
+				"text": "Mapa de Galería"
 			},
 			{
 				"id": "arena-map-tier-14",
 				"text": "Mapa de Arena"
 			},
 			{
-				"id": "cemetery-map-tier-14",
-				"text": "Mapa de Camposanto"
+				"id": "arid-lake-map-tier-14",
+				"text": "Mapa de Lago Árido"
 			},
 			{
-				"id": "estuary-map-tier-14",
-				"text": "Mapa de Estuario"
-			},
-			{
-				"id": "plateau-map-tier-14",
-				"text": "Mapa de Meseta"
-			},
-			{
-				"id": "waste-pool-map-tier-14",
-				"text": "Mapa de Charca de Desechos"
-			},
-			{
-				"id": "waterways-map-tier-14",
-				"text": "Mapa de Canales"
-			},
-			{
-				"id": "moon-temple-map-tier-14",
-				"text": "Mapa de Templo de la Luna"
-			},
-			{
-				"id": "mineral-pools-map-tier-14",
-				"text": "Mapa de Charcas Minerales"
-			},
-			{
-				"id": "tropical-island-map-tier-14",
-				"text": "Mapa de Isla Tropical"
-			},
-			{
-				"id": "shore-map-tier-14",
-				"text": "Mapa de Orilla"
-			},
-			{
-				"id": "mud-geyser-map-tier-14",
-				"text": "Mapa de Géiser de Fango"
-			},
-			{
-				"id": "courtyard-map-tier-14",
-				"text": "Mapa de Patio"
-			},
-			{
-				"id": "armoury-map-tier-14",
-				"text": "Mapa de Armería"
-			},
-			{
-				"id": "vaal-pyramid-map-tier-14",
-				"text": "Mapa de Pirámide Vaal"
-			},
-			{
-				"id": "infested-valley-map-tier-14",
-				"text": "Mapa de Valle Infestado"
-			},
-			{
-				"id": "laboratory-map-tier-14",
-				"text": "Mapa de Laboratorio"
-			},
-			{
-				"id": "arachnid-nest-map-tier-14",
-				"text": "Mapa de Nido Arácnido"
-			},
-			{
-				"id": "underground-river-map-tier-14",
-				"text": "Mapa de Río Subterráneo"
-			},
-			{
-				"id": "residence-map-tier-14",
-				"text": "Mapa de Residencia"
-			},
-			{
-				"id": "lava-chamber-map-tier-14",
-				"text": "Mapa de Cámara de Lava"
-			},
-			{
-				"id": "coral-ruins-map-tier-14",
-				"text": "Mapa de Ruinas de Coral"
-			},
-			{
-				"id": "underground-sea-map-tier-14",
-				"text": "Mapa de Mar Subterráneo"
-			},
-			{
-				"id": "temple-map-tier-14",
-				"text": "Mapa de Templo"
+				"id": "ashen-wood-map-tier-14",
+				"text": "Mapa de Bosque pálido"
 			},
 			{
 				"id": "atoll-map-tier-14",
 				"text": "Mapa de Atolón"
 			},
 			{
-				"id": "thicket-map-tier-14",
-				"text": "Mapa de Matorral"
+				"id": "barrows-map-tier-14",
+				"text": "Mapa de Túmulos"
 			},
 			{
-				"id": "spider-lair-map-tier-14",
-				"text": "Mapa de Guarida de la Araña"
-			},
-			{
-				"id": "mausoleum-map-tier-14",
-				"text": "Mapa de Mausoleo"
-			},
-			{
-				"id": "haunted-mansion-map-tier-14",
-				"text": "Mapa de Mansión Embrujada"
-			},
-			{
-				"id": "sulphur-vents-map-tier-14",
-				"text": "Mapa de Fumarolas de Azufre"
-			},
-			{
-				"id": "fields-map-tier-14",
-				"text": "Mapa de Campos"
-			},
-			{
-				"id": "conservatory-map-tier-14",
-				"text": "Mapa de Conservatorio"
-			},
-			{
-				"id": "canyon-map-tier-14",
-				"text": "Mapa de Cañón"
-			},
-			{
-				"id": "lighthouse-map-tier-14",
-				"text": "Mapa de Faro"
-			},
-			{
-				"id": "volcano-map-tier-14",
-				"text": "Mapa de Volcán"
-			},
-			{
-				"id": "glacier-map-tier-14",
-				"text": "Mapa de Glaciar"
-			},
-			{
-				"id": "strand-map-tier-14",
-				"text": "Mapa de Litoral"
-			},
-			{
-				"id": "chateau-map-tier-14",
-				"text": "Mapa de Palacete"
-			},
-			{
-				"id": "relic-chambers-map-tier-14",
-				"text": "Mapa de las Cámaras de Reliquias"
-			},
-			{
-				"id": "city-square-map-tier-14",
-				"text": "Mapa de Plaza de Ciudad"
-			},
-			{
-				"id": "peninsula-map-tier-14",
-				"text": "Mapa de Península"
-			},
-			{
-				"id": "leyline-map-tier-14",
-				"text": "Mapa de Línea Ley"
-			},
-			{
-				"id": "excavation-map-tier-14",
-				"text": "Mapa de Excavación"
-			},
-			{
-				"id": "fungal-hollow-map-tier-14",
-				"text": "Mapa de Hondonada Fúngica"
-			},
-			{
-				"id": "cage-map-tier-14",
-				"text": "Mapa de Jaula"
-			},
-			{
-				"id": "iceberg-map-tier-14",
-				"text": "Mapa de Iceberg"
-			},
-			{
-				"id": "flooded-mine-map-tier-14",
-				"text": "Mapa de Mina Inundada"
-			},
-			{
-				"id": "arid-lake-map-tier-14",
-				"text": "Mapa de Lago Árido"
-			},
-			{
-				"id": "desert-map-tier-14",
-				"text": "Mapa de Desierto"
-			},
-			{
-				"id": "pen-map-tier-14",
-				"text": "Mapa de Corral"
-			},
-			{
-				"id": "dungeon-map-tier-14",
-				"text": "Mapa de Mazmorra"
-			},
-			{
-				"id": "graveyard-map-tier-14",
-				"text": "Mapa de Cementerio"
+				"id": "basilica-map-tier-14",
+				"text": "Mapa de Basílica"
 			},
 			{
 				"id": "beach-map-tier-14",
 				"text": "Mapa de Playa"
 			},
 			{
-				"id": "lookout-map-tier-14",
-				"text": "Mapa de Puesto de Observación"
+				"id": "belfry-map-tier-14",
+				"text": "Mapa de Campanario"
+			},
+			{
+				"id": "bramble-valley-map-tier-14",
+				"text": "Mapa de Valle de zarzales"
+			},
+			{
+				"id": "cage-map-tier-14",
+				"text": "Mapa de Jaula"
+			},
+			{
+				"id": "caldera-map-tier-14",
+				"text": "Mapa de Caldera"
+			},
+			{
+				"id": "carcass-map-tier-14",
+				"text": "Mapa de Cadáver"
+			},
+			{
+				"id": "cemetery-map-tier-14",
+				"text": "Mapa de Camposanto"
+			},
+			{
+				"id": "chateau-map-tier-14",
+				"text": "Mapa de Palacete"
+			},
+			{
+				"id": "city-square-map-tier-14",
+				"text": "Mapa de Plaza de Ciudad"
+			},
+			{
+				"id": "cold-river-map-tier-14",
+				"text": "Mapa de Río helado"
+			},
+			{
+				"id": "colosseum-map-tier-14",
+				"text": "Mapa de Coliseo"
+			},
+			{
+				"id": "coral-ruins-map-tier-14",
+				"text": "Mapa de Ruinas de Coral"
+			},
+			{
+				"id": "core-map-tier-14",
+				"text": "Mapa de Núcleo"
+			},
+			{
+				"id": "courtyard-map-tier-14",
+				"text": "Mapa de Patio"
+			},
+			{
+				"id": "coves-map-tier-14",
+				"text": "Mapa de Caletas"
+			},
+			{
+				"id": "crater-map-tier-14",
+				"text": "Mapa de Cráter"
+			},
+			{
+				"id": "crystal-ore-map-tier-14",
+				"text": "Mapa de Mina de Cristal"
+			},
+			{
+				"id": "dark-forest-map-tier-14",
+				"text": "Mapa de Bosque Oscuro"
+			},
+			{
+				"id": "defiled-cathedral-map-tier-14",
+				"text": "Mapa de Catedral Profanada"
+			},
+			{
+				"id": "desert-spring-map-tier-14",
+				"text": "Mapa de Manantial de Desierto"
+			},
+			{
+				"id": "dig-map-tier-14",
+				"text": "Mapa de Perforación"
+			},
+			{
+				"id": "dry-sea-map-tier-14",
+				"text": "Mapa de Mar seco"
+			},
+			{
+				"id": "dungeon-map-tier-14",
+				"text": "Mapa de Mazmorra"
+			},
+			{
+				"id": "excavation-map-tier-14",
+				"text": "Mapa de Excavación"
+			},
+			{
+				"id": "fields-map-tier-14",
+				"text": "Mapa de Campos"
+			},
+			{
+				"id": "forbidden-woods-map-tier-14",
+				"text": "Mapa de Bosque prohibido"
+			},
+			{
+				"id": "forking-river-map-tier-14",
+				"text": "Mapa de Río bifurcado"
+			},
+			{
+				"id": "gardens-map-tier-14",
+				"text": "Mapa de Jardines"
+			},
+			{
+				"id": "geode-map-tier-14",
+				"text": "Mapa de Geoda"
+			},
+			{
+				"id": "glacier-map-tier-14",
+				"text": "Mapa de Glaciar"
+			},
+			{
+				"id": "grotto-map-tier-14",
+				"text": "Mapa de Gruta"
+			},
+			{
+				"id": "haunted-mansion-map-tier-14",
+				"text": "Mapa de Mansión Embrujada"
+			},
+			{
+				"id": "infested-valley-map-tier-14",
+				"text": "Mapa de Valle Infestado"
+			},
+			{
+				"id": "ivory-temple-map-tier-14",
+				"text": "Mapa de Templo de Marfil"
 			},
 			{
 				"id": "jungle-valley-map-tier-14",
 				"text": "Mapa de Valle de la Jungla"
 			},
 			{
+				"id": "laboratory-map-tier-14",
+				"text": "Mapa de Laboratorio"
+			},
+			{
+				"id": "lair-map-tier-14",
+				"text": "Mapa de Guarida"
+			},
+			{
+				"id": "lava-chamber-map-tier-14",
+				"text": "Mapa de Cámara de Lava"
+			},
+			{
+				"id": "leyline-map-tier-14",
+				"text": "Mapa de Línea Ley"
+			},
+			{
+				"id": "lighthouse-map-tier-14",
+				"text": "Mapa de Faro"
+			},
+			{
+				"id": "lookout-map-tier-14",
+				"text": "Mapa de Puesto de Observación"
+			},
+			{
+				"id": "malformation-map-tier-14",
+				"text": "Mapa de Malformación"
+			},
+			{
+				"id": "mesa-map-tier-14",
+				"text": "Mapa de Mesa"
+			},
+			{
+				"id": "mineral-pools-map-tier-14",
+				"text": "Mapa de Charcas Minerales"
+			},
+			{
+				"id": "moon-temple-map-tier-14",
+				"text": "Mapa de Templo de la Luna"
+			},
+			{
+				"id": "orchard-map-tier-14",
+				"text": "Mapa de Huerto"
+			},
+			{
+				"id": "overgrown-ruin-map-tier-14",
+				"text": "Mapa de Ruinas Descuidadas"
+			},
+			{
+				"id": "overgrown-shrine-map-tier-14",
+				"text": "Mapa de Santuario Descuidado"
+			},
+			{
+				"id": "pen-map-tier-14",
+				"text": "Mapa de Corral"
+			},
+			{
+				"id": "peninsula-map-tier-14",
+				"text": "Mapa de Península"
+			},
+			{
 				"id": "phantasmagoria-map-tier-14",
 				"text": "Mapa de Fantasmagoria"
 			},
 			{
-				"id": "academy-map-tier-14",
-				"text": "Mapa de Academia"
+				"id": "plaza-map-tier-14",
+				"text": "Mapa de Plaza"
+			},
+			{
+				"id": "port-map-tier-14",
+				"text": "Mapa de Puerto"
+			},
+			{
+				"id": "primordial-blocks-map-tier-14",
+				"text": "Mapa de Bloques Primordiales"
+			},
+			{
+				"id": "primordial-pool-map-tier-14",
+				"text": "Mapa de Charca Primordial"
+			},
+			{
+				"id": "promenade-map-tier-14",
+				"text": "Mapa de Rambla"
+			},
+			{
+				"id": "ramparts-map-tier-14",
+				"text": "Mapa de Murallas"
+			},
+			{
+				"id": "residence-map-tier-14",
+				"text": "Mapa de Residencia"
+			},
+			{
+				"id": "sepulchre-map-tier-14",
+				"text": "Mapa de Sepulcro"
+			},
+			{
+				"id": "shipyard-map-tier-14",
+				"text": "Mapa de Astillero"
+			},
+			{
+				"id": "shore-map-tier-14",
+				"text": "Mapa de Orilla"
+			},
+			{
+				"id": "shrine-map-tier-14",
+				"text": "Mapa de Santuario"
+			},
+			{
+				"id": "siege-map-tier-14",
+				"text": "Mapa de Asedio"
+			},
+			{
+				"id": "silo-map-tier-14",
+				"text": "Mapa de Silo"
+			},
+			{
+				"id": "spider-forest-map-tier-14",
+				"text": "Mapa de Bosque de Arañas"
+			},
+			{
+				"id": "spider-lair-map-tier-14",
+				"text": "Mapa de Guarida de la Araña"
+			},
+			{
+				"id": "stagnation-map-tier-14",
+				"text": "Mapa de Estancamiento"
+			},
+			{
+				"id": "strand-map-tier-14",
+				"text": "Mapa de Litoral"
+			},
+			{
+				"id": "sulphur-vents-map-tier-14",
+				"text": "Mapa de Fumarolas de Azufre"
+			},
+			{
+				"id": "sunken-city-map-tier-14",
+				"text": "Mapa de Ciudad Hundida"
+			},
+			{
+				"id": "temple-map-tier-14",
+				"text": "Mapa de Templo"
+			},
+			{
+				"id": "thicket-map-tier-14",
+				"text": "Mapa de Matorral"
+			},
+			{
+				"id": "tower-map-tier-14",
+				"text": "Mapa de la Torre"
+			},
+			{
+				"id": "toxic-sewer-map-tier-14",
+				"text": "Mapa de Alcantarilla Tóxica"
+			},
+			{
+				"id": "tropical-island-map-tier-14",
+				"text": "Mapa de Isla Tropical"
+			},
+			{
+				"id": "underground-river-map-tier-14",
+				"text": "Mapa de Río Subterráneo"
+			},
+			{
+				"id": "underground-sea-map-tier-14",
+				"text": "Mapa de Mar Subterráneo"
+			},
+			{
+				"id": "vaal-pyramid-map-tier-14",
+				"text": "Mapa de Pirámide Vaal"
+			},
+			{
+				"id": "volcano-map-tier-14",
+				"text": "Mapa de Volcán"
+			},
+			{
+				"id": "waste-pool-map-tier-14",
+				"text": "Mapa de Charca de Desechos"
+			},
+			{
+				"id": "wasteland-map-tier-14",
+				"text": "Mapa de Páramo"
+			},
+			{
+				"id": "waterways-map-tier-14",
+				"text": "Mapa de Canales"
 			},
 			{
 				"id": "wharf-map-tier-14",
@@ -5354,152 +5552,172 @@
 	{
 		"entries": [
 			{
-				"id": "lava-lake-map-tier-15",
-				"text": "Mapa de Lago de Lava"
+				"id": "alleyways-map-tier-15",
+				"text": "Mapa de Callejones"
 			},
 			{
-				"id": "palace-map-tier-15",
-				"text": "Mapa de Palacio"
+				"id": "arachnid-tomb-map-tier-15",
+				"text": "Mapa de Tumba Arácnida"
 			},
 			{
-				"id": "dark-forest-map-tier-15",
-				"text": "Mapa de Bosque Oscuro"
+				"id": "armoury-map-tier-15",
+				"text": "Mapa de Armería"
 			},
 			{
-				"id": "crimson-temple-map-tier-15",
-				"text": "Mapa de Templo Carmesí"
-			},
-			{
-				"id": "core-map-tier-15",
-				"text": "Mapa de Núcleo"
-			},
-			{
-				"id": "shrine-map-tier-15",
-				"text": "Mapa de Santuario"
-			},
-			{
-				"id": "malformation-map-tier-15",
-				"text": "Mapa de Malformación"
-			},
-			{
-				"id": "reef-map-tier-15",
-				"text": "Mapa de Arrecife"
-			},
-			{
-				"id": "castle-ruins-map-tier-15",
-				"text": "Mapa de Ruinas del Castillo"
-			},
-			{
-				"id": "pit-map-tier-15",
-				"text": "Mapa de Hoyo"
-			},
-			{
-				"id": "promenade-map-tier-15",
-				"text": "Mapa de Rambla"
-			},
-			{
-				"id": "orchard-map-tier-15",
-				"text": "Mapa de Huerto"
-			},
-			{
-				"id": "precinct-map-tier-15",
-				"text": "Mapa de Recinto"
-			},
-			{
-				"id": "shipyard-map-tier-15",
-				"text": "Mapa de Astillero"
-			},
-			{
-				"id": "museum-map-tier-15",
-				"text": "Mapa de Museo"
-			},
-			{
-				"id": "vault-map-tier-15",
-				"text": "Mapa de Bóveda"
-			},
-			{
-				"id": "sepulchre-map-tier-15",
-				"text": "Mapa de Sepulcro"
-			},
-			{
-				"id": "overgrown-ruin-map-tier-15",
-				"text": "Mapa de Ruinas Descuidadas"
+				"id": "arsenal-map-tier-15",
+				"text": "Mapa de Arsenal"
 			},
 			{
 				"id": "bazaar-map-tier-15",
 				"text": "Mapa de Bazar"
 			},
 			{
-				"id": "gardens-map-tier-15",
-				"text": "Mapa de Jardines"
+				"id": "bog-map-tier-15",
+				"text": "Mapa de Ciénaga"
 			},
 			{
 				"id": "bone-crypt-map-tier-15",
 				"text": "Mapa de Cripta de Hueso"
 			},
 			{
-				"id": "dunes-map-tier-15",
-				"text": "Mapa de Dunas"
+				"id": "canyon-map-tier-15",
+				"text": "Mapa de Cañón"
+			},
+			{
+				"id": "castle-ruins-map-tier-15",
+				"text": "Mapa de Ruinas del Castillo"
 			},
 			{
 				"id": "cells-map-tier-15",
 				"text": "Mapa de Celdas"
 			},
 			{
-				"id": "ashen-wood-map-tier-15",
-				"text": "Mapa de Bosque pálido"
-			},
-			{
-				"id": "barrows-map-tier-15",
-				"text": "Mapa de Túmulos"
-			},
-			{
-				"id": "ivory-temple-map-tier-15",
-				"text": "Mapa de Templo de Marfil"
-			},
-			{
-				"id": "ancient-city-map-tier-15",
-				"text": "Mapa de Ciudad Antigua"
-			},
-			{
-				"id": "toxic-sewer-map-tier-15",
-				"text": "Mapa de Alcantarilla Tóxica"
-			},
-			{
 				"id": "channel-map-tier-15",
 				"text": "Mapa de Cauce"
+			},
+			{
+				"id": "colonnade-map-tier-15",
+				"text": "Mapa de Columnata"
+			},
+			{
+				"id": "conservatory-map-tier-15",
+				"text": "Mapa de Conservatorio"
 			},
 			{
 				"id": "courthouse-map-tier-15",
 				"text": "Mapa de Juzgado"
 			},
 			{
-				"id": "city-square-map-tier-15",
-				"text": "Mapa de Plaza de Ciudad"
+				"id": "crimson-temple-map-tier-15",
+				"text": "Mapa de Templo Carmesí"
 			},
 			{
-				"id": "arcade-map-tier-15",
-				"text": "Mapa de Galería"
+				"id": "crimson-township-map-tier-15",
+				"text": "Mapa de Poblado carmesí"
 			},
 			{
-				"id": "crater-map-tier-15",
-				"text": "Mapa de Cráter"
+				"id": "desert-map-tier-15",
+				"text": "Mapa de Desierto"
 			},
 			{
-				"id": "burial-chambers-map-tier-15",
-				"text": "Mapa de Aposentos del Entierro"
+				"id": "dunes-map-tier-15",
+				"text": "Mapa de Dunas"
 			},
 			{
-				"id": "port-map-tier-15",
-				"text": "Mapa de Puerto"
+				"id": "estuary-map-tier-15",
+				"text": "Mapa de Estuario"
+			},
+			{
+				"id": "flooded-mine-map-tier-15",
+				"text": "Mapa de Mina Inundada"
+			},
+			{
+				"id": "foundry-map-tier-15",
+				"text": "Mapa de Fundición"
+			},
+			{
+				"id": "frozen-cabins-map-tier-15",
+				"text": "Mapa de Cabinas congeladas"
+			},
+			{
+				"id": "fungal-hollow-map-tier-15",
+				"text": "Mapa de Hondonada Fúngica"
+			},
+			{
+				"id": "ghetto-map-tier-15",
+				"text": "Mapa de Gueto"
+			},
+			{
+				"id": "grave-trough-map-tier-15",
+				"text": "Mapa de Hondonada fúnebre"
+			},
+			{
+				"id": "graveyard-map-tier-15",
+				"text": "Mapa de Cementerio"
+			},
+			{
+				"id": "lava-lake-map-tier-15",
+				"text": "Mapa de Lago de Lava"
 			},
 			{
 				"id": "marshes-map-tier-15",
 				"text": "Mapa de Marjales"
 			},
 			{
-				"id": "alleyways-map-tier-15",
-				"text": "Mapa de Callejones"
+				"id": "museum-map-tier-15",
+				"text": "Mapa de Museo"
+			},
+			{
+				"id": "palace-map-tier-15",
+				"text": "Mapa de Palacio"
+			},
+			{
+				"id": "pier-map-tier-15",
+				"text": "Mapa de Muelle"
+			},
+			{
+				"id": "plateau-map-tier-15",
+				"text": "Mapa de Meseta"
+			},
+			{
+				"id": "precinct-map-tier-15",
+				"text": "Mapa de Recinto"
+			},
+			{
+				"id": "racecourse-map-tier-15",
+				"text": "Mapa de Estadio"
+			},
+			{
+				"id": "reef-map-tier-15",
+				"text": "Mapa de Arrecife"
+			},
+			{
+				"id": "relic-chambers-map-tier-15",
+				"text": "Mapa de las Cámaras de Reliquias"
+			},
+			{
+				"id": "scriptorium-map-tier-15",
+				"text": "Mapa de Sala del Escriba"
+			},
+			{
+				"id": "summit-map-tier-15",
+				"text": "Mapa de Cima"
+			},
+			{
+				"id": "terrace-map-tier-15",
+				"text": "Mapa de Terraza"
+			},
+			{
+				"id": "vault-map-tier-15",
+				"text": "Mapa de Bóveda"
+			},
+			{
+				"id": "villa-map-tier-15",
+				"text": "Mapa de Villa"
+			},
+			{
+				"id": "waterways-map-tier-15",
+				"text": "Mapa de Canales"
 			}
 		],
 		"id": "MapsTier15",
@@ -5508,104 +5726,112 @@
 	{
 		"entries": [
 			{
-				"id": "summit-map-tier-16",
-				"text": "Mapa de Cima"
+				"id": "academy-map-tier-16",
+				"text": "Mapa de Academia"
 			},
 			{
-				"id": "vaal-temple-map-tier-16",
-				"text": "Mapa de Templo Vaal"
-			},
-			{
-				"id": "basilica-map-tier-16",
-				"text": "Mapa de Basílica"
-			},
-			{
-				"id": "sunken-city-map-tier-16",
-				"text": "Mapa de Ciudad Hundida"
-			},
-			{
-				"id": "terrace-map-tier-16",
-				"text": "Mapa de Terraza"
-			},
-			{
-				"id": "necropolis-map-tier-16",
-				"text": "Mapa de Necrópolis"
-			},
-			{
-				"id": "crystal-ore-map-tier-16",
-				"text": "Mapa de Mina de Cristal"
-			},
-			{
-				"id": "primordial-pool-map-tier-16",
-				"text": "Mapa de Charca Primordial"
-			},
-			{
-				"id": "lair-map-tier-16",
-				"text": "Mapa de Guarida"
-			},
-			{
-				"id": "cursed-crypt-map-tier-16",
-				"text": "Mapa de Cripta Maldita"
-			},
-			{
-				"id": "arachnid-tomb-map-tier-16",
-				"text": "Mapa de Tumba Arácnida"
-			},
-			{
-				"id": "waste-pool-map-tier-16",
-				"text": "Mapa de Charca de Desechos"
-			},
-			{
-				"id": "tropical-island-map-tier-16",
-				"text": "Mapa de Isla Tropical"
-			},
-			{
-				"id": "geode-map-tier-16",
-				"text": "Mapa de Geoda"
-			},
-			{
-				"id": "infested-valley-map-tier-16",
-				"text": "Mapa de Valle Infestado"
-			},
-			{
-				"id": "laboratory-map-tier-16",
-				"text": "Mapa de Laboratorio"
-			},
-			{
-				"id": "ramparts-map-tier-16",
-				"text": "Mapa de Murallas"
+				"id": "arachnid-nest-map-tier-16",
+				"text": "Mapa de Nido Arácnido"
 			},
 			{
 				"id": "atoll-map-tier-16",
 				"text": "Mapa de Atolón"
 			},
 			{
+				"id": "barrows-map-tier-16",
+				"text": "Mapa de Túmulos"
+			},
+			{
+				"id": "beach-map-tier-16",
+				"text": "Mapa de Playa"
+			},
+			{
+				"id": "burial-chambers-map-tier-16",
+				"text": "Mapa de Aposentos del Entierro"
+			},
+			{
+				"id": "cage-map-tier-16",
+				"text": "Mapa de Jaula"
+			},
+			{
+				"id": "caldera-map-tier-16",
+				"text": "Mapa de Caldera"
+			},
+			{
+				"id": "colosseum-map-tier-16",
+				"text": "Mapa de Coliseo"
+			},
+			{
+				"id": "cursed-crypt-map-tier-16",
+				"text": "Mapa de Cripta Maldita"
+			},
+			{
+				"id": "dungeon-map-tier-16",
+				"text": "Mapa de Mazmorra"
+			},
+			{
+				"id": "excavation-map-tier-16",
+				"text": "Mapa de Excavación"
+			},
+			{
+				"id": "factory-map-tier-16",
+				"text": "Mapa de Fábrica"
+			},
+			{
+				"id": "iceberg-map-tier-16",
+				"text": "Mapa de Iceberg"
+			},
+			{
+				"id": "lighthouse-map-tier-16",
+				"text": "Mapa de Faro"
+			},
+			{
+				"id": "mausoleum-map-tier-16",
+				"text": "Mapa de Mausoleo"
+			},
+			{
 				"id": "maze-map-tier-16",
 				"text": "Mapa de Laberinto"
 			},
 			{
-				"id": "sulphur-vents-map-tier-16",
-				"text": "Mapa de Fumarolas de Azufre"
+				"id": "mud-geyser-map-tier-16",
+				"text": "Mapa de Géiser de Fango"
 			},
 			{
-				"id": "canyon-map-tier-16",
-				"text": "Mapa de Cañón"
+				"id": "necropolis-map-tier-16",
+				"text": "Mapa de Necrópolis"
 			},
 			{
-				"id": "peninsula-map-tier-16",
-				"text": "Mapa de Península"
+				"id": "park-map-tier-16",
+				"text": "Mapa de Parque"
 			},
 			{
-				"id": "leyline-map-tier-16",
-				"text": "Mapa de Línea Ley"
+				"id": "pit-map-tier-16",
+				"text": "Mapa de Hoyo"
 			},
 			{
-				"id": "grotto-map-tier-16",
-				"text": "Mapa de Gruta"
+				"id": "shipyard-map-tier-16",
+				"text": "Mapa de Astillero"
 			},
 			{
-				"id": "jungle-valley-map-tier-16",
-				"text": "Mapa de Valle de la Jungla"
+				"id": "shrine-map-tier-16",
+				"text": "Mapa de Santuario"
+			},
+			{
+				"id": "siege-map-tier-16",
+				"text": "Mapa de Asedio"
+			},
+			{
+				"id": "vaal-temple-map-tier-16",
+				"text": "Mapa de Templo Vaal"
+			},
+			{
+				"id": "waste-pool-map-tier-16",
+				"text": "Mapa de Charca de Desechos"
+			},
+			{
+				"id": "wasteland-map-tier-16",
+				"text": "Mapa de Páramo"
 			}
 		],
 		"id": "MapsTier16",
@@ -5614,544 +5840,588 @@
 	{
 		"entries": [
 			{
-				"id": "blighted-carcass-map",
-				"text": "Infestado Mapa de Cadáver"
-			},
-			{
-				"id": "blighted-primordial-blocks-map",
-				"text": "Infestado Mapa de Bloques Primordiales"
-			},
-			{
-				"id": "blighted-summit-map",
-				"text": "Infestado Mapa de Cima"
-			},
-			{
-				"id": "blighted-tower-map",
-				"text": "Infestado Mapa de la Torre"
-			},
-			{
-				"id": "blighted-lava-lake-map",
-				"text": "Infestado Mapa de Lago de Lava"
-			},
-			{
-				"id": "blighted-palace-map",
-				"text": "Infestado Mapa de Palacio"
-			},
-			{
-				"id": "blighted-desert-spring-map",
-				"text": "Infestado Mapa de Manantial de Desierto"
-			},
-			{
-				"id": "blighted-vaal-temple-map",
-				"text": "Infestado Mapa de Templo Vaal"
-			},
-			{
-				"id": "blighted-plaza-map",
-				"text": "Infestado Mapa de Plaza"
-			},
-			{
-				"id": "blighted-dark-forest-map",
-				"text": "Infestado Mapa de Bosque Oscuro"
-			},
-			{
-				"id": "blighted-basilica-map",
-				"text": "Infestado Mapa de Basílica"
-			},
-			{
-				"id": "blighted-crimson-temple-map",
-				"text": "Infestado Mapa de Templo Carmesí"
-			},
-			{
-				"id": "blighted-sunken-city-map",
-				"text": "Infestado Mapa de Ciudad Hundida"
-			},
-			{
-				"id": "blighted-core-map",
-				"text": "Infestado Mapa de Núcleo"
-			},
-			{
-				"id": "blighted-dig-map",
-				"text": "Infestado Mapa de Perforación"
-			},
-			{
-				"id": "blighted-shrine-map",
-				"text": "Infestado Mapa de Santuario"
-			},
-			{
-				"id": "blighted-arsenal-map",
-				"text": "Infestado Mapa de Arsenal"
-			},
-			{
-				"id": "blighted-terrace-map",
-				"text": "Infestado Mapa de Terraza"
-			},
-			{
-				"id": "blighted-malformation-map",
-				"text": "Infestado Mapa de Malformación"
-			},
-			{
-				"id": "blighted-park-map",
-				"text": "Infestado Mapa de Parque"
-			},
-			{
-				"id": "blighted-ghetto-map",
-				"text": "Infestado Mapa de Gueto"
-			},
-			{
-				"id": "blighted-caldera-map",
-				"text": "Infestado Mapa de Caldera"
-			},
-			{
-				"id": "blighted-necropolis-map",
-				"text": "Infestado Mapa de Necrópolis"
-			},
-			{
-				"id": "blighted-racecourse-map",
-				"text": "Infestado Mapa de Estadio"
-			},
-			{
-				"id": "blighted-reef-map",
-				"text": "Infestado Mapa de Arrecife"
-			},
-			{
-				"id": "blighted-villa-map",
-				"text": "Infestado Mapa de Villa"
-			},
-			{
-				"id": "blighted-crystal-ore-map",
-				"text": "Infestado Mapa de Mina de Cristal"
-			},
-			{
-				"id": "blighted-castle-ruins-map",
-				"text": "Infestado Mapa de Ruinas del Castillo"
-			},
-			{
-				"id": "blighted-overgrown-shrine-map",
-				"text": "Infestado Mapa de Santuario Descuidado"
-			},
-			{
-				"id": "blighted-defiled-cathedral-map",
-				"text": "Infestado Mapa de Catedral Profanada"
-			},
-			{
-				"id": "blighted-pit-map",
-				"text": "Infestado Mapa de Hoyo"
-			},
-			{
-				"id": "blighted-mesa-map",
-				"text": "Infestado Mapa de Mesa"
-			},
-			{
-				"id": "blighted-colosseum-map",
-				"text": "Infestado Mapa de Coliseo"
+				"id": "blighted-academy-map",
+				"text": "Mapa de Academia infestado "
 			},
 			{
 				"id": "blighted-acid-caverns-map",
-				"text": "Infestado Mapa de Cavernas Ácidas"
-			},
-			{
-				"id": "blighted-factory-map",
-				"text": "Infestado Mapa de Fábrica"
-			},
-			{
-				"id": "blighted-spider-forest-map",
-				"text": "Infestado Mapa de Bosque de Arañas"
-			},
-			{
-				"id": "blighted-coves-map",
-				"text": "Infestado Mapa de Caletas"
-			},
-			{
-				"id": "blighted-primordial-pool-map",
-				"text": "Infestado Mapa de Charca Primordial"
-			},
-			{
-				"id": "blighted-colonnade-map",
-				"text": "Infestado Mapa de Columnata"
-			},
-			{
-				"id": "blighted-lair-map",
-				"text": "Infestado Mapa de Guarida"
-			},
-			{
-				"id": "blighted-promenade-map",
-				"text": "Infestado Mapa de Rambla"
-			},
-			{
-				"id": "blighted-orchard-map",
-				"text": "Infestado Mapa de Huerto"
-			},
-			{
-				"id": "blighted-cursed-crypt-map",
-				"text": "Infestado Mapa de Cripta Maldita"
-			},
-			{
-				"id": "blighted-pier-map",
-				"text": "Infestado Mapa de Muelle"
-			},
-			{
-				"id": "blighted-bog-map",
-				"text": "Infestado Mapa de Ciénaga"
-			},
-			{
-				"id": "blighted-precinct-map",
-				"text": "Infestado Mapa de Recinto"
-			},
-			{
-				"id": "blighted-wasteland-map",
-				"text": "Infestado Mapa de Páramo"
-			},
-			{
-				"id": "blighted-arachnid-tomb-map",
-				"text": "Infestado Mapa de Tumba Arácnida"
-			},
-			{
-				"id": "blighted-belfry-map",
-				"text": "Infestado Mapa de Campanario"
-			},
-			{
-				"id": "blighted-siege-map",
-				"text": "Infestado Mapa de Asedio"
-			},
-			{
-				"id": "blighted-scriptorium-map",
-				"text": "Infestado Mapa de Sala del Escriba"
-			},
-			{
-				"id": "blighted-shipyard-map",
-				"text": "Infestado Mapa de Astillero"
-			},
-			{
-				"id": "blighted-museum-map",
-				"text": "Infestado Mapa de Museo"
-			},
-			{
-				"id": "blighted-arena-map",
-				"text": "Infestado Mapa de Arena"
-			},
-			{
-				"id": "blighted-cemetery-map",
-				"text": "Infestado Mapa de Camposanto"
-			},
-			{
-				"id": "blighted-vault-map",
-				"text": "Infestado Mapa de Bóveda"
-			},
-			{
-				"id": "blighted-estuary-map",
-				"text": "Infestado Mapa de Estuario"
-			},
-			{
-				"id": "blighted-plateau-map",
-				"text": "Infestado Mapa de Meseta"
-			},
-			{
-				"id": "blighted-waste-pool-map",
-				"text": "Infestado Mapa de Charca de Desechos"
-			},
-			{
-				"id": "blighted-waterways-map",
-				"text": "Infestado Mapa de Canales"
-			},
-			{
-				"id": "blighted-sepulchre-map",
-				"text": "Infestado Mapa de Sepulcro"
-			},
-			{
-				"id": "blighted-moon-temple-map",
-				"text": "Infestado Mapa de Templo de la Luna"
-			},
-			{
-				"id": "blighted-mineral-pools-map",
-				"text": "Infestado Mapa de Charcas Minerales"
-			},
-			{
-				"id": "blighted-tropical-island-map",
-				"text": "Infestado Mapa de Isla Tropical"
-			},
-			{
-				"id": "blighted-shore-map",
-				"text": "Infestado Mapa de Orilla"
-			},
-			{
-				"id": "blighted-mud-geyser-map",
-				"text": "Infestado Mapa de Géiser de Fango"
-			},
-			{
-				"id": "blighted-courtyard-map",
-				"text": "Infestado Mapa de Patio"
-			},
-			{
-				"id": "blighted-armoury-map",
-				"text": "Infestado Mapa de Armería"
-			},
-			{
-				"id": "blighted-geode-map",
-				"text": "Infestado Mapa de Geoda"
-			},
-			{
-				"id": "blighted-vaal-pyramid-map",
-				"text": "Infestado Mapa de Pirámide Vaal"
-			},
-			{
-				"id": "blighted-overgrown-ruin-map",
-				"text": "Infestado Mapa de Ruinas Descuidadas"
-			},
-			{
-				"id": "blighted-infested-valley-map",
-				"text": "Infestado Mapa de Valle Infestado"
-			},
-			{
-				"id": "blighted-laboratory-map",
-				"text": "Infestado Mapa de Laboratorio"
-			},
-			{
-				"id": "blighted-bazaar-map",
-				"text": "Infestado Mapa de Bazar"
-			},
-			{
-				"id": "blighted-arachnid-nest-map",
-				"text": "Infestado Mapa de Nido Arácnido"
-			},
-			{
-				"id": "blighted-gardens-map",
-				"text": "Infestado Mapa de Jardines"
-			},
-			{
-				"id": "blighted-underground-river-map",
-				"text": "Infestado Mapa de Río Subterráneo"
-			},
-			{
-				"id": "blighted-bone-crypt-map",
-				"text": "Infestado Mapa de Cripta de Hueso"
-			},
-			{
-				"id": "blighted-dunes-map",
-				"text": "Infestado Mapa de Dunas"
-			},
-			{
-				"id": "blighted-ramparts-map",
-				"text": "Infestado Mapa de Murallas"
-			},
-			{
-				"id": "blighted-residence-map",
-				"text": "Infestado Mapa de Residencia"
-			},
-			{
-				"id": "blighted-lava-chamber-map",
-				"text": "Infestado Mapa de Cámara de Lava"
-			},
-			{
-				"id": "blighted-coral-ruins-map",
-				"text": "Infestado Mapa de Ruinas de Coral"
-			},
-			{
-				"id": "blighted-cells-map",
-				"text": "Infestado Mapa de Celdas"
-			},
-			{
-				"id": "blighted-underground-sea-map",
-				"text": "Infestado Mapa de Mar Subterráneo"
-			},
-			{
-				"id": "blighted-temple-map",
-				"text": "Infestado Mapa de Templo"
-			},
-			{
-				"id": "blighted-ashen-wood-map",
-				"text": "Infestado Mapa de Bosque pálido"
-			},
-			{
-				"id": "blighted-atoll-map",
-				"text": "Infestado Mapa de Atolón"
-			},
-			{
-				"id": "blighted-thicket-map",
-				"text": "Infestado Mapa de Matorral"
-			},
-			{
-				"id": "blighted-barrows-map",
-				"text": "Infestado Mapa de Túmulos"
-			},
-			{
-				"id": "blighted-spider-lair-map",
-				"text": "Infestado Mapa de Guarida de la Araña"
-			},
-			{
-				"id": "blighted-mausoleum-map",
-				"text": "Infestado Mapa de Mausoleo"
-			},
-			{
-				"id": "blighted-ivory-temple-map",
-				"text": "Infestado Mapa de Templo de Marfil"
-			},
-			{
-				"id": "blighted-ancient-city-map",
-				"text": "Infestado Mapa de Ciudad Antigua"
-			},
-			{
-				"id": "blighted-toxic-sewer-map",
-				"text": "Infestado Mapa de Alcantarilla Tóxica"
-			},
-			{
-				"id": "blighted-maze-map",
-				"text": "Infestado Mapa de Laberinto"
-			},
-			{
-				"id": "blighted-haunted-mansion-map",
-				"text": "Infestado Mapa de Mansión Embrujada"
-			},
-			{
-				"id": "blighted-channel-map",
-				"text": "Infestado Mapa de Cauce"
-			},
-			{
-				"id": "blighted-sulphur-vents-map",
-				"text": "Infestado Mapa de Fumarolas de Azufre"
-			},
-			{
-				"id": "blighted-fields-map",
-				"text": "Infestado Mapa de Campos"
-			},
-			{
-				"id": "blighted-conservatory-map",
-				"text": "Infestado Mapa de Conservatorio"
-			},
-			{
-				"id": "blighted-canyon-map",
-				"text": "Infestado Mapa de Cañón"
-			},
-			{
-				"id": "blighted-lighthouse-map",
-				"text": "Infestado Mapa de Faro"
-			},
-			{
-				"id": "blighted-volcano-map",
-				"text": "Infestado Mapa de Volcán"
-			},
-			{
-				"id": "blighted-glacier-map",
-				"text": "Infestado Mapa de Glaciar"
-			},
-			{
-				"id": "blighted-courthouse-map",
-				"text": "Infestado Mapa de Juzgado"
-			},
-			{
-				"id": "blighted-strand-map",
-				"text": "Infestado Mapa de Litoral"
-			},
-			{
-				"id": "blighted-chateau-map",
-				"text": "Infestado Mapa de Palacete"
-			},
-			{
-				"id": "blighted-relic-chambers-map",
-				"text": "Infestado Mapa de las Cámaras de Reliquias"
-			},
-			{
-				"id": "blighted-city-square-map",
-				"text": "Infestado Mapa de Plaza de Ciudad"
-			},
-			{
-				"id": "blighted-arcade-map",
-				"text": "Infestado Mapa de Galería"
-			},
-			{
-				"id": "blighted-crater-map",
-				"text": "Infestado Mapa de Cráter"
-			},
-			{
-				"id": "blighted-burial-chambers-map",
-				"text": "Infestado Mapa de Aposentos del Entierro"
-			},
-			{
-				"id": "blighted-port-map",
-				"text": "Infestado Mapa de Puerto"
-			},
-			{
-				"id": "blighted-peninsula-map",
-				"text": "Infestado Mapa de Península"
-			},
-			{
-				"id": "blighted-leyline-map",
-				"text": "Infestado Mapa de Línea Ley"
-			},
-			{
-				"id": "blighted-excavation-map",
-				"text": "Infestado Mapa de Excavación"
-			},
-			{
-				"id": "blighted-fungal-hollow-map",
-				"text": "Infestado Mapa de Hondonada Fúngica"
-			},
-			{
-				"id": "blighted-cage-map",
-				"text": "Infestado Mapa de Jaula"
-			},
-			{
-				"id": "blighted-iceberg-map",
-				"text": "Infestado Mapa de Iceberg"
-			},
-			{
-				"id": "blighted-marshes-map",
-				"text": "Infestado Mapa de Marjales"
-			},
-			{
-				"id": "blighted-flooded-mine-map",
-				"text": "Infestado Mapa de Mina Inundada"
-			},
-			{
-				"id": "blighted-arid-lake-map",
-				"text": "Infestado Mapa de Lago Árido"
-			},
-			{
-				"id": "blighted-desert-map",
-				"text": "Infestado Mapa de Desierto"
-			},
-			{
-				"id": "blighted-pen-map",
-				"text": "Infestado Mapa de Corral"
+				"text": "Mapa de Cavernas Ácidas infestado "
 			},
 			{
 				"id": "blighted-alleyways-map",
-				"text": "Infestado Mapa de Callejones"
+				"text": "Mapa de Callejones infestado "
 			},
 			{
-				"id": "blighted-dungeon-map",
-				"text": "Infestado Mapa de Mazmorra"
+				"id": "blighted-ancient-city-map",
+				"text": "Mapa de Ciudad Antigua infestado "
 			},
 			{
-				"id": "blighted-graveyard-map",
-				"text": "Infestado Mapa de Cementerio"
+				"id": "blighted-arachnid-nest-map",
+				"text": "Mapa de Nido Arácnido infestado "
 			},
 			{
-				"id": "blighted-grotto-map",
-				"text": "Infestado Mapa de Gruta"
+				"id": "blighted-arachnid-tomb-map",
+				"text": "Mapa de Tumba Arácnida infestado "
+			},
+			{
+				"id": "blighted-arcade-map",
+				"text": "Mapa de Galería infestado "
+			},
+			{
+				"id": "blighted-arena-map",
+				"text": "Mapa de Arena infestado "
+			},
+			{
+				"id": "blighted-arid-lake-map",
+				"text": "Mapa de Lago Árido infestado "
+			},
+			{
+				"id": "blighted-armoury-map",
+				"text": "Mapa de Armería infestado "
+			},
+			{
+				"id": "blighted-arsenal-map",
+				"text": "Mapa de Arsenal infestado "
+			},
+			{
+				"id": "blighted-ashen-wood-map",
+				"text": "Mapa de Bosque pálido infestado "
+			},
+			{
+				"id": "blighted-atoll-map",
+				"text": "Mapa de Atolón infestado "
+			},
+			{
+				"id": "blighted-barrows-map",
+				"text": "Mapa de Túmulos infestado "
+			},
+			{
+				"id": "blighted-basilica-map",
+				"text": "Mapa de Basílica infestado "
+			},
+			{
+				"id": "blighted-bazaar-map",
+				"text": "Mapa de Bazar infestado "
 			},
 			{
 				"id": "blighted-beach-map",
-				"text": "Infestado Mapa de Playa"
+				"text": "Mapa de Playa infestado "
 			},
 			{
-				"id": "blighted-lookout-map",
-				"text": "Infestado Mapa de Puesto de Observación"
+				"id": "blighted-belfry-map",
+				"text": "Mapa de Campanario infestado "
+			},
+			{
+				"id": "blighted-bog-map",
+				"text": "Mapa de Ciénaga infestado "
+			},
+			{
+				"id": "blighted-bone-crypt-map",
+				"text": "Mapa de Cripta de Hueso infestado "
+			},
+			{
+				"id": "blighted-bramble-valley-map",
+				"text": "Mapa de Valle de zarzales infestado "
+			},
+			{
+				"id": "blighted-burial-chambers-map",
+				"text": "Mapa de Aposentos del Entierro infestado "
+			},
+			{
+				"id": "blighted-cage-map",
+				"text": "Mapa de Jaula infestado "
+			},
+			{
+				"id": "blighted-caldera-map",
+				"text": "Mapa de Caldera infestado "
+			},
+			{
+				"id": "blighted-canyon-map",
+				"text": "Mapa de Cañón infestado "
+			},
+			{
+				"id": "blighted-carcass-map",
+				"text": "Mapa de Cadáver infestado "
+			},
+			{
+				"id": "blighted-castle-ruins-map",
+				"text": "Mapa de Ruinas del Castillo infestado "
+			},
+			{
+				"id": "blighted-cells-map",
+				"text": "Mapa de Celdas infestado "
+			},
+			{
+				"id": "blighted-cemetery-map",
+				"text": "Mapa de Camposanto infestado "
+			},
+			{
+				"id": "blighted-channel-map",
+				"text": "Mapa de Cauce infestado "
+			},
+			{
+				"id": "blighted-chateau-map",
+				"text": "Mapa de Palacete infestado "
+			},
+			{
+				"id": "blighted-city-square-map",
+				"text": "Mapa de Plaza de Ciudad infestado "
+			},
+			{
+				"id": "blighted-cold-river-map",
+				"text": "Mapa de Río helado infestado "
+			},
+			{
+				"id": "blighted-colonnade-map",
+				"text": "Mapa de Columnata infestado "
+			},
+			{
+				"id": "blighted-colosseum-map",
+				"text": "Mapa de Coliseo infestado "
+			},
+			{
+				"id": "blighted-conservatory-map",
+				"text": "Mapa de Conservatorio infestado "
+			},
+			{
+				"id": "blighted-coral-ruins-map",
+				"text": "Mapa de Ruinas de Coral infestado "
+			},
+			{
+				"id": "blighted-core-map",
+				"text": "Mapa de Núcleo infestado "
+			},
+			{
+				"id": "blighted-courthouse-map",
+				"text": "Mapa de Juzgado infestado "
+			},
+			{
+				"id": "blighted-courtyard-map",
+				"text": "Mapa de Patio infestado "
+			},
+			{
+				"id": "blighted-coves-map",
+				"text": "Mapa de Caletas infestado "
+			},
+			{
+				"id": "blighted-crater-map",
+				"text": "Mapa de Cráter infestado "
+			},
+			{
+				"id": "blighted-crimson-temple-map",
+				"text": "Mapa de Templo Carmesí infestado "
+			},
+			{
+				"id": "blighted-crimson-township-map",
+				"text": "Mapa de Poblado carmesí infestado "
+			},
+			{
+				"id": "blighted-crystal-ore-map",
+				"text": "Mapa de Mina de Cristal infestado "
+			},
+			{
+				"id": "blighted-cursed-crypt-map",
+				"text": "Mapa de Cripta Maldita infestado "
+			},
+			{
+				"id": "blighted-dark-forest-map",
+				"text": "Mapa de Bosque Oscuro infestado "
+			},
+			{
+				"id": "blighted-defiled-cathedral-map",
+				"text": "Mapa de Catedral Profanada infestado "
+			},
+			{
+				"id": "blighted-desert-map",
+				"text": "Mapa de Desierto infestado "
+			},
+			{
+				"id": "blighted-desert-spring-map",
+				"text": "Mapa de Manantial de Desierto infestado "
+			},
+			{
+				"id": "blighted-dig-map",
+				"text": "Mapa de Perforación infestado "
+			},
+			{
+				"id": "blighted-dry-sea-map",
+				"text": "Mapa de Mar seco infestado "
+			},
+			{
+				"id": "blighted-dunes-map",
+				"text": "Mapa de Dunas infestado "
+			},
+			{
+				"id": "blighted-dungeon-map",
+				"text": "Mapa de Mazmorra infestado "
+			},
+			{
+				"id": "blighted-estuary-map",
+				"text": "Mapa de Estuario infestado "
+			},
+			{
+				"id": "blighted-excavation-map",
+				"text": "Mapa de Excavación infestado "
+			},
+			{
+				"id": "blighted-factory-map",
+				"text": "Mapa de Fábrica infestado "
+			},
+			{
+				"id": "blighted-fields-map",
+				"text": "Mapa de Campos infestado "
+			},
+			{
+				"id": "blighted-flooded-mine-map",
+				"text": "Mapa de Mina Inundada infestado "
+			},
+			{
+				"id": "blighted-forbidden-woods-map",
+				"text": "Mapa de Bosque prohibido infestado "
+			},
+			{
+				"id": "blighted-forking-river-map",
+				"text": "Mapa de Río bifurcado infestado "
+			},
+			{
+				"id": "blighted-foundry-map",
+				"text": "Mapa de Fundición infestado "
+			},
+			{
+				"id": "blighted-frozen-cabins-map",
+				"text": "Mapa de Cabinas congeladas infestado "
+			},
+			{
+				"id": "blighted-fungal-hollow-map",
+				"text": "Mapa de Hondonada Fúngica infestado "
+			},
+			{
+				"id": "blighted-gardens-map",
+				"text": "Mapa de Jardines infestado "
+			},
+			{
+				"id": "blighted-geode-map",
+				"text": "Mapa de Geoda infestado "
+			},
+			{
+				"id": "blighted-ghetto-map",
+				"text": "Mapa de Gueto infestado "
+			},
+			{
+				"id": "blighted-glacier-map",
+				"text": "Mapa de Glaciar infestado "
+			},
+			{
+				"id": "blighted-grave-trough-map",
+				"text": "Mapa de Hondonada fúnebre infestado "
+			},
+			{
+				"id": "blighted-graveyard-map",
+				"text": "Mapa de Cementerio infestado "
+			},
+			{
+				"id": "blighted-grotto-map",
+				"text": "Mapa de Gruta infestado "
+			},
+			{
+				"id": "blighted-haunted-mansion-map",
+				"text": "Mapa de Mansión Embrujada infestado "
+			},
+			{
+				"id": "blighted-iceberg-map",
+				"text": "Mapa de Iceberg infestado "
+			},
+			{
+				"id": "blighted-infested-valley-map",
+				"text": "Mapa de Valle Infestado infestado "
+			},
+			{
+				"id": "blighted-ivory-temple-map",
+				"text": "Mapa de Templo de Marfil infestado "
 			},
 			{
 				"id": "blighted-jungle-valley-map",
-				"text": "Infestado Mapa de Valle de la Jungla"
+				"text": "Mapa de Valle de la Jungla infestado "
+			},
+			{
+				"id": "blighted-laboratory-map",
+				"text": "Mapa de Laboratorio infestado "
+			},
+			{
+				"id": "blighted-lair-map",
+				"text": "Mapa de Guarida infestado "
+			},
+			{
+				"id": "blighted-lava-chamber-map",
+				"text": "Mapa de Cámara de Lava infestado "
+			},
+			{
+				"id": "blighted-lava-lake-map",
+				"text": "Mapa de Lago de Lava infestado "
+			},
+			{
+				"id": "blighted-leyline-map",
+				"text": "Mapa de Línea Ley infestado "
+			},
+			{
+				"id": "blighted-lighthouse-map",
+				"text": "Mapa de Faro infestado "
+			},
+			{
+				"id": "blighted-lookout-map",
+				"text": "Mapa de Puesto de Observación infestado "
+			},
+			{
+				"id": "blighted-malformation-map",
+				"text": "Mapa de Malformación infestado "
+			},
+			{
+				"id": "blighted-marshes-map",
+				"text": "Mapa de Marjales infestado "
+			},
+			{
+				"id": "blighted-mausoleum-map",
+				"text": "Mapa de Mausoleo infestado "
+			},
+			{
+				"id": "blighted-maze-map",
+				"text": "Mapa de Laberinto infestado "
+			},
+			{
+				"id": "blighted-mesa-map",
+				"text": "Mapa de Mesa infestado "
+			},
+			{
+				"id": "blighted-mineral-pools-map",
+				"text": "Mapa de Charcas Minerales infestado "
+			},
+			{
+				"id": "blighted-moon-temple-map",
+				"text": "Mapa de Templo de la Luna infestado "
+			},
+			{
+				"id": "blighted-mud-geyser-map",
+				"text": "Mapa de Géiser de Fango infestado "
+			},
+			{
+				"id": "blighted-museum-map",
+				"text": "Mapa de Museo infestado "
+			},
+			{
+				"id": "blighted-necropolis-map",
+				"text": "Mapa de Necrópolis infestado "
+			},
+			{
+				"id": "blighted-orchard-map",
+				"text": "Mapa de Huerto infestado "
+			},
+			{
+				"id": "blighted-overgrown-ruin-map",
+				"text": "Mapa de Ruinas Descuidadas infestado "
+			},
+			{
+				"id": "blighted-overgrown-shrine-map",
+				"text": "Mapa de Santuario Descuidado infestado "
+			},
+			{
+				"id": "blighted-palace-map",
+				"text": "Mapa de Palacio infestado "
+			},
+			{
+				"id": "blighted-park-map",
+				"text": "Mapa de Parque infestado "
+			},
+			{
+				"id": "blighted-pen-map",
+				"text": "Mapa de Corral infestado "
+			},
+			{
+				"id": "blighted-peninsula-map",
+				"text": "Mapa de Península infestado "
 			},
 			{
 				"id": "blighted-phantasmagoria-map",
-				"text": "Infestado Mapa de Fantasmagoria"
+				"text": "Mapa de Fantasmagoria infestado "
 			},
 			{
-				"id": "blighted-academy-map",
-				"text": "Infestado Mapa de Academia"
+				"id": "blighted-pier-map",
+				"text": "Mapa de Muelle infestado "
+			},
+			{
+				"id": "blighted-pit-map",
+				"text": "Mapa de Hoyo infestado "
+			},
+			{
+				"id": "blighted-plateau-map",
+				"text": "Mapa de Meseta infestado "
+			},
+			{
+				"id": "blighted-plaza-map",
+				"text": "Mapa de Plaza infestado "
+			},
+			{
+				"id": "blighted-port-map",
+				"text": "Mapa de Puerto infestado "
+			},
+			{
+				"id": "blighted-precinct-map",
+				"text": "Mapa de Recinto infestado "
+			},
+			{
+				"id": "blighted-primordial-blocks-map",
+				"text": "Mapa de Bloques Primordiales infestado "
+			},
+			{
+				"id": "blighted-primordial-pool-map",
+				"text": "Mapa de Charca Primordial infestado "
+			},
+			{
+				"id": "blighted-promenade-map",
+				"text": "Mapa de Rambla infestado "
+			},
+			{
+				"id": "blighted-racecourse-map",
+				"text": "Mapa de Estadio infestado "
+			},
+			{
+				"id": "blighted-ramparts-map",
+				"text": "Mapa de Murallas infestado "
+			},
+			{
+				"id": "blighted-reef-map",
+				"text": "Mapa de Arrecife infestado "
+			},
+			{
+				"id": "blighted-relic-chambers-map",
+				"text": "Mapa de las Cámaras de Reliquias infestado "
+			},
+			{
+				"id": "blighted-residence-map",
+				"text": "Mapa de Residencia infestado "
+			},
+			{
+				"id": "blighted-scriptorium-map",
+				"text": "Mapa de Sala del Escriba infestado "
+			},
+			{
+				"id": "blighted-sepulchre-map",
+				"text": "Mapa de Sepulcro infestado "
+			},
+			{
+				"id": "blighted-shipyard-map",
+				"text": "Mapa de Astillero infestado "
+			},
+			{
+				"id": "blighted-shore-map",
+				"text": "Mapa de Orilla infestado "
+			},
+			{
+				"id": "blighted-shrine-map",
+				"text": "Mapa de Santuario infestado "
+			},
+			{
+				"id": "blighted-siege-map",
+				"text": "Mapa de Asedio infestado "
+			},
+			{
+				"id": "blighted-silo-map",
+				"text": "Mapa de Silo infestado "
+			},
+			{
+				"id": "blighted-spider-forest-map",
+				"text": "Mapa de Bosque de Arañas infestado "
+			},
+			{
+				"id": "blighted-spider-lair-map",
+				"text": "Mapa de Guarida de la Araña infestado "
+			},
+			{
+				"id": "blighted-stagnation-map",
+				"text": "Mapa de Estancamiento infestado "
+			},
+			{
+				"id": "blighted-strand-map",
+				"text": "Mapa de Litoral infestado "
+			},
+			{
+				"id": "blighted-sulphur-vents-map",
+				"text": "Mapa de Fumarolas de Azufre infestado "
+			},
+			{
+				"id": "blighted-summit-map",
+				"text": "Mapa de Cima infestado "
+			},
+			{
+				"id": "blighted-sunken-city-map",
+				"text": "Mapa de Ciudad Hundida infestado "
+			},
+			{
+				"id": "blighted-temple-map",
+				"text": "Mapa de Templo infestado "
+			},
+			{
+				"id": "blighted-terrace-map",
+				"text": "Mapa de Terraza infestado "
+			},
+			{
+				"id": "blighted-thicket-map",
+				"text": "Mapa de Matorral infestado "
+			},
+			{
+				"id": "blighted-tower-map",
+				"text": "Mapa de la Torre infestado "
+			},
+			{
+				"id": "blighted-toxic-sewer-map",
+				"text": "Mapa de Alcantarilla Tóxica infestado "
+			},
+			{
+				"id": "blighted-tropical-island-map",
+				"text": "Mapa de Isla Tropical infestado "
+			},
+			{
+				"id": "blighted-underground-river-map",
+				"text": "Mapa de Río Subterráneo infestado "
+			},
+			{
+				"id": "blighted-underground-sea-map",
+				"text": "Mapa de Mar Subterráneo infestado "
+			},
+			{
+				"id": "blighted-vaal-pyramid-map",
+				"text": "Mapa de Pirámide Vaal infestado "
+			},
+			{
+				"id": "blighted-vaal-temple-map",
+				"text": "Mapa de Templo Vaal infestado "
+			},
+			{
+				"id": "blighted-vault-map",
+				"text": "Mapa de Bóveda infestado "
+			},
+			{
+				"id": "blighted-villa-map",
+				"text": "Mapa de Villa infestado "
+			},
+			{
+				"id": "blighted-volcano-map",
+				"text": "Mapa de Volcán infestado "
+			},
+			{
+				"id": "blighted-waste-pool-map",
+				"text": "Mapa de Charca de Desechos infestado "
+			},
+			{
+				"id": "blighted-wasteland-map",
+				"text": "Mapa de Páramo infestado "
+			},
+			{
+				"id": "blighted-waterways-map",
+				"text": "Mapa de Canales infestado "
 			},
 			{
 				"id": "blighted-wharf-map",
-				"text": "Infestado Mapa de Embarcadero"
+				"text": "Mapa de Embarcadero infestado "
 			}
 		],
 		"id": "MapsBlighted",
