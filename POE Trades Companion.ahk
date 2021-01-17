@@ -56,6 +56,9 @@ Hotkey, IfWinActive,% "ahk_pid " DllCall("GetCurrentProcessId")
 ; }
 Return
 
+f5::reload
+
+
 ; - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 Cancel_AutoWhisper() {
@@ -196,8 +199,8 @@ Start_Script() {
 		AssetsExtract()
 
 	; Creating settings and file
-	LocalSettings_CreateFileIfNotExisting()
-	LocalSettings_VerifyEncoding()
+	; LocalSettings_CreateFileIfNotExisting()
+	; LocalSettings_VerifyEncoding()
 
 	Delete_OldLogsFile()
 	Create_LogsFile()
@@ -357,10 +360,10 @@ Start_Script() {
 	GUI_Intercom.Create()
 	; ImageButton_TestDelay()
 
-	GUI_Trades_V2.Create(, buyOrSell:="Sell", stackOrTabs:=PROGRAM.SETTINGS.SELL_INTERFACE.Mode)
-	GUI_Trades_V2.Create(, buyOrSell:="Buy", stackOrTabs:=PROGRAM.SETTINGS.BUY_INTERFACE.Mode)
-	GUI_Trades_V2.LoadBackup("Sell")
-	GUI_Trades_V2.LoadBackup("Buy")
+	; GUI_Trades_V2.Create(, buyOrSell:="Sell", stackOrTabs:=PROGRAM.SETTINGS.SELL_INTERFACE.Mode)
+	; GUI_Trades_V2.Create(, buyOrSell:="Buy", stackOrTabs:=PROGRAM.SETTINGS.BUY_INTERFACE.Mode)
+	; GUI_Trades_V2.LoadBackup("Sell")
+	; GUI_Trades_V2.LoadBackup("Buy")
 
 	; Parse debug msgs
 	if (DEBUG.settings.use_chat_logs) {
@@ -369,11 +372,10 @@ Start_Script() {
 	}
 	Monitor_GameLogs()
 
-	global GuiSettings
-	if !WinExist("ahk_id " GuiSettings.Handle)
-		Gui_Settings.Create()
+	if !WinExist("ahk_id " GUI_Settings.sGUI.Handle)
+		GUI_Settings.Create()
 	if (DEBUG.settings.open_settings_gui)
-		Gui_Settings.Show()
+		GUI_Settings.Show()
 
 	if (DEBUG.settings.open_mystats_gui)
 		GUI_MyStats.Show()

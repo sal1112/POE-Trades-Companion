@@ -1,3 +1,14 @@
+WinWaitTitle(winTitle, waitTime="inf", detectHiddenWin=False) {
+	waitTime := waitTime="inf" ? "" : waitTime
+	if (detectHiddenWin)
+		hw := DetectHiddenWindows("On")
+	WinWait,% winTitle,,% waitTime
+	errLvl := ErrorLevel
+	if (detectHiddenWin)
+		DetectHiddenWindows(hw)
+	return ErrorLevel
+}
+
 Get_HotkeyString(_hotkey, simpleString=False) {
 	Loop 3 {
 		char := SubStr(_hotkey, A_Index, 1)

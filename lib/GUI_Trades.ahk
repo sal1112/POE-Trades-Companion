@@ -121,6 +121,7 @@
 		for bitMapName, bitMapValue in bitMaps
 			Gdip_DisposeImage(bitMaps[bitMapName])
 		Gdip_DisposeImage(pBitmapFinal)
+		Gdip_DeleteBrush(pBrush)
 		Gdip_DeleteGraphics(G)
 
 		; Debug
@@ -877,7 +878,7 @@
     */
 
     DoCustomButtonAction(_buyOrSell, rowNum, btnNum, tabNum) {
-		global PROGRAM, ACTIONS_FORCED_CONTENT
+		global PROGRAM
 		global GuiTrades, GuiTrades_Controls
 		static uniqueNum
 		tabGamePID := GUI_Trades_V2.GetTabContent(_buyOrSell, tabNum).GamePID

@@ -123,7 +123,7 @@ Tray_CycleDock() {
 	*/
 }
 Tray_ToggleClickthrough() {
-	global PROGRAM, GuiSettings_Controls
+	global PROGRAM
 
 	GUI_Settings.TabSettingsMain_ToggleClickthroughCheckbox()
 	toggle := PROGRAM.SETTINGS.SETTINGS_MAIN.AllowClicksToPassThroughWhileInactive

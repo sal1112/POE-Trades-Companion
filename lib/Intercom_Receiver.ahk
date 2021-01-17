@@ -6,7 +6,7 @@
         this.sGUI := new GUI("Intercom", "+AlwaysOnTop +ToolWindow +LastFound -SysMenu -Caption -Border +HwndhGuiIntercom +Label" this.__class, "Intercom")
         Loop 100 ; Making 100 slots, setting SubRoutine
             this.sGUI.Add("Edit", "x0 y0 w0 h0 hwndhEDIT_Slot" A_Index " "), this.sGUI.BindFunctionToControl("hEDIT_Slot" A_Index, "OnSlotContentChange")
-        this.sGUI.Show("Intercom", "x0 y0 w0 w0 NoActivate Hide")
+        this.sGUI.Show("x0 y0 w0 w0 NoActivate Hide")
     }
 
     GetNextAvailableSlot() {

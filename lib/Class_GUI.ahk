@@ -83,12 +83,15 @@ class GUI {
 
         ; ; Reset the GUI
         if ( this.Name )
-		    this.Destroy()
-		Gui, %guiName%:New, %normal_opts%, %title%
+            this.Destroy()
+        try
+            Gui, %guiName%:New, %normal_opts%, %title%
+        catch e
+            this.ThrowError(e.Message "`n" e.Extra)
 
         ; Reset its associated arrays
         this.Controls := {}, this.ControlsContents := {}, this.BoundFunctions := {}, this.BoundWindowsMessages := {}, this.ImageButtonErrors := {}
-		this.Name := guiName, this.Title := title, this.Handle := %guiHandleName%, this.Children := {}
+        this.Name := guiName, this.Title := title, this.Handle := %guiHandleName%, this.Children := {}
 
         ; Set default stuff
         if (special_opts.Font)
@@ -105,40 +108,43 @@ class GUI {
 	}
     
     NewChild(childName, childOpts="", childTitle="") {
-        return this.Children[childName] := new GUI(this.Name childName, childOpts " +Parent" this.Name, childTitle)
+        try
+            return this.Children[childName] := new GUI(this.Name childName, childOpts " +Parent" this.Name, childTitle)
+        catch e
+            this.ThrowError(e.Message "`n" e.Extra)
     }
 
     SeparateSpecialParamsAndValue(opts) {
         SpecialOptsAvailable := ["FontSize", "FontQuality", "Font", "ControlChooseString", "CenterVertical", "Bold", "Italic", "Strike", "Underline"]
         SpecialOpts := {}, opts_original := opts
 
-		; Parsing parameters
-		Loop, Parse, opts_original,% A_Space
-		{
-			thisOpt := A_LoopField
+        ; Parsing parameters
+        Loop, Parse, opts_original,% A_Space
+        {
+            thisOpt := A_LoopField
             thisOpt_end += StrLen(A_LoopField)
             thisOpt_start := thisOpt_end - StrLen(A_LoopField) + 1
             
-			; SpecialOpts
-			for index, sOpt in SpecialOptsAvailable {
+            ; SpecialOpts
+            for index, sOpt in SpecialOptsAvailable {
                 
                 if IsIn( SubStr(thisOpt, 1, 1), "+" ) ; Remove + or - if part of param
                     thisOpt := SubStr(thisOpt, 2)
 
                 len := StrLen(sOpt), param := SubStr(thisOpt, 1, len)
-				if (param = sOpt) {
+                if (param = sOpt) {
                     if (sOpt = "Font") {
                         RegExMatch(opts_original,"iO)" param "'(.*?)'", out, thisOpt_start) ; Font name needs to be between ''
                         value := out.1, thisOpt := out.0
                     }
                     else
                         value := SubStr(thisOpt, len+1) ; Separate param and value
-					opts := StrReplace(opts, thisOpt, "")
-					SpecialOpts[param] := value
-					Break
-				}
-			}
-		}
+                    opts := StrReplace(opts, thisOpt, "")
+                    SpecialOpts[param] := value
+                    Break
+                }
+            }
+        }
         return {SpecialOpts:SpecialOpts, NormalOpts:opts}
     }
 
@@ -147,7 +153,9 @@ class GUI {
     }
 
     AddImageButton(opts="", content="", imgBtnStyle="", imageBtnFontHandle="", imageBtnFontSize="") {
-        this.Add("ImageButton", opts, content, imgBtnStyle, imageBtnFontHandle, imageBtnFontSize)
+        try this.Add("ImageButton", opts, content, imgBtnStyle, imageBtnFontHandle, imageBtnFontSize)
+        catch e
+            this.ThrowError(e.Message "`n" e.Extra)
     }
 
     ThrowError(errors) {
@@ -218,7 +226,7 @@ class GUI {
 
     Add(ctrlType="", opts="", content="", imageBtnStyle="", imageBtnFontHandle="", imageBtnFontSize="") {
         if !IsIn(ctrlType,"Text,Edit,UpDown,Picture,Button,Checkbox,Radio,DropDownList,ComboBox,ListBox,ListView,TreeView,Link,Hotkey"
-        . ",DateTime,MonthCal,Slider,Progress,GroupBox,Tab,Tab2,Tab3,StatusBar,ActiveX,Custom,Picture,ImageButton")
+        . ",DateTime,MonthCal,Slider,Progress,GroupBox,Tab,Tab2,Tab3,StatusBar,ActiveX,Custom,ImageButton")
             this.ThrowError(["Control type is not alllowed", ctrlType])
 
         guiName := this.Name
@@ -300,38 +308,56 @@ class GUI {
 	}
 
     GetComboBoxList(ctrlHandleName) {
-        ControlGet, comboBoxList, List, , ,% "ahk_id " this.Controls[ctrlHandleName]
-        comboBoxList := StrReplace(comboBoxList, "`n", "|")
-        return comboBoxList
+        try {
+            ControlGet, comboBoxList, List, , ,% "ahk_id " this.Controls[ctrlHandleName]
+            comboBoxList := StrReplace(comboBoxList, "`n", "|")
+            return comboBoxList
+        }
+        catch e
+            this.ThrowError(e.Message "`n" e.Extra)
     }
 
     ControlChoose(ctrlHandleName, chooseWhat) {
         guiName := this.Name
-        GuiControl, %guiName%:Choose,% this.Controls[ctrlHandleName],% chooseWhat
+        try GuiControl, %guiName%:Choose,% this.Controls[ctrlHandleName],% chooseWhat
+        catch e
+            this.ThrowError(e.Message "`n" e.Extra)
     }
 
     ControlChooseString(ctrlHandleName, chooseWhat) {
         guiName := this.Name
-        GuiControl, %guiName%:ChooseString,% this.Controls[ctrlHandleName],% chooseWhat
+        try GuiControl, %guiName%:ChooseString,% this.Controls[ctrlHandleName],% chooseWhat
+        catch e
+            this.ThrowError(e.Message "`n" e.Extra)
     }
 
 	GetControlContent(ctrlHandleName) {
-		this.GetControlsContents()
-		return this.ControlsContents[ctrlHandleName]
+        try {
+            this.GetControlsContents()
+            return this.ControlsContents[ctrlHandleName]
+        }
+        catch e
+            this.ThrowError(e.Message "`n" e.Extra)
 	}
 
     GetControlsContents() {
 		guiName := this.Name, this.ControlsContents := {}
-		for ctrlHandleName, ctrlHandle in this.Controls {
-			GuiControlGet, ctrlContent,%guiName%:,% ctrlHandle
-            this.ControlsContents[ctrlHandleName] := ctrlContent
-		}
-        return this.ControlsContents
+        try {
+            for ctrlHandleName, ctrlHandle in this.Controls {
+                GuiControlGet, ctrlContent,%guiName%:,% ctrlHandle
+                this.ControlsContents[ctrlHandleName] := ctrlContent
+            }
+            return this.ControlsContents
+        }
+        catch e
+            this.ThrowError(e.Message "`n" e.Extra)
 	}
 
     SetControlContent(ctrlHandleName, ctrlContent) {
         guiName := this.Name
-        GuiControl, %guiName%:,% this.Controls[ctrlHandleName],% ctrlContent
+        try GuiControl, %guiName%:,% this.Controls[ctrlHandleName],% ctrlContent
+        catch e
+            this.ThrowError(e.Message "`n" e.Extra)
     }
 
     SetMargins(xMargin, yMargin) {
@@ -391,15 +417,16 @@ class GUI {
 
     GetControlPos(ctrlHandleName) {
         guiName := this.Name
-		GuiControlGet, ctrlPos , %guiName%:Pos,% this.Controls[ctrlHandleName]
+        try GuiControlGet, ctrlPos , %guiName%:Pos,% this.Controls[ctrlHandleName]
+        catch e
+            this.ThrowError(e.Message "`n" e.Extra)
 		return {X:ctrlPosX,Y:ctrlPosY,W:ctrlPosW,H:ctrlPosH}
 	}
 
     AddColoredBorder(borderSize, borderColor) {
         guiName := this.Name
-        size := this.GetPosition(), gui_width := size.Width, gui_height := size.Height
-        
         try {
+            size := this.GetPosition(), gui_width := size.Width, gui_height := size.Height
             Gui, %guiName%:Add, Progress,% "x0 y0 w" gui_width " h" borderSize " Background" borderColor ; Top
 		    Gui, %guiName%:Add, Progress,% "x0 y0 w" borderSize " h" gui_height " Background" borderColor ; Left
 		    Gui, %guiName%:Add, Progress,% "x" gui_width-borderSize " y0" " w" borderSize " h" gui_height " Background" borderColor ; Right
@@ -409,62 +436,71 @@ class GUI {
             this.ThrowError(e.Message "`n" e.Extra)
     }
 
-    PredictControlHeight(ctrlType, ctrlOpts, ctrlContent) {
+    PredictControlSize(ctrlType, ctrlOpts, ctrlContent) {
         guiName := this.Name
-        predict_gui := new GUI("PredictControlHeight")
-    
-		predict_gui.Add(ctrlType, ctrlOpts " hwndhControlHandle", ctrlContent)
-        controlPosition := predict_gui.GetControlPos("hControlHandle")
-		predict_gui.Destroy()
-
-        return controlPosition.H
+        try {
+            predict_gui := new GUI("PredictControlSize")    
+            predict_gui.Add(ctrlType, ctrlOpts " hwndhControlHandle", ctrlContent)
+            controlPosition := predict_gui.GetControlPos("hControlHandle")
+            predict_gui.Destroy()
+            return controlPosition
+        }
+        catch e
+            this.ThrowError(e.Message "`n" e.Extra) 
     }
 
     GetControlText(ctrlHandleName) {
-        ControlGetText, ctrlText, ,% "ahk_id " this.Controls[ctrlHandleName]
-        return ctrlText
+        try {
+            ControlGetText, ctrlText, ,% "ahk_id " this.Controls[ctrlHandleName]
+            return ctrlText
+        }
+        catch e
+            this.ThrowError(e.Message "`n" e.Extra)
     }
 
     GetPosition(onlyIfVisible=False) {
-        
-        hw := DetectHiddenWindows("Off")
-        if WinExist("ahk_id " this.Handle) {
+        try {
+            hw := DetectHiddenWindows("Off")
+            if WinExist("ahk_id " this.Handle) {
+                WinGetPos, X, Y, Width, Height,% "ahk_id " this.Handle
+                DetectHiddenWindows(hw)
+                return {X:X, Y:Y, Width:Width, Height:Height}
+            }
+            if (onlyIfVisible) {
+                DetectHiddenWindows(hw)
+                return
+            }
+
+            DetectHiddenWindows("On")
             WinGetPos, X, Y, Width, Height,% "ahk_id " this.Handle
+            if (Width = 0 && Height = 0) {
+                this.Show("AutoSize Hide")
+                WinGetPos, X, Y, Width, Height,% "ahk_id " this.Handle
+            }
             DetectHiddenWindows(hw)
             return {X:X, Y:Y, Width:Width, Height:Height}
         }
-        if (onlyIfVisible) {
-            DetectHiddenWindows(hw)
-            return
-        }
-
-        DetectHiddenWindows("On")
-        WinGetPos, X, Y, Width, Height,% "ahk_id " this.Handle
-        if (Width = 0 && Height = 0) {
-            this.Show("AutoSize Hide")
-            WinGetPos, X, Y, Width, Height,% "ahk_id " this.Handle
-        }
-        DetectHiddenWindows(hw)
-        return {X:X, Y:Y, Width:Width, Height:Height}
+        catch e
+            this.ThrowError(e.Message "`n" e.Extra)
     }
 
     ShowControl(ctrlHandleName) {
         guiName := this.Name
-        try GuiControl, %guiName%:Show,% this.sGUI.Controls[ctrlHandleName]
+        try GuiControl, %guiName%:Show,% this.Controls[ctrlHandleName]
         catch e
             this.ThrowError(e.Message "`n" e.Extra)
     }
 
     HideControl(ctrlHandleName) {
         guiName := this.Name
-        try GuiControl, %guiName%:Hide,% this.sGUI.Controls[ctrlHandleName]
+        try GuiControl, %guiName%:Hide,% this.Controls[ctrlHandleName]
         catch e
             this.ThrowError(e.Message "`n" e.Extra)
     }
 
     FocusControl(ctrlHandleName) {
         guiName := this.Name
-        try GuiControl, %guiName%:Focus,% this.sGUI.Controls[ctrlHandleName]
+        try GuiControl, %guiName%:Focus,% this.Controls[ctrlHandleName]
         catch e
             this.ThrowError(e.Message "`n" e.Extra)
     }
@@ -555,7 +591,14 @@ class GUI {
 			this.ThrowError(e.Message "`n" e.Extra)
 	}
 
-    BindWindowsMessage(msgID, funcName, params*) {
+    BindWindowsMessage(params*) {
+        try
+            return GUI.BindWindowMessage(params*)
+        catch e
+            this.ThrowError(e.Message "`n" e.Extra)
+    }
+
+    BindWindowMessage(msgID, funcName, params*) {
         try {
             if IsContaining(funcName, ".") {
                 split := StrSplit(funcName, ".")
@@ -576,7 +619,7 @@ class GUI {
                     __f := Func(funcName).Bind()
             }
                 
-            this.BoundWindowsMessages[msgID] := {Function: funcName, Params: [params*]}
+            this.BoundWindowsMessages[msgID] := {Function: funcName, Class: className, Params: [params*]}
             OnMessage(msgID, __f)
         }
         catch e
@@ -606,26 +649,40 @@ class GUI {
                     __f := Func(funcName).Bind()
             }
 
-            this.BoundFunctions[ctrlName] := {Function: funcName, Params: [params*]}
+            this.BoundFunctions[ctrlName] := {Function: funcName, Class:className, Params: [params*]}
             GuiControl, %guiName%:+g,% this.Controls[ctrlName],% __f
         }
         catch e
             this.ThrowError(e.Message "`n" e.Extra)
 	}
 
-	DisableControlFunction(className, ctrlName) {
+	DisableControlFunction(ctrlName) {
         guiName := this.Name
         try GuiControl, %guiName%:-g,% this.Controls[ctrlName]
         catch e
             this.ThrowError(e.Message "`n" e.Extra)
 	}
 
-	EnableControlFunction(className, ctrlName) {
+	EnableControlFunction(ctrlName) {
         guiName := this.Name
+
         try {
             funcName := this.BoundFunctions[ctrlName].Function
+            className := this.BoundFunctions[ctrlName].Class
             params := this.BoundFunctions[ctrlName].Params
-            __f := ObjBindMethod(%className%, funcName, params*)
+
+            if ( params.Count() ) {
+                if (className)
+                    __f := ObjBindMethod(%className%, funcName, params*)
+                else
+                    __f := Func(funcName).Bind(params*)
+            }
+            else {
+                if (className)
+                    __f := ObjBindMethod(%className%, funcName)
+                else
+                    __f := Func(funcName).Bind()
+            }
             GuiControl, %guiName%:+g,% this.Controls[ctrlName],% __f
         }
         catch e
@@ -636,10 +693,10 @@ class GUI {
         guiName := this.Name
         try {
 		    GuiControlGet, ctrlName, %guiName%:Name,% ctrlHwnd
+            return ctrlName
         }
         catch e
             this.ThrowError(e.Message "`n" e.Extra)
-		return ctrlName
 	}
 
     TransColor(_color) {
@@ -654,13 +711,17 @@ class GUI {
 
     SetHbitmapToControl(ctrlName, hBitmap) {
         ; Full credits of this function to Gdi+
-        if !IsContaining(this.BitMapsControlsList, ctrlName)
-            this.BitMapsControlsList .= this.BitMapsControlsList ? "," ctrlName : ctrlName
-        SendMessage, 0x172, 0x0, hBitmap,,% "ahk_id " this.Controls[ctrlName]
-	    E := ErrorLevel
-	    DeleteObject(E)
-        DeleteObject(hBitmap)
-	    return E
+        try {
+            if !IsContaining(this.BitMapsControlsList, ctrlName)
+                this.BitMapsControlsList .= this.BitMapsControlsList ? "," ctrlName : ctrlName
+            SendMessage, 0x172, 0x0, hBitmap,,% "ahk_id " this.Controls[ctrlName]
+            E := ErrorLevel
+            DeleteObject(E)
+            DeleteObject(hBitmap)
+            return E
+        }
+        catch e
+            this.ThrowError(e.Message "`n" e.Extra)
     }
 
 	SetDefault() {
@@ -670,10 +731,85 @@ class GUI {
             this.ThrowError(e.Message "`n" e.Extra)
 	}
 
-    Destroy() {
+    SetDefaultTab(tabName="") {
         guiName := this.Name
-        
+        try Gui,%guiName%:Tab,% tabName
+        catch e
+            this.ThrowError(e.Message "`n" e.Extra)
+    }
+
+    Disable() {
+        guiName := this.Name
+        try Gui,%guiName%:+Disabled
+        catch e
+            this.ThrowError(e.Message "`n" e.Extra)
+    }
+
+    Enable() {
+        guiName := this.Name
+        try Gui,%guiName%:-Disabled
+        catch e
+            this.ThrowError(e.Message "`n" e.Extra)
+    }
+
+    Minimize() {
+        guiName := this.Name
+        try Gui,%guiName%:Minimize
+        catch e
+            this.ThrowError(e.Message "`n" e.Extra)
+    }
+
+    Maximize() {
+        guiName := this.Name
+        try Gui,%guiName%:Maximize
+        catch e
+            this.ThrowError(e.Message "`n" e.Extra)
+    }
+
+    Restore() {
+        guiName := this.Name
+        try Gui,%guiName%:Restore
+        catch e
+            this.ThrowError(e.Message "`n" e.Extra)
+    }
+
+    Hide() {
+        guiName := this.Name
+        try Gui,%guiName%:Hide
+        catch e
+            this.ThrowError(e.Message "`n" e.Extra)
+    }
+
+    Redraw() {
+        guiName := this.Name
         try {
+            Gui,%guiName%:+LastFound
+            WinSet, Redraw
+        }
+        catch e
+            this.ThrowError(e.Message "`n" e.Extra)
+    }
+
+    SetDefaultListView(ctrlHandleName) {
+        guiName := this.Name
+        try {
+            Gui,%guiName%:Default
+            Gui,%guiName%:ListView,% this.Controls[ctrlHandleName]
+            WinSet, Redraw
+        }
+        catch e
+            this.ThrowError(e.Message "`n" e.Extra)
+    }
+
+    Destroy(isChild=False) {
+        guiName := this.Name
+        try {
+            if (isChild=False) {
+                for child in this.Children {
+                    this.Children[child].Destroy(isChild:=True)
+                }
+            }
+
             Gui,%guiName%:Hide
             for msgID in this.BoundWindowsMessages
                 OnMessage(msgID, this.BoundWindowsMessages[msgID], 0)

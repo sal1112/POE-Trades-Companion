@@ -1,8 +1,8 @@
 {
-	"enable" : false,
+	"enable" : true,
 	
 	"settings" : {
-		"skip_admin" : false,
+		"skip_admin" : true,
 		
 		"use_chat_logs" : false,
 		"simulate_new_trade_while_tab_close" : false,
@@ -12,7 +12,7 @@
 		
 		"skip_assets_extracting" : false,
 
-		"open_settings_gui" : false,
+		"open_settings_gui" : true,
 		"open_mystats_gui" : false,
 		"instant_settings_tooltips" : false,
 		"settings_copy_ctrlname" : false

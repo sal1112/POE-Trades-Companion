@@ -24,8 +24,8 @@
 
         gui_name := "TrayNotification" thisGuiNum
         gui_width := 330 ; gui height is variable and set automatically by gui cmds
-        title_height := GUI.PredictControlHeight("Text", "w" gui_width " Font'" this.Skin.Font "' FontSize" this.Skin.TitleFontSize, title)
-        message_height := GUI.PredictControlHeight("Text", "w" gui_width " Font'" this.Skin.Font "' FontSize" this.Skin.MessageFontSize, message)
+        title_height := GUI.PredictControlSize("Text", "w" gui_width " Font'" this.Skin.Font "' FontSize" this.Skin.TitleFontSize, title).H
+        message_height := GUI.PredictControlSize("Text", "w" gui_width " Font'" this.Skin.Font "' FontSize" this.Skin.MessageFontSize, message).H
         gui_parameters := "+AlwaysOnTop +ToolWindow +LastFound -SysMenu -Caption -Border HwndGuiTrayNotification Font'" this.Skin.Font "' FontSize" this.Skin.FontSize
 
         if IsIn(iconPath, "Information,Warning,Error,Question")

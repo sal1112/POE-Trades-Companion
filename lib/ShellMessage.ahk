@@ -22,7 +22,7 @@ ShellMessage(wParam,lParam) {
 */
 	global PROGRAM, GAME
 	global GuiTrades, GuiTrades_Controls
-	global GuiSettings, GuiSettings_Controls
+	global GuiSettings
 	global GuiTabbedTradesCounter
 	global POEGameList
 
