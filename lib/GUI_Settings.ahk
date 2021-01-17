@@ -17,7 +17,18 @@ Class GUI_Settings {
 	Static ActionsListsObj, ColorTypes, AlternativeActionTypeDDLWidth
 	
 	Create(whichTab="") {
-		global PROGRAM
+		global PROGRAM, GAME, SKIN
+		global GuiSettings, GuiSettings_Controls, GuiSettings_Submit
+		global GuiTrades, GuiTrades_Controls
+		static guiCreated
+		windowsDPI := Get_WindowsResolutionDPI()
+	
+		delay := SetControlDelay(0), batch := SetBatchLines(-1)
+		; Initialize gui arrays
+		GUI_Settings.Destroy()
+		Gui.New("Settings", "-Caption -Border +LabelGUI_Settings_ +HwndhGuiSettings", "POE TC - " PROGRAM.TRANSLATIONS.TrayMenu.Settings)
+		GuiSettings.Is_Created := False
+		GuiSettings.Windows_DPI := windowsDPI
 
 		guiFullHeight := 600, guiFullWidth := 650, borderSize := 1, borderColor := "Black"
 		guiHeight := guiFullHeight-(2*borderSize), guiWidth := guiFullWidth-(2*borderSize)
@@ -551,7 +562,7 @@ Class GUI_Settings {
 	TabSettingsMain_EditPoeAccountsList() {
 		global PROGRAM
 		this.sGUI.Disable()
-		windowsDPI := Get_DpiFactor()
+		windowsDPI := Get_WindowsResolutionDPI()
 
 		delay := SetControlDelay(0), batch := SetBatchLines(-1)
 		this.sGUI.NewChild("PoeAccounts", "-Caption -Border +AlwaysOnTop +LabelGUI_PoeAccounts_ +HwndhGuiPoeAccounts", "POE TC - Accounts")

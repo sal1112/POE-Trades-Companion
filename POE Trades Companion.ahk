@@ -459,7 +459,6 @@ Return
 #Include TrayMenu.ahk
 #Include TrayRefresh.ahk
 #Include Updating.ahk
-#Include WindowsSettings.ahk
 #Include WM_Messages.ahk
 
 #Include %A_ScriptDir%\lib\third-party\

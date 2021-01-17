@@ -28,7 +28,12 @@
 	}
 	
 	Create(param="") {
-		global PROGRAM, GAME
+		global PROGRAM
+
+		delay := SetControlDelay(0), batch := SetBatchLines(-1)
+		this.sGUI := new GUI("ChooseLang"
+			, "-Caption -Border +AlwaysOnTop +HwndhGui" this.guiName " +Label" this.__class "."
+			, PROGRAM.NAME " - " this.guiName)
 
 		guiFullHeight := 200, guiFullWidth := 320, borderSize := 1, borderColor := "Black"
 		guiHeight := guiFullHeight-(2*borderSize), guiWidth := guiFullWidth-(2*borderSize)
@@ -43,12 +48,12 @@
 		hBitmapFinal := Gdip_AddColoredBorderToImage(PROGRAM.IMAGES_FOLDER "\flag_uk.png", this.Skin.SelectedBorderSize, this.Skin.SelectedBorderColor)
 
 		styleName := [ [0, hBitmapFinal, "", "Red", "", "Blue"] ]
-		this.sGUI.SetMargins("ChooseLang", 0, 0), this.sGUI.SetBackgroundColor(this.Skin.BackgroundColor), this.sGUI.SetControlsColor(this.Skin.ControlsColor)
+		this.sGUI.SetMargins(0, 0), this.sGUI.SetBackgroundColor(this.Skin.BackgroundColor), this.sGUI.SetControlsColor(this.Skin.ControlsColor)
 		this.sGUI.SetFont(this.Skin.Font), this.sGUI.SetFontSize(this.Skin.FontSize), this.sGUI.SetFontColor(this.Skin.FontColor)
 		this.sGUI.AddColoredBorder(this.Skin.BorderSize, this.Skin.BorderColor)
 
 		; * * Title Bar
-		this.sGUI.Add("Text", "x" leftMost " y" upMost " w" guiWidth-(borderSize*2)-30 " h25 hwndhTEXT_HeaderGhost BackgroundTrans ", "") ; Title bar, allow moving
+		this.sGUI.Add("Text", "x" leftMost " y" upMost " w" guiWidth-(borderSize*2)-30 " h25 hwndhTEXT_HeaderGhost BackgroundTrans ", ""), this.sGUI.BindFunctionToControl("hTEXT_HeaderGhost", "DragGui", this.sGUI.Handle) ; Title bar, allow moving
 		this.sGUI.Add("Progress", "xp yp wp hp Background359cfc") ; Title bar background
 		this.sGUI.Add("Text", "xp yp wp hp Center 0x200 cWhite BackgroundTrans ", "POE Trades Companion - Language") ; Title bar text
 		this.sGUI.AddImageButton("x+0 yp w30 hp hwndhBTN_CloseGUI", "X", this.Skin.Styles.Button_Close, PROGRAM.FONTS[this.Skin.Font], this.Skin.FontSize)

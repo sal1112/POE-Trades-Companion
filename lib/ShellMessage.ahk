@@ -42,7 +42,7 @@ ShellMessage(wParam,lParam) {
 
 	if IsIn(activeWinExe, POEGameList) {
 		GAME.LastActivePID := activeWinPID
-		if (GuiTabbedTradesCounter.Handle)
+		if (GUI_TabbedTradesCounter.sGUI.Handle)
 			GUI_TabbedTradesCounter.Destroy()
 	}
 

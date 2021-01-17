@@ -1,17 +1,4 @@
-﻿/*
-#Include H:\UserLibrary\Documents\GitHub\POE-Trades-Companion\lib\Class_Gui.ahk
-#Include H:\UserLibrary\Documents\GitHub\POE-Trades-Companion\lib\EasyFuncs.ahk
-#SingleInstance, Force
-#Persistent
-PROGRAM := {}
-PROGRAM.OS := {}
-PROGRAM.OS.RESOLUTION_DPI := 1
-
-GUI_ItemGrid.Create(12, 6, "Ghetto Map", "Shop: 1", -1920, 0 , 1080, 0, 0, "Map", 7)
-*/
-
-
-class GUI_ItemGrid {
+﻿class GUI_ItemGrid {
 /*  Function usage example:
         GUI_ItemGrid.Show(5, 2, "Shop", 0, 0, 1080)
         ^ Will show the location of an item at X5 Y2, tab name "Shop", in borderless fullscreen, with a H res of 1080 
@@ -117,7 +104,7 @@ class GUI_ItemGrid {
         hideQuadTab := PROGRAM.SETTINGS.SETTINGS_MAIN.ItemGridHideQuadTab
         hideNormalAndQuadTabsForMaps := PROGRAM.SETTINGS.SETTINGS_MAIN.ItemGridHideNormalTabAndQuadTabForMaps
 
-        resDPI := Get_DpiFactor()
+        resDPI := Get_WindowsResolutionDPI()
         winH := winH / resDPI ; os dpi fix
         winX := winX / resDPI ; os dpi fix
         winY := winY / resDPI ; os dpi fix

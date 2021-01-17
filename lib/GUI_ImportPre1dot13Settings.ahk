@@ -1,7 +1,4 @@
-﻿; GUI_ImportPre1dot13Settings.Show()
-; esc::exitapp
-
-Class GUI_ImportPre1dot13Settings {
+﻿Class GUI_ImportPre1dot13Settings {
     Create() {
         global PROGRAM, MyDocuments
         global GuiImportPre1dot13Settings, GuiImportPre1dot13Settings_Controls, GuiImportPre1dot13Settings_Submit

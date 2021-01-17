@@ -18,8 +18,10 @@
 		global PROGRAM
 
 		delay := SetControlDelay(0), batch := SetBatchLines(-1)
-		this.sGUI := new GUI(this.guiName, "HwndhGui" this.guiName " +AlwaysOnTop +ToolWindow +LastFound -SysMenu -Caption -Border +Label" this.__class ".", PROGRAM.NAME . this.guiName)
-		this.sGUI.SetMargins(0, 0), this.sGUI.SetFont("Segoe UI"), this.sGUI.SetFontSize(8)
+		this.sGUI := new GUI(this.guiName
+			, "HwndhGui" this.guiName " +AlwaysOnTop +ToolWindow +LastFound -SysMenu -Caption -Border +Label" this.__class "."
+			, PROGRAM.NAME . this.guiName)
+		this.sGUI.SetMargins(0, 0), this.sGUI.SetFont(PROGRAM.FONTS["Segoe UI"]), this.sGUI.SetFontSize(8)
 
 		; = = FAKE "SELECTED" BORDERS = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
 		fakeSelectedBordersPos := [{Position:"Top", X:0, Y:0, W:52, H:2}, {Position:"Left", X:0, Y:0, W:2, H:52} ; Top and Left
@@ -73,11 +75,9 @@
 			}
 		}
 
-		this.sGUI.Add("Button", "x" 440/2-300/2 " y+20 w300 h25 hwndhBTN_Continue", "Continue")
-		this.sGUI.BindFunctionToControl("hBTN_Continue", "OnGUIClose")
+		this.sGUI.Add("Button", "x" 440/2-300/2 " y+20 w300 h25 hwndhBTN_Continue", "Continue"), this.sGUI.BindFunctionToControl("hBTN_Continue", "OnGUIClose")
 
-		this.sGUI.Show("Hide")
-		this.sGUI.Show("w" this.GuiWidth+5 " h" this.GuiHeight+5)
+		this.sGUI.Show("Hide"),	this.sGUI.Show("w" this.GuiWidth+5 " h" this.GuiHeight+5)
 		SetControlDelay(delay), SetBatchLines(batch)
 		WinWait,% "ahk_id " this.sGUI.Handle
 		WinWaitClose,% "ahk_id " this.sGUI.Handle

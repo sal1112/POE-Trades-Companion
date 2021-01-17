@@ -183,7 +183,6 @@ Exit_Func(ExitReason, ExitCode) {
 #Include %A_ScriptDir%\lib\
 #Include EasyFuncs.ahk
 #Include Logs.ahk
-#Include WindowsSettings.ahk
 
 #Include %A_ScriptDir%\lib\third-party\
 #Include class_EasyIni.ahk
