@@ -88,7 +88,7 @@ Start_Script() {
 
 	; Set global - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 	PROGRAM.NAME					:= "POE Trades Companion"
-	PROGRAM.VERSION 				:= "1.15.BETA_9994"
+	PROGRAM.VERSION 				:= "1.15.BETA_9995"
 	PROGRAM.IS_BETA					:= IsContaining(PROGRAM.VERSION, "beta")?"True":"False"
 
 	PROGRAM.GITHUB_USER 			:= "lemasato"
@@ -139,9 +139,9 @@ Start_Script() {
 	GAME.INI_FILE 					:= GAME.MAIN_FOLDER "\production_Config.ini"
 	GAME.INI_FILE_COPY 		 		:= PROGRAM.MAIN_FOLDER "\production_Config.ini"
 	GAME.EXECUTABLES 				:= "PathOfExile.exe,PathOfExile_x64.exe,PathOfExileSteam.exe,PathOfExile_x64Steam.exe,PathOfExile_KG.exe,PathOfExile_x64_KG.exe,PathOfExileEGS.exe,PathOfExile_x64EGS.exe"
-	GAME.CHALLENGE_LEAGUE 			:= "Heist"
+	GAME.CHALLENGE_LEAGUE 			:= "Ritual"
 	GAME.STANDARD_LEAGUE_TRANS		:= {RUS:["Стандарт","Одна жизнь"], KOR:["스탠다드","하드코어"], TWN:["標準模式","專家模式"]} ; STD, HC
-	GAME.CHALLENGE_LEAGUE_TRANS		:= {RUS:["Кража","Кража Одна жизнь"], KOR:["강탈","하드코어 강탈"], TWN:["劫盜聯盟","劫盜聯盟（專家）"]} ; Rest don't have translations. Translated whispers suck and are inconsistent
+	GAME.CHALLENGE_LEAGUE_TRANS		:= {RUS:["Ритуал","Ритуал Одна жизнь"], KOR:["의식","하드코어 의식"], TWN:["劫盜聯盟","劫盜聯盟（專家）"]} ; Rest don't have translations. Translated whispers suck and are inconsistent
 
 	PROGRAM.SETTINGS.SUPPORT_MESSAGE 	:= "@%buyerName% " PROGRAM.NAME ": view-thread/1755148"
 
