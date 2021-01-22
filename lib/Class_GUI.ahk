@@ -87,7 +87,7 @@ class GUI {
         try
             Gui, %guiName%:New, %normal_opts%, %title%
         catch e
-            this.ThrowError(e.Message "`n" e.Extra)
+            this.ThrowError(e.Message "`n" e.Extra "`n" JSON_Dump(e))
 
         ; Reset its associated arrays
         this.Controls := {}, this.ControlsContents := {}, this.BoundFunctions := {}, this.BoundWindowsMessages := {}, this.ImageButtonErrors := {}
@@ -105,13 +105,16 @@ class GUI {
         if (special_opts.FontQuality)
             this.SetFontQuality(special_opts.FontQuality)
         else this.SetFontQuality(5)
+
+        if (guiWidth && guiHeight)
+            Gui, %guiName%:Show, w%guiWidth% h%guiHeight% Hide
 	}
     
     NewChild(childName, childOpts="", childTitle="") {
         try
             return this.Children[childName] := new GUI(this.Name childName, childOpts " +Parent" this.Name, childTitle)
         catch e
-            this.ThrowError(e.Message "`n" e.Extra)
+            this.ThrowError(e.Message "`n" e.Extra "`n" JSON_Dump(e))
     }
 
     SeparateSpecialParamsAndValue(opts) {
@@ -155,7 +158,7 @@ class GUI {
     AddImageButton(opts="", content="", imgBtnStyle="", imageBtnFontHandle="", imageBtnFontSize="") {
         try this.Add("ImageButton", opts, content, imgBtnStyle, imageBtnFontHandle, imageBtnFontSize)
         catch e
-            this.ThrowError(e.Message "`n" e.Extra)
+            this.ThrowError(e.Message "`n" e.Extra "`n" JSON_Dump(e))
     }
 
     ThrowError(errors) {
@@ -267,7 +270,7 @@ class GUI {
 		; Add gui control
         try Gui, %guiName%:Add,% ctrlType="ImageButton"?"Button":ctrlType,%normal_opts%, %content%
         catch e
-            this.ThrowError(e.Message "`n" e.Extra)
+            this.ThrowError(e.Message "`n" e.Extra "`n" JSON_Dump(e))
 
 		; Add handle if existing
 		if (ctrlHandleName)
@@ -286,7 +289,7 @@ class GUI {
 			param := StrReplace(special_opts.ControlChooseString, "%A_Space%", " ")
             try GuiControl, %guiName%:ChooseString,% this.Controls[ctrlHandleName],% param
             catch e
-                this.ThrowError(e.Message "`n" e.Extra)
+                this.ThrowError(e.Message "`n" e.Extra "`n" JSON_Dump(e))
 		}
 
         ; Creating ImageButton
@@ -314,21 +317,21 @@ class GUI {
             return comboBoxList
         }
         catch e
-            this.ThrowError(e.Message "`n" e.Extra)
+            this.ThrowError(e.Message "`n" e.Extra "`n" JSON_Dump(e))
     }
 
     ControlChoose(ctrlHandleName, chooseWhat) {
         guiName := this.Name
         try GuiControl, %guiName%:Choose,% this.Controls[ctrlHandleName],% chooseWhat
         catch e
-            this.ThrowError(e.Message "`n" e.Extra)
+            this.ThrowError(e.Message "`n" e.Extra "`n" JSON_Dump(e))
     }
 
     ControlChooseString(ctrlHandleName, chooseWhat) {
         guiName := this.Name
         try GuiControl, %guiName%:ChooseString,% this.Controls[ctrlHandleName],% chooseWhat
         catch e
-            this.ThrowError(e.Message "`n" e.Extra)
+            this.ThrowError(e.Message "`n" e.Extra "`n" JSON_Dump(e))
     }
 
 	GetControlContent(ctrlHandleName) {
@@ -337,7 +340,7 @@ class GUI {
             return this.ControlsContents[ctrlHandleName]
         }
         catch e
-            this.ThrowError(e.Message "`n" e.Extra)
+            this.ThrowError(e.Message "`n" e.Extra "`n" JSON_Dump(e))
 	}
 
     GetControlsContents() {
@@ -350,28 +353,28 @@ class GUI {
             return this.ControlsContents
         }
         catch e
-            this.ThrowError(e.Message "`n" e.Extra)
+            this.ThrowError(e.Message "`n" e.Extra "`n" JSON_Dump(e))
 	}
 
     SetControlContent(ctrlHandleName, ctrlContent) {
         guiName := this.Name
         try GuiControl, %guiName%:,% this.Controls[ctrlHandleName],% ctrlContent
         catch e
-            this.ThrowError(e.Message "`n" e.Extra)
+            this.ThrowError(e.Message "`n" e.Extra "`n" JSON_Dump(e))
     }
 
     SetMargins(xMargin, yMargin) {
         guiName := this.Name
         try Gui,%guiName%:Margin, %xMargin%, %yMargin%
         catch e
-            this.ThrowError(e.Message "`n" e.Extra)
+            this.ThrowError(e.Message "`n" e.Extra "`n" JSON_Dump(e))
 	}
 
     SetBackgroundColor(bckColor) {
         guiName := this.Name
         try Gui,%guiName%:Color,%bckColor%
         catch e
-            this.ThrowError(e.Message "`n" e.Extra)
+            this.ThrowError(e.Message "`n" e.Extra "`n" JSON_Dump(e))
         this.BackgroundColor := bckColor
     }
 
@@ -379,7 +382,7 @@ class GUI {
         guiName := this.Name
         try Gui,%guiName%:Color,,%ctrlColor%
         catch e
-            this.ThrowError(e.Message "`n" e.Extra)
+            this.ThrowError(e.Message "`n" e.Extra "`n" JSON_Dump(e))
         this.ControlsColor := ctrlColor
     }
 
@@ -387,7 +390,7 @@ class GUI {
         guiName := this.Name
         try Gui,%guiName%:Font,,%fontName%
         catch e
-            this.ThrowError(e.Message "`n" e.Extra)
+            this.ThrowError(e.Message "`n" e.Extra "`n" JSON_Dump(e))
         this.Font := fontName
     }
 
@@ -395,7 +398,7 @@ class GUI {
         guiName := this.Name
         try Gui,%guiName%:Font,s%fontSize%
         catch e
-            this.ThrowError(e.Message "`n" e.Extra)
+            this.ThrowError(e.Message "`n" e.Extra "`n" JSON_Dump(e))
         this.FontSize := fontSize
     }
 
@@ -403,7 +406,7 @@ class GUI {
         guiName := this.Name
         try Gui,%guiName%:Font,q%fontQuality%
         catch e
-            this.ThrowError(e.Message "`n" e.Extra)
+            this.ThrowError(e.Message "`n" e.Extra "`n" JSON_Dump(e))
         this.FontQuality := fontQuality
     }
 
@@ -411,7 +414,7 @@ class GUI {
         guiName := this.Name
         try Gui,%guiName%:Font,c%fontColor%
         catch e
-            this.ThrowError(e.Message "`n" e.Extra)
+            this.ThrowError(e.Message "`n" e.Extra "`n" JSON_Dump(e))
         this.FontColor := fontColor
     }
 
@@ -419,7 +422,7 @@ class GUI {
         guiName := this.Name
         try GuiControlGet, ctrlPos , %guiName%:Pos,% this.Controls[ctrlHandleName]
         catch e
-            this.ThrowError(e.Message "`n" e.Extra)
+            this.ThrowError(e.Message "`n" e.Extra "`n" JSON_Dump(e))
 		return {X:ctrlPosX,Y:ctrlPosY,W:ctrlPosW,H:ctrlPosH}
 	}
 
@@ -433,7 +436,7 @@ class GUI {
 		    Gui, %guiName%:Add, Progress,% "x0 y" gui_height-borderSize " w" gui_width " h" borderSize " Background" borderColor ; Bottom
         }
         catch e
-            this.ThrowError(e.Message "`n" e.Extra)
+            this.ThrowError(e.Message "`n" e.Extra "`n" JSON_Dump(e))
     }
 
     PredictControlSize(ctrlType, ctrlOpts, ctrlContent) {
@@ -446,7 +449,7 @@ class GUI {
             return controlPosition
         }
         catch e
-            this.ThrowError(e.Message "`n" e.Extra) 
+            this.ThrowError(e.Message "`n" e.Extra "`n" JSON_Dump(e)) 
     }
 
     GetControlText(ctrlHandleName) {
@@ -455,7 +458,7 @@ class GUI {
             return ctrlText
         }
         catch e
-            this.ThrowError(e.Message "`n" e.Extra)
+            this.ThrowError(e.Message "`n" e.Extra "`n" JSON_Dump(e))
     }
 
     GetPosition(onlyIfVisible=False) {
@@ -481,28 +484,28 @@ class GUI {
             return {X:X, Y:Y, Width:Width, Height:Height}
         }
         catch e
-            this.ThrowError(e.Message "`n" e.Extra)
+            this.ThrowError(e.Message "`n" e.Extra "`n" JSON_Dump(e))
     }
 
     ShowControl(ctrlHandleName) {
         guiName := this.Name
         try GuiControl, %guiName%:Show,% this.Controls[ctrlHandleName]
         catch e
-            this.ThrowError(e.Message "`n" e.Extra)
+            this.ThrowError(e.Message "`n" e.Extra "`n" JSON_Dump(e))
     }
 
     HideControl(ctrlHandleName) {
         guiName := this.Name
         try GuiControl, %guiName%:Hide,% this.Controls[ctrlHandleName]
         catch e
-            this.ThrowError(e.Message "`n" e.Extra)
+            this.ThrowError(e.Message "`n" e.Extra "`n" JSON_Dump(e))
     }
 
     FocusControl(ctrlHandleName) {
         guiName := this.Name
         try GuiControl, %guiName%:Focus,% this.Controls[ctrlHandleName]
         catch e
-            this.ThrowError(e.Message "`n" e.Extra)
+            this.ThrowError(e.Message "`n" e.Extra "`n" JSON_Dump(e))
     }
 
     MoveControl(ctrlHandleName, opts="") { 
@@ -511,7 +514,7 @@ class GUI {
 		; 	centerCtrl := True, opts := StrReplace(opts, "Center", "")
 		try GuiControl, %guiName%:Move,% this.Controls[ctrlHandleName],% opts
         catch e
-            this.ThrowError(e.Message "`n" e.Extra)
+            this.ThrowError(e.Message "`n" e.Extra "`n" JSON_Dump(e))
 		; if (centerCtrl)
 			; GuiControl, %guiName%:+Center,% Gui%guiName%["Controls"][ctrlName]
 	}
@@ -520,14 +523,14 @@ class GUI {
         guiName := this.Name
         try GuiControl, %guiName%:+Disabled,% this.Controls[ctrlHandleName]
         catch e
-            this.ThrowError(e.Message "`n" e.Extra)
+            this.ThrowError(e.Message "`n" e.Extra "`n" JSON_Dump(e))
     }
 
     EnableControl(ctrlHandleName) {
         guiName := this.Name
         try GuiControl, %guiName%:-Disabled,% this.Controls[ctrlHandleName]
         catch e
-            this.ThrowError(e.Message "`n" e.Extra)
+            this.ThrowError(e.Message "`n" e.Extra "`n" JSON_Dump(e))
     }
 
     ; ===============================================================================================================================
@@ -602,14 +605,14 @@ class GUI {
 		try
 			Gui, %guiName%:Show,% opts,% this.Title
 		catch e
-			this.ThrowError(e.Message "`n" e.Extra)
+			this.ThrowError(e.Message "`n" e.Extra "`n" JSON_Dump(e))
 	}
 
     BindWindowsMessage(params*) {
         try
             return GUI.BindWindowMessage(params*)
         catch e
-            this.ThrowError(e.Message "`n" e.Extra)
+            this.ThrowError(e.Message "`n" e.Extra "`n" JSON_Dump(e))
     }
 
     BindWindowMessage(msgID, funcName, params*) {
@@ -637,7 +640,7 @@ class GUI {
             OnMessage(msgID, __f)
         }
         catch e
-            this.ThrowError(e.Message "`n" e.Extra)
+            this.ThrowError(e.Message "`n" e.Extra "`n" JSON_Dump(e))
 	}
 
     BindFunctionToControl(ctrlName, funcName, params*) {
@@ -667,14 +670,14 @@ class GUI {
             GuiControl, %guiName%:+g,% this.Controls[ctrlName],% __f
         }
         catch e
-            this.ThrowError(e.Message "`n" e.Extra)
+            this.ThrowError(e.Message "`n" e.Extra "`n" JSON_Dump(e))
 	}
 
 	DisableControlFunction(ctrlName) {
         guiName := this.Name
         try GuiControl, %guiName%:-g,% this.Controls[ctrlName]
         catch e
-            this.ThrowError(e.Message "`n" e.Extra)
+            this.ThrowError(e.Message "`n" e.Extra "`n" JSON_Dump(e))
 	}
 
 	EnableControlFunction(ctrlName) {
@@ -700,7 +703,7 @@ class GUI {
             GuiControl, %guiName%:+g,% this.Controls[ctrlName],% __f
         }
         catch e
-            this.ThrowError(e.Message "`n" e.Extra)
+            this.ThrowError(e.Message "`n" e.Extra "`n" JSON_Dump(e))
 	}
 
     Get_CtrlVarName_From_Hwnd(ctrlHwnd) {
@@ -710,7 +713,7 @@ class GUI {
             return ctrlName
         }
         catch e
-            this.ThrowError(e.Message "`n" e.Extra)
+            this.ThrowError(e.Message "`n" e.Extra "`n" JSON_Dump(e))
 	}
 
     TransColor(_color) {
@@ -720,7 +723,7 @@ class GUI {
             WinSet, TransColor,% _color
         }
         catch e
-            this.ThrowError(e.Message "`n" e.Extra)
+            this.ThrowError(e.Message "`n" e.Extra "`n" JSON_Dump(e))
     }
 
     SetHbitmapToControl(ctrlName, hBitmap) {
@@ -735,63 +738,63 @@ class GUI {
             return E
         }
         catch e
-            this.ThrowError(e.Message "`n" e.Extra)
+            this.ThrowError(e.Message "`n" e.Extra "`n" JSON_Dump(e))
     }
 
 	SetDefault() {
 		guiName := this.Name
         try Gui,%guiName%:Default
         catch e
-            this.ThrowError(e.Message "`n" e.Extra)
+            this.ThrowError(e.Message "`n" e.Extra "`n" JSON_Dump(e))
 	}
 
     SetDefaultTab(tabName="") {
         guiName := this.Name
         try Gui,%guiName%:Tab,% tabName
         catch e
-            this.ThrowError(e.Message "`n" e.Extra)
+            this.ThrowError(e.Message "`n" e.Extra "`n" JSON_Dump(e))
     }
 
     Disable() {
         guiName := this.Name
         try Gui,%guiName%:+Disabled
         catch e
-            this.ThrowError(e.Message "`n" e.Extra)
+            this.ThrowError(e.Message "`n" e.Extra "`n" JSON_Dump(e))
     }
 
     Enable() {
         guiName := this.Name
         try Gui,%guiName%:-Disabled
         catch e
-            this.ThrowError(e.Message "`n" e.Extra)
+            this.ThrowError(e.Message "`n" e.Extra "`n" JSON_Dump(e))
     }
 
     Minimize() {
         guiName := this.Name
         try Gui,%guiName%:Minimize
         catch e
-            this.ThrowError(e.Message "`n" e.Extra)
+            this.ThrowError(e.Message "`n" e.Extra "`n" JSON_Dump(e))
     }
 
     Maximize() {
         guiName := this.Name
         try Gui,%guiName%:Maximize
         catch e
-            this.ThrowError(e.Message "`n" e.Extra)
+            this.ThrowError(e.Message "`n" e.Extra "`n" JSON_Dump(e))
     }
 
     Restore() {
         guiName := this.Name
         try Gui,%guiName%:Restore
         catch e
-            this.ThrowError(e.Message "`n" e.Extra)
+            this.ThrowError(e.Message "`n" e.Extra "`n" JSON_Dump(e))
     }
 
     Hide() {
         guiName := this.Name
         try Gui,%guiName%:Hide
         catch e
-            this.ThrowError(e.Message "`n" e.Extra)
+            this.ThrowError(e.Message "`n" e.Extra "`n" JSON_Dump(e))
     }
 
     Redraw() {
@@ -801,7 +804,7 @@ class GUI {
             WinSet, Redraw
         }
         catch e
-            this.ThrowError(e.Message "`n" e.Extra)
+            this.ThrowError(e.Message "`n" e.Extra "`n" JSON_Dump(e))
     }
 
     SetDefaultListView(ctrlHandleName) {
@@ -812,7 +815,7 @@ class GUI {
             WinSet, Redraw
         }
         catch e
-            this.ThrowError(e.Message "`n" e.Extra)
+            this.ThrowError(e.Message "`n" e.Extra "`n" JSON_Dump(e))
     }
 
     Destroy(isChild=False) {
@@ -845,6 +848,6 @@ class GUI {
             this.base := ""
         }
         catch e
-            this.ThrowError(e.Message "`n" e.Extra)
+            this.ThrowError(e.Message "`n" e.Extra "`n" JSON_Dump(e))
 	}
 }
