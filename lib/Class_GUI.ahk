@@ -516,6 +516,20 @@ class GUI {
 			; GuiControl, %guiName%:+Center,% Gui%guiName%["Controls"][ctrlName]
 	}
 
+    DisableControl(ctrlHandleName) {
+        guiName := this.Name
+        try GuiControl, %guiName%:+Disabled,% this.Controls[ctrlHandleName]
+        catch e
+            this.ThrowError(e.Message "`n" e.Extra)
+    }
+
+    EnableControl(ctrlHandleName) {
+        guiName := this.Name
+        try GuiControl, %guiName%:-Disabled,% this.Controls[ctrlHandleName]
+        catch e
+            this.ThrowError(e.Message "`n" e.Extra)
+    }
+
     ; ===============================================================================================================================
     ; https://www.autohotkey.com/boards/viewtopic.php?t=70852
     ; Message ..................:  EM_SETCUEBANNER
